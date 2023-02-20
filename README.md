@@ -22,6 +22,11 @@ link:     https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.c
 
 ### Diagrama de Cajas Negras
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HvkKBwPVH_0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+![diagrama-caja-negra](./desing/diagrama-caja-negra-general.drawio.png)
+
+
 ### Diagrama de flujo
 
 ### Poster
@@ -35,12 +40,12 @@ link:     https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.c
 * [Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/)
 * [Raspberry Pi Pico W](https://www.raspberrypi.com/products/raspberry-pi-pico/)
 * [NodeMCU esp8266](https://github.com/nodemcu/nodemcu-devkit)
-* NodeMCU esp32
-* Esp32CAM
-* BluePill (stm32f103)
-* Arduino UNO (atmega328p)
-* Arduino Nano (atmega328p)
-* Arduino Pro (atmega328p)
+* [NodeMCU esp32 wroom]()
+* [Esp32CAM]()
+* [BluePill (stm32f103)]()
+* [Arduino UNO (atmega328p)]()
+* [Arduino Nano (atmega328p)]()
+* [Arduino Pro (atmega328p)]()
 
 ### Entornos de programación
 
