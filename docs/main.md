@@ -1,4 +1,3 @@
-```{=html}
 <!--
 author:   Johnny Cubides
 email:    jgcubidesc@unal.edu.co
@@ -12,7 +11,7 @@ script:   https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js
 link:     https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css
 link:     https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
 -->
-```
+
 # Taller de Ingeniería Electrónica
 
 [Enlace liascript del curso](https://liascript.github.io/course/?https://raw.githubusercontent.com/johnnycubides/taller-ing-electronical-UNAL/main/README.md#1)
@@ -25,32 +24,32 @@ link:     https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.c
 
 ### Diagrama de Cajas Negras
 
-![diagrama-caja-negra](././desing/diagrama-caja-negra-general.drawio.png)
+![diagrama-caja-negra](./desing/diagrama-caja-negra-general.drawio.png)
 
 <div>
-
     <iframe width="560" height="315" src="https://www.youtube.com/embed/HvkKBwPVH_0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
     </iframe>
-
 </div>
 
 ### Diagrama de flujo
 
 ### Poster
 
+
+
 ## Herramientas
 
 ### Tarjetas de desarrollo
 
--   [Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/)
--   [Raspberry Pi Pico W](https://www.raspberrypi.com/products/raspberry-pi-pico/)
--   [NodeMCU esp8266](https://github.com/nodemcu/nodemcu-devkit)
--   [NodeMCU esp32 wroom]()
--   [Esp32CAM]()
--   [BluePill (stm32f103)]()
--   [Arduino UNO (atmega328p)]()
--   [Arduino Nano (atmega328p)]()
--   [Arduino Pro (atmega328p)]()
+* [Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/)
+* [Raspberry Pi Pico W](https://www.raspberrypi.com/products/raspberry-pi-pico/)
+* [NodeMCU esp8266](https://github.com/nodemcu/nodemcu-devkit)
+* [NodeMCU esp32 wroom]()
+* [Esp32CAM]()
+* [BluePill (stm32f103)]()
+* [Arduino UNO (atmega328p)]()
+* [Arduino Nano (atmega328p)]()
+* [Arduino Pro (atmega328p)]()
 
 **Comparativa entre placas de desarrollo**
 
@@ -73,55 +72,58 @@ link:     https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.c
 
 **Esp32 dev kit**:
 
-![esp32 nodemcu](./img/samples-SE/nodemcu-esp32-wroom.png)
+![esp32 nodemcu](img/samples-SE/nodemcu-esp32-wroom.png)
 
 **Pinout esp32**:
 
-![esp32 nodemcu pinout](./img/samples-SE/pinout/nodemcu-esp32-pinout.png)
+![esp32 nodemcu pinout](img/samples-SE/pinout/nodemcu-esp32-pinout.png)
 
 **Herramientas para esp32:**
 
--   [Configuración de Thonny editor para micropython en placas de desarrollo esp8266 y esp32](https://randomnerdtutorials.com/getting-started-thonny-micropython-python-ide-esp32-esp8266/)
+* [Configuración de Thonny editor para micropython en placas de desarrollo esp8266 y esp32](https://randomnerdtutorials.com/getting-started-thonny-micropython-python-ide-esp32-esp8266/)
 
--   [Firmware micropython para esp32 (Download firmware.bin)](https://micropython.org/download/esp32/)
+* [Firmware micropython para esp32 (Download firmware.bin)](https://micropython.org/download/esp32/)
 
--   [Referencia rápida de micropython con el esp32](https://docs.micropython.org/en/latest/esp32/quickref.html)
+* [Referencia rápida de micropython con el esp32](https://docs.micropython.org/en/latest/esp32/quickref.html)
 
 #### ESP32CAM
 
 **Esp32CAM:**
 
-![esp32cam](./img/samples-SE/esp32cam.png)
+![esp32cam](img/samples-SE/esp32cam.png)
 
 **¿Cómo conectar el esp32CAM?:**
 
 El esp32CAM no cuenta con un adaptador USB a UART en la placa y este debe ser agregado, existen varios que pueden ser útiles como pueden ser:
 
--   FT232RL (recomendado)
--   CH340
--   CP2102
+* FT232RL (recomendado)
+* CH340
+* CP2102
 
 El siguiente gráfico muestra cómo debe quedar conectado el esp32CAM, el cable de color verde es agregado en el momento de subir el firmware y no es requerido cuando
 el esp32cam está en modo de ejecución de programas.
 
-![esp32cam conexion](./img/samples-SE/pinout/esp32cam-conexion.jpg)
+![esp32cam conexion](img/samples-SE/pinout/esp32cam-conexion.jpg)
+
 
 **Pinout del esp32cam:**
 
-![pinout esp32cam](./img/samples-SE/pinout/esp32cam-pinout.jpg)
-![pinout esp32cam front](./img/samples-SE/pinout/esp32cam-pinout-front.png)
+![pinout esp32cam](img/samples-SE/pinout/esp32cam-pinout.jpg)
+![pinout esp32cam front](img/samples-SE/pinout/esp32cam-pinout-front.png)
 
 **Herramientas de referecia**:
 
--   [Todo sobre el esp32cam](https://randomnerdtutorials.com/esp32-cam-video-streaming-face-recognition-arduino-ide/)
--   [Esp32cam con micropython](https://github.com/tsaarni/esp32-micropython-webcam)
--   [Esp32cam con micropython](https://github.com/lemariva/micropython-camera-driver)
+* [Todo sobre el esp32cam](https://randomnerdtutorials.com/esp32-cam-video-streaming-face-recognition-arduino-ide/)
+* [Esp32cam con micropython](https://github.com/tsaarni/esp32-micropython-webcam)
+* [Esp32cam con micropython](https://github.com/lemariva/micropython-camera-driver)
+
 
 #### Raspberry Pi Pico y Pico W
 
 **Raspberry Pi Pico y Pico W:**
 
-![Raspberry pi pico](./img/samples-SE/raspberry-pi-pico.png)
+![Raspberry pi pico](img/samples-SE/raspberry-pi-pico.png)
+
 
 **Pinout raspberry pi pico:**
 
@@ -129,33 +131,33 @@ el esp32cam está en modo de ejecución de programas.
 
 **Herramientas y documentación Raspberry pi pico:**
 
--   [Firware micropython: descarga e instalación](https://www.raspberrypi.com/documentation/microcontrollers/micropython.html#drag-and-drop-micropython)
+* [Firware micropython: descarga e instalación](https://www.raspberrypi.com/documentation/microcontrollers/micropython.html#drag-and-drop-micropython)
 
--   [Documentación de micropython para raspberry pi pico](https://docs.micropython.org/en/latest/rp2/quickref.html)
+* [Documentación de micropython para raspberry pi pico](https://docs.micropython.org/en/latest/rp2/quickref.html)
 
--   [Hoja de datos (datasheet) para la raspberry pi pico](https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf)
+* [Hoja de datos (datasheet) para la raspberry pi pico](https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf)
 
 #### Arduino UNO
 
 **Arduino UNO:**
 
-![Arduino uno png](./img/samples-SE/arduino-uno.png)
+![Arduino uno png](img/samples-SE/arduino-uno.png)
 
 **Pinout de Arduino UNO:**
 
-![Pin out arduino uno](./img/samples-SE/pinout/arduino-uno-pin-out.png)
+![Pin out arduino uno](img/samples-SE/pinout/arduino-uno-pin-out.png)
 
 **Herramientas para Arduino:**
 
--   [Arduino IDE (software)](https://www.arduino.cc/en/software)
+* [Arduino IDE (software)](https://www.arduino.cc/en/software)
 
 ### Entornos de programación
 
--   [Thonny Editor](https://thonny.org/)
--   [MIT App Inventors](https://appinventor.mit.edu/)
--   [Arduino IDE](https://www.arduino.cc/en/software)
--   [Espruino](https://www.espruino.com/)
--   [Node-RED](https://nodered.org/)
+* [Thonny Editor](https://thonny.org/)
+* [MIT App Inventors](https://appinventor.mit.edu/)
+* [Arduino IDE](https://www.arduino.cc/en/software)
+* [Espruino](https://www.espruino.com/)
+* [Node-RED](https://nodered.org/)
 
 #### Thonny Editor
 
@@ -164,9 +166,9 @@ el esp32cam está en modo de ejecución de programas.
 Tohnny Editor es un entorno de desarrollo en lenguanje [Python](https://docs.python.org/es/3/tutorial/) que puede servir para diferentes
 placas de desarrollo con un intérprete de [Micropython](https://micropython.org/):
 
--   esp8266
--   esp32
--   Raspberry Pi Pico
+* esp8266
+* esp32
+* Raspberry Pi Pico
 
 En el siguiente enlace encontrá las instrucciones de instalación según sistema operativo y placa de
 desarrollo:
@@ -175,9 +177,9 @@ desarrollo:
 
 ### Simuladores de circuitos
 
--   Qucs
--   LTSpice
--   CircuitJS
+* Qucs
+* LTSpice
+* CircuitJS
 
 #### Qucs
 
@@ -186,10 +188,8 @@ desarrollo:
 **Instalación de Qucs en Windows y primer acercamiento**
 
 <div>
-
     <iframe width="560" height="315" src="https://www.youtube.com/embed/624if7zhbIU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
     </iframe>
-
 </div>
 
 **Ejemplos de uso de Qucs en GitHub**
@@ -197,42 +197,33 @@ desarrollo:
 En el siguiente repositorio de github podrá encontrar Ejemplos
 de uso para dominar este excelente simulador.
 
-![qucs github](././img/qucs-github.png)
+![qucs github](./img/qucs-github.png)
 [Ejemplos de uso de Qucs en github](https://github.com/johnnycubides/qucs-tutorial-examples/tree/main/examples)
+
 
 ### Herramientas para diagramar
 
--   [Excalidraw](https://excalidraw.com/)
--   [Drawio](https://github.com/jgraph/drawio-desktop/releases)
--   [Pencil Project](https://pencil.evolus.vn/)
+* [Excalidraw](https://excalidraw.com/)
+* [Drawio](https://github.com/jgraph/drawio-desktop/releases)
+* [Pencil Project](https://pencil.evolus.vn/)
 
 ### Herramientas de documentación
 
--   GitHub
--   Codeberg
--   Bitbucket
--   Gitlab
+* GitHub
+* Codeberg
+* Bitbucket
+* Gitlab
 
 Las anteriores herramientas hacen uso del formato de Markdown para realizar la documentación **Markdown**.
 
 #### Markdown
 
-![Imagen de tutorial de markdown](./img/markdown-tutorial.png)
+![Imagen de tutorial de markdown](img/markdown-tutorial.png)
 [Tutorial Markdown](https://www.markdowntutorial.com/es/)
 
 ## Talleres
 
-### Iniciandome con las herramientas de desarrollo
-
-Este taller pretende orientar al estudiante en el inicio *Maker*; en
-este taller se enfretará a desarrollar cosas como:
-
--   Análisis de corriente de un circuito D.C.
-
-#### Hola
-
-1.  jkljl
-2.  hkjh
+!include`incrementSection=2` ./taller1.md
 
 ## Tiendas electrónicas
 
@@ -268,3 +259,5 @@ http://www.microelectronicos.com/
 https://tundamacomplejoelectronico.com/locales/
 
 https://ja-bots.com/
+
+
