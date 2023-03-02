@@ -29,3 +29,9 @@ build:
 		# -r markdown-pipe_tables\
 		# -t markdown+raw_markdown\ 
 		# --list-extensions=markdown_strict\
+
+serve:
+	# nvm use lts/fermium
+	cd ../ && liadev
+
+

@@ -55,6 +55,7 @@ link:     https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.c
 **Comparativa entre placas de desarrollo**
 
 | Tarjeta de Desarrollo | Arquitectura | Lenguaje de prog | Perifericos | RAM @ ROM | N. pines io | Vin @ Vpin |
+
 |---|---|---|---|---|---|---|
 | NodeMCU esp32 Wroom | espressif xtensa, dos nucleos, 80 to 240 MHz, 32bits | Python, Lua, C, C++, Forth, Asm | uart, i2s, spi, adc, dac, wifi, bluetooth | 520 KB sram @ 448 KB rom y 4 MB flash | 25 Digitales de los cuales 15 Analógicos | 5V @ 3.3V |
 | ESP32CAM Wroom | espressif xtensa, dos nucleos, 80 to 240 MHz, 32bits | Python, Lua, C, C++, Forth, Asm | uart, i2s, spi, adc, dac, wifi, bluetooth, camera | 520 KB sram y psram 4MB @ 448 KB rom y 4 MB flash | 10 Digitales de los cuales 7 Analógicos | 5V @ 3.3V |
@@ -229,10 +230,19 @@ este taller se enfretará a desarrollar cosas como:
 
 -   Análisis de corriente de un circuito D.C.
 
-#### Hola
+#### Mi primer circuito
 
-1.  jkljl
-2.  hkjh
+Puedes decargar el taller "Mi primer circuito" desde [aquí](./docs/taller1.md.pdf)
+
+![mi primer circuito](././desing/taller1/montaje-led-1_bb.png)
+
+![Esquemático primer circuito](././desing/taller1/montaje-led-1_schem.png)
+
+**Medir voltaje en los componentes con el mutímetro**:
+
+![Diagrama pictográfico de medición de tensión en el LED](././desing/taller1/montaje-led-2_bb.png)
+
+![Esquemático sobre medición de tensión en el LED](././desing/taller1/montaje-led-2_schem.png)
 
 ## Tiendas electrónicas
 
