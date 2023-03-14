@@ -91,3 +91,6 @@ Lo anterior en terminos de voltaje se puede representar así:
 
 Hay que comprobar la anterior ecuación, tomando los valores obtenidos y registrados en la tabla comprueba
 que la tensión en la fuente es igual a la suma de las tensiones de los componentes que consumen energía.
+
+## Driver de motor
+
