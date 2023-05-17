@@ -3,6 +3,7 @@ i=
 h:help
 b:build
 p:pdf
+c: clear
 
 help:
 	@echo "\
@@ -12,10 +13,12 @@ help:
 	"
 
 pdf:
+	@echo "Exportando a pdf un archivo md."
 	pandoc -i $(i) -o $(i).pdf --verbose
 
 build:
 	# pandoc -i main.md --filter pandoc-include -t markdown --to markdown+pipe_tables -o ../README.md --verbose
+	@echo "Creando ../README.md desde los archivos .md"
 	pandoc -i main.md\
 		--filter pandoc-include\
 		-f markdown-pipe_tables-all_symbols_escapable\
@@ -34,4 +37,5 @@ serve:
 	# nvm use lts/fermium
 	cd ../ && liadev
 
-
+clear:
+	rm *.md.pdf
