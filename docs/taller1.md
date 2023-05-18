@@ -68,11 +68,11 @@ de la tensión.
 Comprendiendo como se realiza las mediciones de tensión en cada uno de los tres componentes,
 registra los valores obtenidos en una tabla, como en el siguiente ejemplo:
 
-|Componente|Tensión [V]|
-|:-------------:|:-------------:|
-| R1 | 3.5 V |
-| DC Power 1| 5 V |
-| LED1 | 1.5 V |
+|Componente|Tension V|
+|:--------:|:-------:|
+|R1|3.5 V|
+|DC Power 1| 5 V|
+|LED1|1.5 V|
 
 4. COMPROBAR LA SIGUIENTE TEORÍA
 

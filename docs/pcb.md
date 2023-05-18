@@ -11,3 +11,19 @@ requiere que por las pistas circule una mayor corriente, deberá diseñar pistas
 
 Estas reglas las puede editar en `File -> Board Setup -> Desing Rules -> Net Classes`
 
+A continuación se puede ver un ejemplo donde se asocia las reglas de net a específicos patrones
+de nets
+
+![ejemplo de reglas](./desing/pcb/reglasRuteo.png)
+
+
+# Conectores pinheader y pinsocket
+
+Estos conectores se pueden usar para diferentes sensores y actuadores, como es el caso
+de sensores ultrasonido o servomotores sg90. En kicad las huellas son conocidas
+como pinheader de 2.54mm y pinsocket de 2.54mm
+
+![pin headers](./desing/pcb/pinheader.jpeg)
+
+![pin header selected](./desing/pcb/pinheader-selected.png)
+
