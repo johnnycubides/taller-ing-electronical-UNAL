@@ -25,7 +25,7 @@ Puedes decargar el taller "Mi primer circuito" desde [aquí](./docs/taller1.md.p
 A continuación podrás ver un diagrama pictográfico el cual es una aproximación
 de como se ven las cosas realmente.
 
-![mi primer circuito](./desing/taller1/montaje-led-1_bb.png)
+![mi primer circuito](./desing/t1-primer-circuito/montaje-led-1_bb.png)
 
 Una manera abstracta de entender como está interconectado un circuito es a través
 de un esquemático, este diagrama muestra los componentes representados por símbolos
@@ -35,7 +35,7 @@ con sus nodos de conexión y además etiquetados como sigue:
 > DC Power 1: Fuente de energía DC
 > LED1: Diodo emisor de Luz
 
-![Esquemático primer circuito](./desing/taller1/montaje-led-1_schem.png)
+![Esquemático primer circuito](./desing/t1-primer-circuito/montaje-led-1_schem.png)
 
 3. ENERGIZAR CIRCUITO
 
@@ -58,12 +58,12 @@ de conexión indicados como **COM** (cable negro) y **V**. Las puntas del multim
 ser conectada sobre cada componente en cada uno de sus nodos de conexión, en la imagen siguiente
 se observa como se realiza la medición de la tensión (voltaje) en el *LED1*.
 
-![Diagrama pictográfico de medición de tensión en el LED](./desing/taller1/montaje-led-2_bb.png)
+![Diagrama pictográfico de medición de tensión en el LED](./desing/t1-primer-circuito/montaje-led-2_bb.png)
 
 Observar el diagrama esquemático siguiente, en el se puede observar como se realiza la medición
 de la tensión.
 
-![Esquemático sobre medición de tensión en el LED](./desing/taller1/montaje-led-2_schem.png)
+![Esquemático sobre medición de tensión en el LED](./desing/t1-primer-circuito/montaje-led-2_schem.png)
 
 Comprendiendo como se realiza las mediciones de tensión en cada uno de los tres componentes,
 registra los valores obtenidos en una tabla, como en el siguiente ejemplo:
@@ -87,7 +87,7 @@ transportarse electricidad conservará su energía; lo anterior se puede interpr
 
 Lo anterior en terminos de voltaje se puede representar así:
 
-> V_DC_POWER_1 = V_R1 + V_LED1
+> $$ V_{DC\_POWER\_1} = V_{R1} + V_{LED1} $$
 
 Hay que comprobar la anterior ecuación, tomando los valores obtenidos y registrados en la tabla comprueba
 que la tensión en la fuente es igual a la suma de las tensiones de los componentes que consumen energía.
