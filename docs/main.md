@@ -37,7 +37,7 @@ link:     https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.c
 
 ## Creación de PCB
 
-!include`incrementSection=2, raw='markdown'` ./pcb.md
+!include`incrementSection=2` ./pcb.md
 
 ## Herramientas
 
@@ -221,7 +221,11 @@ Las anteriores herramientas hacen uso del formato de Markdown para realizar la d
 
 ## Talleres
 
-!include`incrementSection=2, raw='markdown'` ./taller1.md
+<!-- !include`incrementSection=2,raw="markdown"` ./taller1.md -->
+<!-- !include`format="markdown"` ./taller1.md -->
+<!-- !include`incrementSection=2,format="markdown"` ./taller1.md -->
+
+!include`incrementSection=2, format="markdown-pipe_tables-all_symbols_escapable"` ./taller1.md
 
 ## Tiendas electrónicas
 

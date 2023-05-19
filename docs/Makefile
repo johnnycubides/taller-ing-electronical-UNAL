@@ -19,19 +19,29 @@ pdf:
 build:
 	# pandoc -i main.md --filter pandoc-include -t markdown --to markdown+pipe_tables -o ../README.md --verbose
 	@echo "Creando ../README.md desde los archivos .md"
-	pandoc -i main.md\
+	pandoc\
 		--filter pandoc-include\
+		-i main.md\
 		-f markdown-pipe_tables-all_symbols_escapable\
-		-t markdown-pipe_tables-all_symbols_escapable\
 		-o ../README.md --verbose\
+		-t markdown-pipe_tables-all_symbols_escapable\
 		--wrap=preserve\
+		--column=999\
+		# --wrap=preserve, none\
 		# -markdown_in_html_blocks+raw_html\
 		# --ascii\
 		# -t markdown+intraword_underscores\
 		# -f markdown+intraword_underscores\
+		#-f markdown-pipe_tables+all_symbols_escapable\
 		# -r markdown-pipe_tables\
 		# -t markdown+raw_markdown\ 
 		# --list-extensions=markdown_strict\
+		# -t markdown_phpextra+pipe_tables+all_symbols_escapable\
+		# -r markdown\
+		# -w markdown\
+
+list_format:
+		pandoc --list-input-formats
 
 serve:
 	# nvm use lts/fermium

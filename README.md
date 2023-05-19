@@ -53,6 +53,21 @@ requiere que por las pistas circule una mayor corriente, deberá diseñar pistas
 
 Estas reglas las puede editar en `File -> Board Setup -> Desing Rules -> Net Classes`
 
+A continuación se puede ver un ejemplo donde se asocia las reglas de net a específicos patrones
+de nets
+
+![ejemplo de reglas](././desing/pcb/reglasRuteo.png)
+
+### Conectores pinheader y pinsocket
+
+Estos conectores se pueden usar para diferentes sensores y actuadores, como es el caso
+de sensores ultrasonido o servomotores sg90. En kicad las huellas son conocidas
+como pinheader de 2.54mm y pinsocket de 2.54mm
+
+![pin headers](././desing/pcb/pinheader.jpeg)
+
+![pin header selected](././desing/pcb/pinheader-selected.png)
+
 ## Herramientas
 
 ### Tarjetas de desarrollo
@@ -69,9 +84,8 @@ Estas reglas las puede editar en `File -> Board Setup -> Desing Rules -> Net Cla
 
 **Comparativa entre placas de desarrollo**
 
-| Tarjeta de Desarrollo | Arquitectura | Lenguaje de prog | Perifericos | RAM @ ROM | N. pines io | Vin @ Vpin |
-
-|---|---|---|---|---|---|---|
+|Tarjeta de Desarrollo|Arquitectura|Lenguaje de prog|Perifericos|RAM @ ROM|N. pines io|Vin @ Vpin|
+|:-------------------:|:----------:|:--------------:|:---------:|:-------:|:---------:|:--------:|
 | NodeMCU esp32 Wroom | espressif xtensa, dos nucleos, 80 to 240 MHz, 32bits | Python, Lua, C, C++, Forth, Asm | uart, i2s, spi, adc, dac, wifi, bluetooth | 520 KB sram @ 448 KB rom y 4 MB flash | 25 Digitales de los cuales 15 Analógicos | 5V @ 3.3V |
 | ESP32CAM Wroom | espressif xtensa, dos nucleos, 80 to 240 MHz, 32bits | Python, Lua, C, C++, Forth, Asm | uart, i2s, spi, adc, dac, wifi, bluetooth, camera | 520 KB sram y psram 4MB @ 448 KB rom y 4 MB flash | 10 Digitales de los cuales 7 Analógicos | 5V @ 3.3V |
 | Nodemcu esp8266 e12 | espressif xtensa, 80MHz to 160 MHz, 32bits | Python, Lua, C, C++, Forth, Asm | uart, i2s, spi, adc, dac, wifi | 50 KB @ 4 MB flash | 10 Digitales y 1 ADC | 5V @ 3.3V |
@@ -80,10 +94,6 @@ Estas reglas las puede editar en `File -> Board Setup -> Desing Rules -> Net Cla
 | Arduino UNO | Atmega328p, 16MHz, avr8, 8bits | C, C++, Forth, Asm | uart, i2s, spi, adc | 2 KB sram @ 32 KB flash | 20 Digitales y de ellos 6 Analógicos | 5V @ 5V o 3.3V |
 | Arduino Nano | Atmega328p, 16MHz, avr8, 8bits | C, C++, Forth, Asm | uart, i2s, spi, adc | 2 KB sram @ 32 KB flash | 20 Digitales y de ellos 6 Analógicos | 5V @ 5V o 3.3V |
 | Arduino Pro | Atmega328p, 16MHz, avr8, 8bits | C, C++, Forth, Asm | uart, i2s, spi, adc | 2 KB sram @ 32 KB flash | 20 Digitales y de ellos 6 Analógicos | 5V @ 5V o 3.3V |
-
-|Hola|Como vas|que tal todo|
-|:-------------:|:-------------:|:-----:|
-|h|h|h|
 
 #### Nodemcu ESP32 Wroom
 
@@ -238,6 +248,15 @@ Las anteriores herramientas hacen uso del formato de Markdown para realizar la d
 
 ## Talleres
 
+```{=html}
+<!-- !include`incrementSection=2,raw="markdown"` ./taller1.md -->
+```
+```{=html}
+<!-- !include`format="markdown"` ./taller1.md -->
+```
+```{=html}
+<!-- !include`incrementSection=2,format="markdown"` ./taller1.md -->
+```
 ### Iniciandome con las herramientas de desarrollo
 
 Este taller pretende orientar al estudiante en el inicio *Maker*; en
@@ -308,11 +327,11 @@ de la tensión.
 Comprendiendo como se realiza las mediciones de tensión en cada uno de los tres componentes,
 registra los valores obtenidos en una tabla, como en el siguiente ejemplo:
 
-   Componente   Tensión \[V\]
-  ------------ ---------------
-       R1           3.5 V
-   DC Power 1        5 V
-      LED1          1.5 V
+|Componente|Tension V|
+|:--------:|:-------:|
+|R1|3.5 V|
+|DC Power 1| 5 V|
+|LED1|1.5 V|
 
 4.  COMPROBAR LA SIGUIENTE TEORÍA
 
