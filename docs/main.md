@@ -37,7 +37,9 @@ link:     https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.c
 
 ### Poster
 
+## Creación de PCB
 
+!include`incrementSection=2` ./pcb.md
 
 ## Herramientas
 
@@ -55,8 +57,8 @@ link:     https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.c
 
 **Comparativa entre placas de desarrollo**
 
-| Tarjeta de Desarrollo | Arquitectura | Lenguaje de prog | Perifericos | RAM @ ROM | N. pines io | Vin @ Vpin |
-|---|---|---|---|---|---|---|
+|Tarjeta de Desarrollo|Arquitectura|Lenguaje de prog|Perifericos|RAM @ ROM|N. pines io|Vin @ Vpin|
+|:-------------------:|:----------:|:--------------:|:---------:|:-------:|:---------:|:--------:|
 | NodeMCU esp32 Wroom | espressif xtensa, dos nucleos, 80 to 240 MHz, 32bits | Python, Lua, C, C++, Forth, Asm | uart, i2s, spi, adc, dac, wifi, bluetooth | 520 KB sram @ 448 KB rom y 4 MB flash | 25 Digitales de los cuales 15 Analógicos | 5V @ 3.3V |
 | ESP32CAM Wroom | espressif xtensa, dos nucleos, 80 to 240 MHz, 32bits | Python, Lua, C, C++, Forth, Asm | uart, i2s, spi, adc, dac, wifi, bluetooth, camera | 520 KB sram y psram 4MB @ 448 KB rom y 4 MB flash | 10 Digitales de los cuales 7 Analógicos | 5V @ 3.3V |
 | Nodemcu esp8266 e12 | espressif xtensa, 80MHz to 160 MHz, 32bits | Python, Lua, C, C++, Forth, Asm | uart, i2s, spi, adc, dac, wifi | 50 KB @ 4 MB flash | 10 Digitales y 1 ADC | 5V @ 3.3V |
@@ -65,10 +67,6 @@ link:     https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.c
 | Arduino UNO | Atmega328p, 16MHz, avr8, 8bits | C, C++, Forth, Asm | uart, i2s, spi, adc | 2 KB sram @ 32 KB flash | 20 Digitales y de ellos 6 Analógicos | 5V @ 5V o 3.3V |
 | Arduino Nano | Atmega328p, 16MHz, avr8, 8bits | C, C++, Forth, Asm | uart, i2s, spi, adc | 2 KB sram @ 32 KB flash | 20 Digitales y de ellos 6 Analógicos | 5V @ 5V o 3.3V |
 | Arduino Pro | Atmega328p, 16MHz, avr8, 8bits | C, C++, Forth, Asm | uart, i2s, spi, adc | 2 KB sram @ 32 KB flash | 20 Digitales y de ellos 6 Analógicos | 5V @ 5V o 3.3V |
-
-|Hola|Como vas|que tal todo|
-|:-------------:|:-------------:|:-----:|
-|h|h|h|
 
 #### Nodemcu ESP32 Wroom
 
@@ -225,7 +223,11 @@ Las anteriores herramientas hacen uso del formato de Markdown para realizar la d
 
 ## Talleres
 
-!include`incrementSection=2` ./taller1.md
+<!-- !include`incrementSection=2,raw="markdown"` ./taller1.md -->
+<!-- !include`format="markdown"` ./taller1.md -->
+<!-- !include`incrementSection=2,format="markdown"` ./taller1.md -->
+
+!include`incrementSection=2, format="markdown-pipe_tables-all_symbols_escapable"` ./taller1.md
 
 ## Tiendas electrónicas
 
