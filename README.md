@@ -276,7 +276,7 @@ Puedes decargar el taller "Mi primer circuito" desde [aquí](./docs/taller1.md.p
 -   Un par de cables bananas caimán
 -   Conectores rápidos (jumper dupon)
 -   Protoboard
--   Una resistencia de cualquier mayor no mayor a 33 Kohms.
+-   Una resistencia de cualquier valor no mayor a 33 Kohms.
 -   Un LED de cualquier color.
 -   Dos multímetros, uno para medir corriente y el otro tensión.
 -   Cuaderno para realizar apuntes
@@ -354,6 +354,20 @@ Hay que comprobar la anterior ecuación, tomando los valores obtenidos y registr
 que la tensión en la fuente es igual a la suma de las tensiones de los componentes que consumen energía.
 
 #### Driver de motor
+
+## Tareas recomendadas
+
+-   Ver el vídeo [Resistencias explicadas](https://www.youtube.com/watch?v=blUimcoNpKs&t), realizar la documentación (resumen, grafo, entre otros), compartir el resumen en discord.
+-   Ver el víde [Cómo medir componentes electricos en PCB](https://youtu.be/h32zF39gwwY?si=oVr16mUTg775PU54), realizar la documentación (resumen, grafo, entre otros), compartir el resumen en discord.
+
+## Vídeos recomendados en clase
+
+-   [Simbiosos entre el arte, la ciencia y la tecnologia](https://www.youtube.com/watch?v=AB9VToh2y-s)
+-   [Por esto no podemos tener cosas bonitas (obsolescencia)](https://youtu.be/m8KqmgSPAtg?si=kqyl1KUPXwsxRof2)
+-   [África: El vertedero electrónico](https://youtu.be/zfDWE0TyS-w?si=99KWKwdTMwPvmHpL)
+-   [Tecnología criolla](https://youtu.be/fh5WTvsvSwg?si=UOBS7h-vBRLTMpoZ)
+-   [Arduino el documental](https://youtu.be/mltWc9_C9gs?si=kiv2YYFiv9YqnJFI)
+-   [Construimos un smartwatch](https://youtu.be/GC0GuNWkyHg?si=jfrezkIOTFkaNdBO)
 
 ## Tiendas electrónicas
 

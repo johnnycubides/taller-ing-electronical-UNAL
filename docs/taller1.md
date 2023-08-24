@@ -1,3 +1,7 @@
+---
+geometry: margin=2cm
+---
+
 # Iniciandome con las herramientas de desarrollo
 
 Este taller pretende orientar al estudiante en el inicio *Maker*; en
@@ -15,7 +19,7 @@ Puedes decargar el taller "Mi primer circuito" desde [aquí](./docs/taller1.md.p
 * Un par de cables bananas caimán
 * Conectores rápidos (jumper dupon)
 * Protoboard
-* Una resistencia de cualquier mayor no mayor a 33 Kohms.
+* Una resistencia de cualquier valor no mayor a 33 Kohms.
 * Un LED de cualquier color.
 * Dos multímetros, uno para medir corriente y el otro tensión.
 * Cuaderno para realizar apuntes
