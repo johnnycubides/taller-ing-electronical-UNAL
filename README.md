@@ -266,6 +266,18 @@ este taller se enfretará a desarrollar cosas como:
 
 -   Análisis de corriente de un circuito D.C.
 
+#### Uso del multímetro
+
+-   ¿Cómo verificar que los fusibles del multímetro no están dañados?
+-   ¿Cómo medir el valor de una resistencia?
+-   ¿Cómo calcular el valor de una resistencia de carbón?
+-   Configuración de fuente DC y medición de tensión de la misma con el multímetro
+
+**Referencias útiles**
+
+-   [Calculadora de resistencias digikey](https://www.digikey.com/es/resources/conversion-calculators/conversion-calculator-resistor-color-code)
+-   Ver el vídeo [Resistencias explicadas](https://www.youtube.com/watch?v=blUimcoNpKs&t)
+
 #### Mi primer circuito
 
 Puedes decargar el taller "Mi primer circuito" desde [aquí](./docs/taller1.md.pdf)
