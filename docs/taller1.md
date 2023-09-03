@@ -74,12 +74,12 @@ de conexión indicados como **COM** (cable negro) y **V**. Las puntas del multim
 ser conectada sobre cada componente en cada uno de sus nodos de conexión, en la imagen siguiente
 se observa como se realiza la medición de la tensión (voltaje) en el *LED1*.
 
-![Diagrama pictográfico de medición de tensión en el LED](./desing/t1-primer-circuito/montaje-led-2_bb.png)
+![Diagrama pictográfico de medición de tensión en el LED](./desing/t1-primer-circuito/voltaje-led/montaje-led-2_bb.png)
 
 Observar el diagrama esquemático siguiente, en el se puede observar como se realiza la medición
 de la tensión.
 
-![Esquemático sobre medición de tensión en el LED](./desing/t1-primer-circuito/montaje-led-2_schem.png)
+![Esquemático sobre medición de tensión en el LED](./desing/t1-primer-circuito/voltaje-led/montaje-led-2_schem.png)
 
 Comprendiendo como se realiza las mediciones de tensión en cada uno de los tres componentes,
 registra los valores obtenidos en una tabla, como en el siguiente ejemplo:
@@ -90,7 +90,7 @@ registra los valores obtenidos en una tabla, como en el siguiente ejemplo:
 |DC Power 1| 5 V|
 |LED1|1.5 V|
 
-4. COMPROBAR LA SIGUIENTE TEORÍA
+5. COMPROBAR LA SIGUIENTE TEORÍA
 
 En un circuito existen componentes activos y pasivos; los activos son aquellos que son
 capaces de entregar energía como es el caso de la *DC Power*, mientras que los pasivos
@@ -107,3 +107,57 @@ Lo anterior en terminos de voltaje se puede representar así:
 
 Hay que comprobar la anterior ecuación, tomando los valores obtenidos y registrados en la tabla comprueba
 que la tensión en la fuente es igual a la suma de las tensiones de los componentes que consumen energía.
+
+6. MEDICIÓN DE CORRIENTE ELÉCTRICA
+
+Para medir la corriente eléctrica que pasa por el circuito con el multimetro, éste último
+deberá hacer parte de ese cicuiro cerrado, por tanto, deberá abrir un nodo en el circuito
+y poner en serie el multimetro con los demás componentes; para mayor claridad observe las
+siguiente imagen:
+
+![Multímetro como amperímetro](./desing/t1-primer-circuito/corriente-circuito/montaje-led-medir-corriente_bb.png)
+
+Observe ademés de los cables cómo están interconectados que la perilla o selector del multímetro se debe
+poner en la función de medición de corriente continua simbolizado con la letra **A** la cual tiene encima
+dos líneas: una línea recta y continua y debajo de ella una línea recta y discontinua.
+
+También puede ver la abstracción de este diagrama pictográfico, donde preste atención a los nodos de conexión,
+verá que solo hay un camino cerrado en el circuito.
+
+![Diagrama esquemático circuito con amperímetro](./desing/t1-primer-circuito/corriente-circuito/montaje-led-medir-corriente_schem.png)
+
+**Observación**: Dependiendo del multímetro, se puede usar escalas diferentes a **A**, tal es el caso de **mA** (miliamperios) o **uA** (microamperios).
+
+## Simulación de circuitos
+
+![Simulación de mi primer circuito](./desing/t1-primer-circuito/simulacion-circuitjs/simulacion-mi-primer-circuito.jpg)
+![Simulación de circuitos](./desing/t1-primer-circuito/simulacion-circuitjs/simulacion-mi-primer-circuito.png)
+
+La simulación es una herramienta que permite comparar los resultados de los cálculos de los diseños eléctricos, antes de
+realizar una implementación física del mismo, en las simulaciones se pueden observar comportamientos de diferentes variables,
+como puede ser el caso de corriente eléctrica, voltaje, potencia, impedancias, frecuencia de operación, entre otros.
+
+En el siguiente enlace podrá ver la simulación del circuito denominado "mi primer circuito"; podrá observar de manera gráfica
+el voltaje (a modo de colores), la corriente que circula por los conductores (puntos amarillos que se desplazan por el circuito),
+y la intensidad de encendido del LED rojo (Dependiendo de la potencia eléctrica que es consumida en el LED, el color rojo cambiará
+su intensidad).
+
+[Enlace para observar la simulación de mi primer circuito](https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWcMBMcUHYMGZIA4UA2ATmIxAUgpABZsKBTAWjDACgA3cYlcDQ7rzAo8UMTSpIq06AjYAnECgkhiA3DVUCq2XGzCFe2BEJEhjQ-kpAATBgDMAhgFcANgBcmrhjfBiZkOwA7uYm4GYWWlBsIZFq5pCa8ZAxguGiYDxRKSGZvPHKVMmpeXwCpWiiOWmVoby11ZG1kWBWKQDmNfg1yv5sAPa0IISaVDSEYJJQ0BBUvJrYbEA)
+
+EL siguiente archivo el cual es un texto plano (.txt) es la representación en [spice](https://es.wikipedia.org/wiki/SPICE), la cual indica por números de nodos
+cómo está interconectado un circuito y qué modelo corresponde, se invita a descargar el archivo y leer su contenido para comprender cómo está codificado.
+
+[Archivos en formato .txt de mi primer circuito en CircuitJS](./desing/t1-primer-circuito/simulacion-circuitjs/simulacion-mi-primer-circuito-circuitjs.txt)
+
+Desde luego hay diferentes tipos de simuladores, están aquellos como éste ([circuitjs](https://www.falstad.com/circuit/circuitjs.html))que es a nivel pedagógico una herramienta poderosa para visualizar el comportamiento,
+pero también hay otros simuladores con características profesionales que pueden ser opensource, gratis o privativos, a continuación se señalan dos de ellos que pueden ser útiles en su carrera de ingeniería.
+
+* [Qucs](https://ra3xdh.github.io/)
+* [LTSpice](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html)
+
+**Observación** Sobre cómo instalar Qucs, puede seguir las instrucciones que encontrará en [este enlace](https://github.com/johnnycubides/qucs-tutorial-examples/)
+
+## Reto de diseño
+
+En vista de lo aprendido en el taller "Mi primer circuito" deberá desarrollar el siguiente reto que verá en la siguiente imagen.
+
