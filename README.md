@@ -418,6 +418,8 @@ pero también hay otros simuladores con características profesionales que puede
 
 En vista de lo aprendido en el taller "Mi primer circuito" deberá desarrollar el siguiente reto que verá en la siguiente imagen.
 
+![Reto de calculo de resistencias](././desing/t1-primer-circuito/reto/reto-mi-primer-circuito.png)
+
 ## Tareas recomendadas
 
 -   Ver el vídeo [Resistencias explicadas](https://www.youtube.com/watch?v=blUimcoNpKs&t), realizar la documentación (resumen, grafo, entre otros), compartir el resumen en discord.
