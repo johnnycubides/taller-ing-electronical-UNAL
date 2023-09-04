@@ -229,6 +229,8 @@ Las anteriores herramientas hacen uso del formato de Markdown para realizar la d
 
 !include`incrementSection=2, format="markdown-pipe_tables-all_symbols_escapable"` ./taller1.md
 
+!include`incrementSection=2, format+"markdown-pipe_tables-all_symbols_escapable"` ./taller2.md
+
 ## Tareas recomendadas
 
 * Ver el vídeo [Resistencias explicadas](https://www.youtube.com/watch?v=blUimcoNpKs&t), realizar la documentación (resumen, grafo, entre otros), compartir el resumen en discord.
