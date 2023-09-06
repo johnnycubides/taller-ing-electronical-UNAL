@@ -19,6 +19,8 @@ link:     https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.c
 
 ## Proceso de diseño
 
+![Proceso de diseño de proyecto](././desing/desing-process/abril10-Page-1.drawio.png)
+
 ### Ideación
 
 [Vídeo actividad 1](https://drive.google.com/file/d/1cr9HWrEm-xNYFIIi8ZitDjLSpGTT1DDn/view?usp=share_link)
@@ -264,6 +266,18 @@ este taller se enfretará a desarrollar cosas como:
 
 -   Análisis de corriente de un circuito D.C.
 
+#### Uso del multímetro
+
+-   ¿Cómo verificar que los fusibles del multímetro no están dañados?
+-   ¿Cómo medir el valor de una resistencia?
+-   ¿Cómo calcular el valor de una resistencia de carbón?
+-   Configuración de fuente DC y medición de tensión de la misma con el multímetro
+
+**Referencias útiles**
+
+-   [Calculadora de resistencias digikey](https://www.digikey.com/es/resources/conversion-calculators/conversion-calculator-resistor-color-code)
+-   Ver el vídeo [Resistencias explicadas](https://www.youtube.com/watch?v=blUimcoNpKs&t)
+
 #### Mi primer circuito
 
 Puedes decargar el taller "Mi primer circuito" desde [aquí](./docs/taller1.md.pdf)
@@ -274,7 +288,7 @@ Puedes decargar el taller "Mi primer circuito" desde [aquí](./docs/taller1.md.p
 -   Un par de cables bananas caimán
 -   Conectores rápidos (jumper dupon)
 -   Protoboard
--   Una resistencia de cualquier mayor no mayor a 33 Kohms.
+-   Una resistencia de cualquier valor no mayor a 33 Kohms.
 -   Un LED de cualquier color.
 -   Dos multímetros, uno para medir corriente y el otro tensión.
 -   Cuaderno para realizar apuntes
@@ -317,12 +331,12 @@ de conexión indicados como **COM** (cable negro) y **V**. Las puntas del multim
 ser conectada sobre cada componente en cada uno de sus nodos de conexión, en la imagen siguiente
 se observa como se realiza la medición de la tensión (voltaje) en el *LED1*.
 
-![Diagrama pictográfico de medición de tensión en el LED](././desing/t1-primer-circuito/montaje-led-2_bb.png)
+![Diagrama pictográfico de medición de tensión en el LED](././desing/t1-primer-circuito/voltaje-led/montaje-led-2_bb.png)
 
 Observar el diagrama esquemático siguiente, en el se puede observar como se realiza la medición
 de la tensión.
 
-![Esquemático sobre medición de tensión en el LED](././desing/t1-primer-circuito/montaje-led-2_schem.png)
+![Esquemático sobre medición de tensión en el LED](././desing/t1-primer-circuito/voltaje-led/montaje-led-2_schem.png)
 
 Comprendiendo como se realiza las mediciones de tensión en cada uno de los tres componentes,
 registra los valores obtenidos en una tabla, como en el siguiente ejemplo:
@@ -333,7 +347,7 @@ registra los valores obtenidos en una tabla, como en el siguiente ejemplo:
 |DC Power 1| 5 V|
 |LED1|1.5 V|
 
-4.  COMPROBAR LA SIGUIENTE TEORÍA
+5.  COMPROBAR LA SIGUIENTE TEORÍA
 
 En un circuito existen componentes activos y pasivos; los activos son aquellos que son
 capaces de entregar energía como es el caso de la *DC Power*, mientras que los pasivos
@@ -351,7 +365,94 @@ Lo anterior en terminos de voltaje se puede representar así:
 Hay que comprobar la anterior ecuación, tomando los valores obtenidos y registrados en la tabla comprueba
 que la tensión en la fuente es igual a la suma de las tensiones de los componentes que consumen energía.
 
-#### Driver de motor
+6.  MEDICIÓN DE CORRIENTE ELÉCTRICA
+
+Para medir la corriente eléctrica que pasa por el circuito con el multimetro, éste último
+deberá hacer parte de ese cicuiro cerrado, por tanto, deberá abrir un nodo en el circuito
+y poner en serie el multimetro con los demás componentes; para mayor claridad observe las
+siguiente imagen:
+
+![Multímetro como amperímetro](././desing/t1-primer-circuito/corriente-circuito/montaje-led-medir-corriente_bb.png)
+
+Observe ademés de los cables cómo están interconectados que la perilla o selector del multímetro se debe
+poner en la función de medición de corriente continua simbolizado con la letra **A** la cual tiene encima
+dos líneas: una línea recta y continua y debajo de ella una línea recta y discontinua.
+
+También puede ver la abstracción de este diagrama pictográfico, donde preste atención a los nodos de conexión,
+verá que solo hay un camino cerrado en el circuito.
+
+![Diagrama esquemático circuito con amperímetro](././desing/t1-primer-circuito/corriente-circuito/montaje-led-medir-corriente_schem.png)
+
+**Observación**: Dependiendo del multímetro, se puede usar escalas diferentes a **A**, tal es el caso de **mA** (miliamperios) o **uA** (microamperios).
+
+#### Simulación de circuitos
+
+![Simulación de mi primer circuito](././desing/t1-primer-circuito/simulacion-circuitjs/simulacion-mi-primer-circuito.jpg)
+![Simulación de circuitos](././desing/t1-primer-circuito/simulacion-circuitjs/simulacion-mi-primer-circuito.png)
+
+La simulación es una herramienta que permite comparar los resultados de los cálculos de los diseños eléctricos, antes de
+realizar una implementación física del mismo, en las simulaciones se pueden observar comportamientos de diferentes variables,
+como puede ser el caso de corriente eléctrica, voltaje, potencia, impedancias, frecuencia de operación, entre otros.
+
+En el siguiente enlace podrá ver la simulación del circuito denominado "mi primer circuito"; podrá observar de manera gráfica
+el voltaje (a modo de colores), la corriente que circula por los conductores (puntos amarillos que se desplazan por el circuito),
+y la intensidad de encendido del LED rojo (Dependiendo de la potencia eléctrica que es consumida en el LED, el color rojo cambiará
+su intensidad).
+
+[Enlace para observar la simulación de mi primer circuito](https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWcMBMcUHYMGZIA4UA2ATmIxAUgpABZsKBTAWjDACgA3cYlcDQ7rzAo8UMTSpIq06AjYAnECgkhiA3DVUCq2XGzCFe2BEJEhjQ-kpAATBgDMAhgFcANgBcmrhjfBiZkOwA7uYm4GYWWlBsIZFq5pCa8ZAxguGiYDxRKSGZvPHKVMmpeXwCpWiiOWmVoby11ZG1kWBWKQDmNfg1yv5sAPa0IISaVDSEYJJQ0BBUvJrYbEA)
+
+EL siguiente archivo el cual es un texto plano (.txt) es la representación en [spice](https://es.wikipedia.org/wiki/SPICE), la cual indica por números de nodos
+cómo está interconectado un circuito y qué modelo corresponde, se invita a descargar el archivo y leer su contenido para comprender cómo está codificado.
+
+[Archivos en formato .txt de mi primer circuito en CircuitJS](./desing/t1-primer-circuito/simulacion-circuitjs/simulacion-mi-primer-circuito-circuitjs.txt)
+
+Desde luego hay diferentes tipos de simuladores, están aquellos como éste ([circuitjs](https://www.falstad.com/circuit/circuitjs.html))que es a nivel pedagógico una herramienta poderosa para visualizar el comportamiento,
+pero también hay otros simuladores con características profesionales que pueden ser opensource, gratis o privativos, a continuación se señalan dos de ellos que pueden ser útiles en su carrera de ingeniería.
+
+-   [Qucs](https://ra3xdh.github.io/)
+-   [LTSpice](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html)
+
+**Observación** Sobre cómo instalar Qucs, puede seguir las instrucciones que encontrará en [este enlace](https://github.com/johnnycubides/qucs-tutorial-examples/)
+
+#### Reto de diseño
+
+En vista de lo aprendido en el taller "Mi primer circuito" deberá desarrollar el siguiente reto que verá en la siguiente imagen.
+
+![Reto de calculo de resistencias](././desing/t1-primer-circuito/reto/reto-mi-primer-circuito.png)
+
+### Diferencia entre lo analógico y lo digital
+
+Determinar el betra del transistor
+
+Conocer el valor de corriente para el giro de motor.
+
+Montar el siguiente circuito:
+
+![Control de motor por transistor-motor](././desing/t2-digital-analog/analogico/motorDC-driver_bb.png)
+
+![Control de motor por transistor-motor](././desing/t2-digital-analog/analogico/motorDC-driver_schem.png)
+
+Cambiar la fuente DC por un generador de señales cuadrada equivalente y controlar el PWM
+
+Agregar una tarjeta de desarrollo para programar el PWM.
+
+![Control de motor por PWM](././desing/t2-digital-analog/digital/motorDC-driver-micro_bb.png)
+
+![Control de motor por PWM](././desing/t2-digital-analog/digital/motorDC-driver-micro_schem.png)
+
+## Tareas recomendadas
+
+-   Ver el vídeo [Resistencias explicadas](https://www.youtube.com/watch?v=blUimcoNpKs&t), realizar la documentación (resumen, grafo, entre otros), compartir el resumen en discord.
+-   Ver el víde [Cómo medir componentes electricos en PCB](https://youtu.be/h32zF39gwwY?si=oVr16mUTg775PU54), realizar la documentación (resumen, grafo, entre otros), compartir el resumen en discord.
+
+## Vídeos recomendados en clase
+
+-   [Simbiosos entre el arte, la ciencia y la tecnologia](https://www.youtube.com/watch?v=AB9VToh2y-s)
+-   [Por esto no podemos tener cosas bonitas (obsolescencia)](https://youtu.be/m8KqmgSPAtg?si=kqyl1KUPXwsxRof2)
+-   [África: El vertedero electrónico](https://youtu.be/zfDWE0TyS-w?si=99KWKwdTMwPvmHpL)
+-   [Tecnología criolla](https://youtu.be/fh5WTvsvSwg?si=UOBS7h-vBRLTMpoZ)
+-   [Arduino el documental](https://youtu.be/mltWc9_C9gs?si=kiv2YYFiv9YqnJFI)
+-   [Construimos un smartwatch](https://youtu.be/GC0GuNWkyHg?si=jfrezkIOTFkaNdBO)
 
 ## Tiendas electrónicas
 
@@ -387,3 +488,43 @@ http://www.microelectronicos.com/
 https://tundamacomplejoelectronico.com/locales/
 
 https://ja-bots.com/
+
+## Proyectos
+
+**Plataformas de Crowdfunding**
+
+Las plataformas de crowdfunding permiten visibilizar e impulsar proyectos
+de emprendimiento artísticos, de desarrollo, de innovación entre otros.
+Allí se han apoyado ideas de desarrollo interesante como han sido:
+
+[Omega2](https://www.kickstarter.com/projects/onion/omega2-5-iot-computer-with-wi-fi-powered-by-linux?lang=es): Sistema embebido que costaba 5 dólares con capacidad de correr Linux y conexión WiFi.
+
+[Mycropython](https://www.kickstarter.com/projects/214379695/micro-python-python-for-microcontrollers): Proyecto que permite programar microcontroladores en el lenguaje Python.
+
+[Cubetto](https://www.kickstarter.com/projects/primotoys/cubetto-hands-on-coding-for-girls-and-boys-aged-3?ref=discovery_category_most_backed): Plataforma de programación de hardware tangible.
+
+[Espruino](https://www.kickstarter.com/projects/gfw/espruino-javascript-for-things?ref=discovery_category_most_backed): Programa microcontroladores con el lenguaje de programación JavaScript.
+
+[Papilio Duo](https://www.kickstarter.com/projects/13588168/papilio-duo-drag-and-drop-fpga-circuit-lab-for-mak?ref=discovery_category_most_backed): Crear circuitos y probar en FPGA de manera gráfica o por bloques.
+
+[Endless](https://www.kickstarter.com/projects/1381437927/endless-computers?ref=discovery_category_most_backed): Computadoras para todo el mundo.
+
+Si es necesario un poco de inspiración para emprender un proyecto, puede revisar
+los siguientes sitios de crowdfunding, podrá encontrar proyectos que inclusive
+podrá adoptar para emprender su propio proyecto.
+
+**Enlaces a plataformas de crowdfunding**
+
+[Kickstarter](https://www.kickstarter.com)
+
+[Crowsupply](https://www.crowdsupply.com/)
+
+[Indiegogo](https://www.indiegogo.com/)
+
+[Ulule](https://es.ulule.com/)
+
+**Plataformas de Chacharreo/Hackeo**
+
+[Hackster](https://www.hackster.io)
+
+[Hackaday](https://hackaday.com)
