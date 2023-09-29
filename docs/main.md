@@ -16,6 +16,8 @@ link:     https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.c
 
 [Enlace liascript del curso](https://liascript.github.io/course/?https://raw.githubusercontent.com/johnnycubides/taller-ing-electronical-UNAL/main/README.md#1)
 
+!include`incrementSection=2` ./overview.md
+
 ## Proceso de diseño
 
 ![Proceso de diseño de proyecto](./desing/desing-process/abril10-Page-1.drawio.png)
@@ -321,3 +323,5 @@ podrá adoptar para emprender su propio proyecto.
 [Hackster](https://www.hackster.io)
 
 [Hackaday](https://hackaday.com)
+
+!include`incrementSection=2` ./prj.md
