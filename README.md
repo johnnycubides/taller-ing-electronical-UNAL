@@ -17,50 +17,51 @@ link:     https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.c
 
 [Enlace liascript del curso](https://liascript.github.io/course/?https://raw.githubusercontent.com/johnnycubides/taller-ing-electronical-UNAL/main/README.md#1)
 
-**Proyecto**
+<h2>Proyecto</h2>
 
-A continuación verá un esquema que representa las diferentes fases/tareas del desarrollo de un proyecto en el curso de sistemas embebidos:
+A continuación verá un esquema que representa las diferentes fases/tareas del desarrollo de un proyecto en el curso de taller de electrónica:
 
-![proyecto](././img/projectSE/cronograma.drawio.png)
+![proyecto](./img/projectSE/cronograma.drawio.png)
 
-**¿Qué queremos hacer?**
+<h3>¿Qué queremos hacer?</h3>
 
 En nuestro curso lo que deseamos hacer es un producto terminado,
 que esté orientado a la solución de una situación real.
 
-**¿Qué se debe entregar?**
+<h3>¿Qué se debe entregar?</h3>
 
--   **Sistema embebido electrónico**
--   **Caja**
--   **Documentación**
--   **Brochure comercial**
 
-**Sobre el sistema embebido**
+* **Sistema electrónico**
+* **Caja**
+* **Documentación**
+* **Brochure comercial**
 
-![ejemplo de sistema embebido](././img/ejemplo-sistema-embebido.png) ![omega modular](././img/omega-modular.jpg)
+<h3>Sobre el sistema electrónico</h3>
+
+![ejemplo de sistema electrónico](./img/ejemplo-sistema-embebido.png) ![omega modular](./img/omega-modular.jpg)
 
 El dispositivo deberá responder a los requerimientos funcionales y no funcionales
 y además tener las siguientes características:
 
--   Desarrollar una PCB a la medida de la necesidad; podrá desarrollar el sistema embebido completo o desarrollar una tarjeta hija para una tarjeta de desarrollo.
--   Para las tareas de software se puede hacer uso de *Zephyr OS* o *Riot OS*.
--   El sistema debe permitir la comunicación con otros dispositivos para monitoreo o control por parte del usuario final (puede ser a través de un medio guiado o no, lo cual depende de la aplicación).
+* Desarrollar una PCB a la medida de la necesidad; podrá desarrollar el sistema embebido completo o desarrollar una tarjeta hija para una tarjeta de desarrollo.
+* Para las tareas de software se puede hacer uso de *Micropython*.
+* El sistema debe permitir la comunicación con otros dispositivos para monitoreo o control por parte del usuario final (puede ser a través de un medio guiado o no, lo cual depende de la aplicación).
 
-**Sobre la caja**
+<h3>Sobre la caja</h3>
 
-![piccolo](././img/piccolo.jpg) ![estacion](././img/estacion.jpg)
+![piccolo](./img/piccolo.jpg) ![estacion](./img/estacion.jpg)
 
 En este caso se refiere a los aparatos encargados de realizar las tareas mecánicas, de protección,
 estéticas, de experiencia de usuario, las cuales contienen sensores, actuadores y el sistema diseñado;
 puede hacer uso de CAD para impresión 3D, corte láser, existen bibliotecas libres en Internet que
 podrá descargar y ajustar a la necesidad.
 
-**Sobre la documentación**
+<h3>Sobre la documentación</h3>
 
 Queremos documentar el proceso de desarrollo, para tal fin puede hacer uso de:
 
--   git
--   Wiki
+* git
+* Wiki
 
 En primer lugar GIT es un sistema de gestión de versiones para proyectos de cualquier tipo que
 permite seguirle la pista a nuestro proyectos de manera colaborativa; puede hacer uso de gestores
@@ -71,14 +72,16 @@ realizado del proyecto como también el producto terminado con algún demo; los 
 de proyectos anteriormente mencionados tienen la posibilidad de crear wikis asociadas al proyecto, pero
 también puede hacer uso de un blog o crear páginas web staticas (gitlab y github tienen esa propiedad y por ahora es libre).
 
-**Sobre el brochure**
+<h3>Sobre el brochure</h3>
 
 Queremos que piensen que este producto va a ser ofrecido a un público que lo pueda necesitar por tanto
 muestre el producto de tal manera que se pueda reconocer sus características y particularidades.
 
 Ejemplo de brochure:
 
-![Brochure IFLAB](././img/brochure-iflab.png)
+![Brochure IFLAB](./img/brochure-iflab.png)
+
+
 
 ## Proceso de diseño
 

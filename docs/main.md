@@ -16,7 +16,7 @@ link:     https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.c
 
 [Enlace liascript del curso](https://liascript.github.io/course/?https://raw.githubusercontent.com/johnnycubides/taller-ing-electronical-UNAL/main/README.md#1)
 
-!include`incrementSection=2` ./overview.md
+!include`incrementSection=2, raw="markdown"` ./overview.md
 
 ## Proceso de diseño
 
