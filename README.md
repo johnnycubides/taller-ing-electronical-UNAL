@@ -316,15 +316,6 @@ Las anteriores herramientas hacen uso del formato de Markdown para realizar la d
 
 ## Talleres
 
-```{=html}
-<!-- !include`incrementSection=2,raw="markdown"` ./taller1.md -->
-```
-```{=html}
-<!-- !include`format="markdown"` ./taller1.md -->
-```
-```{=html}
-<!-- !include`incrementSection=2,format="markdown"` ./taller1.md -->
-```
 ### Iniciandome con las herramientas de desarrollo
 
 Este taller pretende orientar al estudiante en el inicio *Maker*; en
@@ -505,6 +496,14 @@ Agregar una tarjeta de desarrollo para programar el PWM.
 ![Control de motor por PWM](././desing/t2-digital-analog/digital/motorDC-driver-micro_bb.png)
 
 ![Control de motor por PWM](././desing/t2-digital-analog/digital/motorDC-driver-micro_schem.png)
+
+### Driver de motor
+
+![Esquemático del puente H](././desing/t3-bridge-h/motorDC-driver-micro-bridge-h_schem.png)
+
+-   [Simulación en circuitjs del puente H](https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWcMBMcUHYMGZIA4UA2ATmIxAUgoqoQFMBaMMAKDDwgRTxGzQuIpe-Ku2KQchKdAAsYTDIQyeMJEhgyoslgBcQMviBQyqMwpuNVRIBtliLsB4lxni8yldEJ4MYDIT4wCQRxf2QqABM6ADMAQwBXABsdXX1DE1NzfTgocBsUaCIMGQwyS0IEfwtobEJi0owUbGdIBEJMRmJwkCi4pJS9OqFLEHMqEesGBGhSWdnsPGI8bDBsGxgJA1KzWoMF-DWgyJiE5NSh7Koxy9yIGEIwB+U2wQ5FRa0SVu5IZsgiLiNbq9U4pADu+iyfFo3GEVhYELMFjakM00KgCNRvHcWPRkEx1wWmkJIkxISE6JJ8Ih1xQKKpGMRWTkhCxympoxM+kenNMeA5SKMxix8hUBK5ot5Qs0+LQ5EFktcrMVIAAbgBjdUsOVSyUXFUarUAczZ-LZxFZ8JN13ZUqVuXxACduayMrxvDdRPAWM6WUYubUeBNwk7Rngg1zJP6rCGfWGeG6o26vXBMX6RgZhlz8YieW7M56CUC3d4Ezkc6MgSNS9GMaqQK9eLUG7DuCpclzLQ7oAgWCbG9guC2eIGHZiB82B0PZRJh0YURbxijNIbx62F63wxidYOs1R0RmQAAjVg7odu9H54-YbWzjDnnIYHFXo8yW-ke97kBPixczRHlAWAAD30Yp-VZShWWMLpfxAABFVgQJCZEIHaKClH0f14MAkCzDLchKFMIJMOFOCbyQ0hsi6AIIDkIRYLgt8IV3WtRwmTEWIvD1k0xJNHwfDkoxGT9a3xAAlb8BMk+ishjAMagdLRewkliRhY3AZQ7fcFJjVQWBUqTONkrTFKsHt9Ok2sRI0xTs1M8ygA)
+
+-   [Archivo en txt de la simulación del puente H en circuitjs](./desing/t3-bridge-h/circuit-20231004-0511.circuitjs.txt)
 
 ## Tareas recomendadas
 
