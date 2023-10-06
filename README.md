@@ -314,6 +314,10 @@ Las anteriores herramientas hacen uso del formato de Markdown para realizar la d
 ![Imagen de tutorial de markdown](./img/markdown-tutorial.png)
 [Tutorial Markdown](https://www.markdowntutorial.com/es/)
 
+#### Git
+
+-   [Github client desktop](https://desktop.github.com/)
+
 ## Talleres
 
 ### Iniciandome con las herramientas de desarrollo
