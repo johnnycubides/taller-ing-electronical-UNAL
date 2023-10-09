@@ -51,11 +51,11 @@ link:     https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.c
 
 !include`incrementSection=2, format="markdown-pipe_tables-all_symbols_escapable"` ./taller1.md
 
-!include`incrementSection=2, format+"markdown-pipe_tables-all_symbols_escapable"` ./taller2.md
+!include`incrementSection=2, format="markdown-pipe_tables-all_symbols_escapable"` ./taller2.md
 
-!include`incrementSection=2, format+"markdown-pipe_tables-all_symbols_escapable"` ./taller3.md
+!include`incrementSection=2, format="markdown-pipe_tables-all_symbols_escapable"` ./taller3.md
 
-!include`incrementSection=2, format+"markdown-pipe_tables-all_symbols_escapable", raw="markdown"` ./taller4.md
+!include`incrementSection=2, format="markdown-pipe_tables-all_symbols_escapable"` ./taller4.md
 
 ## Tareas recomendadas
 
