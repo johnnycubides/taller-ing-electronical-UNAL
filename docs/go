@@ -1,0 +1,58 @@
+#!/bin/bash -e
+#						 ↑
+# debug [-x -v]:[complete, abbreviated]
+# Brief:	Lanzador de servicios
+# Author: Johnny Cubides
+# e-mail: jgcubidesc@unal.edu.co
+# date: Monday 09 October 2023
+status=$?
+
+# foreground
+BLACK=`tput setaf 0`
+RED=`tput setaf 1`
+GREEN=`tput setaf 2`
+YELLOW=`tput setaf 3`
+BLUE=`tput setaf 4`
+MAGENTA=`tput setaf 5`
+CYAN=`tput setaf 6`
+WHITE=`tput setaf 7`
+NC=`tput setaf 7`
+# background
+BLACKB=`tput setab 0`
+REDB=`tput setab 1`
+GREENB=`tput setab 2`
+YELLOWB=`tput setab 3`
+BLUEB=`tput setab 4`
+MAGENTAB=`tput setab 5`
+CYANB=`tput setab 6`
+WHITEB=`tput setab 7`
+NCB=`tput setab 0`
+
+init()
+{
+  export NVM_DIR="$HOME/.nvm"
+  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+  [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+  . "$HOME/.cargo/env"
+  nvm use v18.3.0
+  liadev -i ../README.md
+}
+
+# Permite guardar información acerca de comandos usados
+if [ "$1" = "-h" ] || [ "$1" = "" ] || [ "$1" = "--help" ];
+then
+  printf "Help for this command\n"
+  printf "\tfile Command options\n"
+  printf "\t[Commands]\n"
+  printf "\t\ti\tIniciar servicio liadev\n"
+  printf "\t\tbrowser\tLanzar la página en el navegador\n"
+  printf "\t\t-h,--help\tHelp\n"
+  printf "\nRegards Johnny.\n"
+elif [ "$1" = "i" ];
+then
+  init
+elif [ "$1" = "browser" ];
+then
+  echo "pass"
+fi
+
