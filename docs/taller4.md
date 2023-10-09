@@ -1,0 +1,3 @@
+# Medición de variables analógicas
+
+
