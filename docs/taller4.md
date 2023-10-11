@@ -40,6 +40,6 @@ val = adc.read_u16()  # read a raw analog value in the range 0-65535
 
 from machine import ADC, Pin
 adc = ADC(Pin(pin_number))     # create ADC object on ADC pin
-adc.read_u16()         # read value, 0-65535 across voltage range 0.0v - 3.3v
+val = adc.read_u16()         # read value, 0-65535 across voltage range 0.0v - 3.3v
 ```
 
