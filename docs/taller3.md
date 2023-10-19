@@ -1,3 +1,7 @@
+---
+geometry: margin=2cm
+---
+
 # Driver de motor
 
 Realizaremos el siguiente circuito el cual corresponde a un driver *Puente H* con tecnología de transistores

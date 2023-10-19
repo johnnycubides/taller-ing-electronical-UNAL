@@ -1,3 +1,7 @@
+---
+geometry: margin=2cm
+---
+
 # Periferico ADC
 
 El conversor ADC es un módulo que convierte señales de tensión

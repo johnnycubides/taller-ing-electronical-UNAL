@@ -57,6 +57,8 @@ link:     https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.c
 
 !include`incrementSection=2, format="markdown-pipe_tables-all_symbols_escapable"` ./taller4.md
 
+!include`incrementSection=2, format="markdown-pipe_tables-all_symbols_escapable"` ./taller5.md
+
 ## Tareas recomendadas
 
 * Ver el vídeo [Resistencias explicadas](https://www.youtube.com/watch?v=blUimcoNpKs&t), realizar la documentación (resumen, grafo, entre otros), compartir el resumen en discord.

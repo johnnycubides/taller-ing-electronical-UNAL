@@ -1,0 +1,377 @@
+[
+    {
+        "id": "f75435b5cdd49b69",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "5ac80afcbbae69f1",
+        "type": "group",
+        "z": "f75435b5cdd49b69",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "5fe59d7a34f993bd",
+            "1b46933df982ab5b",
+            "1fcd687ba4ca4a6e"
+        ],
+        "x": 714,
+        "y": 259,
+        "w": 252,
+        "h": 162
+    },
+    {
+        "id": "9d18818de4c5a326",
+        "type": "group",
+        "z": "f75435b5cdd49b69",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "b0a459f6ab269c5d",
+            "45ee2009d524a95b"
+        ],
+        "x": 214,
+        "y": 579,
+        "w": 172,
+        "h": 142
+    },
+    {
+        "id": "f25d497c1bb0eafe",
+        "type": "debug",
+        "z": "f75435b5cdd49b69",
+        "name": "debug serialport TX",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 820,
+        "y": 160,
+        "wires": [],
+        "info": "Debug serialport RX"
+    },
+    {
+        "id": "b3146e62eeeb2f14",
+        "type": "serial in",
+        "z": "f75435b5cdd49b69",
+        "name": "serialport TX",
+        "serial": "87202a0bef7f094e",
+        "x": 290,
+        "y": 340,
+        "wires": [
+            [
+                "bad45cd958324c74"
+            ]
+        ]
+    },
+    {
+        "id": "bad45cd958324c74",
+        "type": "function",
+        "z": "f75435b5cdd49b69",
+        "name": "checkDataFormat",
+        "func": "// Dependiendo de la cantidad de datos enviados\n// por el puerto serial, se deberá indicar el\n// sizeData para ser validada la integridad\n// de los datos\nconst sizeData = 2;\n\n// Si el dato viene con carrier return descomentar\n// la siguiente línea:\nmsg.payload = msg.payload.replace(\"\\r\\n\", \"\");\n\n// Se crea un vector a partir del string del payload\n// el cual está partido por los espacios en blanco\n// del mensaje enviado desde micropython\nlet data = msg.payload.split(\" \")\n\n// Se crea dos status para validar\n// el proceso\nconst Status = {OK:0, ERROR:1};\n\n// Se inicia en un status OK\nlet state = Status.OK; \n\n// 1ra validación: el tamaño de los datos\n// deberá coincididir con el sizeData esperado\nif(data.length == sizeData){\n    // 2da validación: cada elemento enviado\n    // deberá ser convertible a número que es\n    // lo esperado\n    for( let i in data ){\n        if(!Number(data[i])){\n            state = Status.ERROR;\n            break;\n        }\n    }\n    // Si todo sale bien se deberá entregar\n    // al siguiente módulo\n    if(state == Status.OK) {\n        return [\n            {payload: \"OK\"},\n            {payload: data[0]},\n            {payload: data[1]}\n        ];\n    }\n    return [\n        {payload: \"No se pudo a transformar a número\"+\n        \"los datos: \"+msg.payload\n        }\n    ];\n}\n\nreturn [\n    {payload: \"El tamaño no coincide: \"+msg.payload\n    }\n];\n",
+        "outputs": 3,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 340,
+        "wires": [
+            [
+                "f25d497c1bb0eafe",
+                "1fcd687ba4ca4a6e"
+            ],
+            [
+                "5fe59d7a34f993bd"
+            ],
+            [
+                "1b46933df982ab5b"
+            ]
+        ]
+    },
+    {
+        "id": "d4f9ee7fdea77a49",
+        "type": "serial out",
+        "z": "f75435b5cdd49b69",
+        "name": "serialport RX",
+        "serial": "87202a0bef7f094e",
+        "x": 810,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "45f329e8d8a65edd",
+        "type": "debug",
+        "z": "f75435b5cdd49b69",
+        "name": "debug serialport RX",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 840,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "b0a459f6ab269c5d",
+        "type": "ui_button",
+        "z": "f75435b5cdd49b69",
+        "g": "9d18818de4c5a326",
+        "name": "",
+        "group": "bb6ce9b6b92af7aa",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "LED ON",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "c(1)",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 300,
+        "y": 620,
+        "wires": [
+            [
+                "f35e43898af462f9"
+            ]
+        ],
+        "info": "Cuando se oprime el botón LED ON\nSe envía por al REPL el string c(1)\npara que sea evaluado"
+    },
+    {
+        "id": "f35e43898af462f9",
+        "type": "function",
+        "z": "f75435b5cdd49b69",
+        "name": "addCarrierReturn",
+        "func": "// Al payload del mensaje se le agrega el retorno de\n// carro para que pueda ejecutarse en REPL de\n// micropython\nmsg.payload = msg.payload + \"\\r\";\n// Modificado el mensaje se retorna para ser usado\n// por el destino\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 660,
+        "wires": [
+            [
+                "45f329e8d8a65edd",
+                "d4f9ee7fdea77a49"
+            ]
+        ]
+    },
+    {
+        "id": "45ee2009d524a95b",
+        "type": "ui_button",
+        "z": "f75435b5cdd49b69",
+        "g": "9d18818de4c5a326",
+        "name": "",
+        "group": "bb6ce9b6b92af7aa",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "LED OFF",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "c(2)",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 300,
+        "y": 680,
+        "wires": [
+            [
+                "f35e43898af462f9"
+            ]
+        ],
+        "info": "Cuando se oprime el botón LED ON\nSe envía por al REPL el string c(2)\npara que sea evaluado"
+    },
+    {
+        "id": "5fe59d7a34f993bd",
+        "type": "ui_chart",
+        "z": "f75435b5cdd49b69",
+        "g": "5ac80afcbbae69f1",
+        "name": "",
+        "group": "c55d6e3fcd7e92be",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "Volt2",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "10",
+        "removeOlder": 1,
+        "removeOlderPoints": "30",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#41bf40",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 790,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1b46933df982ab5b",
+        "type": "ui_gauge",
+        "z": "f75435b5cdd49b69",
+        "g": "5ac80afcbbae69f1",
+        "name": "",
+        "group": "c55d6e3fcd7e92be",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Volt1",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 790,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "1fcd687ba4ca4a6e",
+        "type": "ui_text",
+        "z": "f75435b5cdd49b69",
+        "g": "5ac80afcbbae69f1",
+        "group": "c55d6e3fcd7e92be",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Estado de los datos: ",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 840,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "87202a0bef7f094e",
+        "type": "serial-port",
+        "serialport": "/dev/ttyACM0",
+        "serialbaud": "115200",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": "",
+        "responsetimeout": "10000"
+    },
+    {
+        "id": "bb6ce9b6b92af7aa",
+        "type": "ui_group",
+        "name": "Encendido de LED",
+        "tab": "240326a1d6c4feca",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c55d6e3fcd7e92be",
+        "type": "ui_group",
+        "name": "Sensores 1 y 2",
+        "tab": "d3b2af2459b202ae",
+        "order": 1,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "240326a1d6c4feca",
+        "type": "ui_tab",
+        "name": "Actuadores",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "d3b2af2459b202ae",
+        "type": "ui_tab",
+        "name": "Sensores",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    }
+]
