@@ -171,7 +171,8 @@ como pinheader de 2.54mm y pinsocket de 2.54mm
 
 **Pinout esp32**:
 
-![esp32 nodemcu pinout](./img/samples-SE/pinout/nodemcu-esp32-pinout.png)
+![Esp32 Dev Kit v1](./img/samples-SE/pinout/nodemcu-esp32-pinout.png)
+![Esp32 Dev Kit v3](./img/samples-SE/pinout/esp32-dev-kit-c.png)
 
 **Herramientas para esp32:**
 
@@ -316,7 +317,40 @@ Las anteriores herramientas hacen uso del formato de Markdown para realizar la d
 
 #### Git
 
+**GITHUB DESKTOP**
+
+![github desktop](https://user-images.githubusercontent.com/634063/202742985-bb3b3b94-8aca-404a-8d8a-fd6a6f030672.png)
+
+La recomendación para iniciarse con la herramienta de Git y Github es hacer uso de *Github Desktop*,
+se recomienda buscar vídeos sobre el uso de esta herramienta.
+
 -   [Github client desktop](https://desktop.github.com/)
+
+### Herramientas de diseño de PCB
+
+#### KICAD
+
+![KiCAD](././img/kicad/kicad.png)
+
+**DOCUMENTACIÓN DE KICAD**
+
+[Enlace de documentación oficial de kicad](https://docs.kicad.org/)
+
+[Enlace de descarga de Kicad para varias plataformas](https://www.kicad.org/download/)
+
+> Si usa Linux puede abrir la terminal y ejecutar el siguiente comando para instalar Kicad:
+> `sudo apt install kicad`
+
+**MI PRIMER PCB CON KICAD**
+
+![tutorial primera pcv](././img/kicad/primera-pcb-tutorial.png)
+[Make Your First Printed Circuit Board](https://www.build-electronic-circuits.com/kicad-tutorial/?fbclid=IwAR3OwgRqwc85H-j0YJTUkhBbJpkR1eex80cYIkS15KJx4cIzqhzl-UpF0DQ): Este tutorial en idioma inglés acerca al estudio de la herramienta de diseño *kicad* mientras crea su primera PCB.
+
+**EJERCICIOS DE ROUTEO**
+
+![flow free](././img/kicad/flow-free.png)
+[flow free](https://www.bigduckgames.com/flowfree): Para desarrollar la habilidad de routeo, puede realizar hacer uso de la herramienta **flow free**
+la cualnos reta a pensar la manera correcta de conectar nodos de colores a través de puentes, la herramienta está compilada en distintas tiendas.
 
 ## Talleres
 
@@ -600,7 +634,7 @@ Para que pueda resolver este problema podrá seguir estas recomendaciones:
 6.  Al tener los dos casos extremos que puede llamar $P_1$ y $P_2$ donde cualquier punto es una coordenada
     de la forma $P(unidades\_adc, porcentaje\_luz)$ y que en un plano cartesiano $P(x, y)$, $x=unidades\_luz$
     y $y=porcentaje\_luz$ trace una recta que una a esos dos puntos y construya una ecuación de la recta.
-    Recuerde que la ecuación de la recta es de la forma $y(x) = mx + b$, la pendiente $m = {{y_2 - y_1} \over {X_2-X_1}}$ y
+    Recuerde que la ecuación de la recta es de la forma $y(x) = mx + b$, la pendiente $m = {{y_2 - y_1} \over {x_2-x_1}}$ y
     que el punto de corte $b = y_1 -mx_1 = y_2 - mx_2$
 7.  Con la información obtenida en el paso 6 construya una función en python que haga esa transformación, pruebe su funcionamiento
     estimulando el sensor como fue planteado en el paso 2 y si es coherente el resultado,
@@ -620,7 +654,7 @@ def calcularPorcentajeDeLuz(val_adc):
 **USO DE ADC EN MICROPYTHON**
 
 Para decidir cuál pin va usar para la conexión deberá tener presente el *pinout* de la tarjeta
-de desarrollo en cuestión, revise que el pin a seleccionar debe permitir la configuración
+de desarrollo en cuestión, revise que el pin a seleccionar debe permitir la configuración de
 un periférico ADC.
 
 -   [ADC ESP32](https://docs.micropython.org/en/latest/esp32/quickref.html#adc-analog-to-digital-conversion)

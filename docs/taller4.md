@@ -46,7 +46,7 @@ a la acción de aplicar los dos casos extremos del paso 2.
 6. Al tener los dos casos extremos que puede llamar $P_1$ y $P_2$ donde cualquier punto es una coordenada
 de la forma $P(unidades\_adc, porcentaje\_luz)$ y que en un plano cartesiano $P(x, y)$, $x=unidades\_luz$
 y $y=porcentaje\_luz$ trace una recta que una a esos dos puntos y construya una ecuación de la recta.
-Recuerde que la ecuación de la recta es de la forma $y(x) =  mx + b$, la pendiente $m = {{y_2 - y_1} \over {X_2-X_1}}$ y
+Recuerde que la ecuación de la recta es de la forma $y(x) =  mx + b$, la pendiente $m = {{y_2 - y_1} \over {x_2-x_1}}$ y
 que el punto de corte $b = y_1 -mx_1 = y_2 - mx_2$
 7. Con la información obtenida en el paso 6 construya una función en python que haga esa transformación, pruebe su funcionamiento
 estimulando el sensor como fue planteado en el paso 2 y si es coherente el resultado,
@@ -65,7 +65,7 @@ def calcularPorcentajeDeLuz(val_adc):
 **USO DE ADC EN MICROPYTHON**
 
 Para decidir cuál pin va usar para la conexión deberá tener presente el *pinout* de la tarjeta
-de desarrollo en cuestión, revise que el pin a seleccionar debe permitir la configuración
+de desarrollo en cuestión, revise que el pin a seleccionar debe permitir la configuración de
 un periférico ADC.
 
 * [ADC ESP32](https://docs.micropython.org/en/latest/esp32/quickref.html#adc-analog-to-digital-conversion)
