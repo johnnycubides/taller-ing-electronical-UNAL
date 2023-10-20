@@ -1,6 +1,6 @@
 [
     {
-        "id": "f75435b5cdd49b69",
+        "id": "7c3fa96fb5d32a21",
         "type": "tab",
         "label": "Flow 1",
         "disabled": false,
@@ -8,9 +8,9 @@
         "env": []
     },
     {
-        "id": "5ac80afcbbae69f1",
+        "id": "a45292a37da18a4e",
         "type": "group",
-        "z": "f75435b5cdd49b69",
+        "z": "7c3fa96fb5d32a21",
         "style": {
             "stroke": "#999999",
             "stroke-opacity": "1",
@@ -21,9 +21,9 @@
             "color": "#a4a4a4"
         },
         "nodes": [
-            "5fe59d7a34f993bd",
-            "1b46933df982ab5b",
-            "1fcd687ba4ca4a6e"
+            "8b4856148f5fe386",
+            "3ae920867885fce5",
+            "ab61a7d298e80ab8"
         ],
         "x": 714,
         "y": 259,
@@ -31,9 +31,9 @@
         "h": 162
     },
     {
-        "id": "9d18818de4c5a326",
+        "id": "c8d8797df1ab50ce",
         "type": "group",
-        "z": "f75435b5cdd49b69",
+        "z": "7c3fa96fb5d32a21",
         "style": {
             "stroke": "#999999",
             "stroke-opacity": "1",
@@ -44,18 +44,18 @@
             "color": "#a4a4a4"
         },
         "nodes": [
-            "b0a459f6ab269c5d",
-            "45ee2009d524a95b"
+            "d9f9613d89d182ab",
+            "8c1652efd5d2971b"
         ],
-        "x": 214,
-        "y": 579,
+        "x": 226,
+        "y": 476,
         "w": 172,
         "h": 142
     },
     {
-        "id": "f25d497c1bb0eafe",
+        "id": "42f55108bb088e71",
         "type": "debug",
-        "z": "f75435b5cdd49b69",
+        "z": "7c3fa96fb5d32a21",
         "name": "debug serialport TX",
         "active": true,
         "tosidebar": true,
@@ -71,23 +71,23 @@
         "info": "Debug serialport RX"
     },
     {
-        "id": "b3146e62eeeb2f14",
+        "id": "ba79bfbf4bde0d44",
         "type": "serial in",
-        "z": "f75435b5cdd49b69",
+        "z": "7c3fa96fb5d32a21",
         "name": "serialport TX",
         "serial": "87202a0bef7f094e",
         "x": 290,
         "y": 340,
         "wires": [
             [
-                "bad45cd958324c74"
+                "863e302708a1e16b"
             ]
         ]
     },
     {
-        "id": "bad45cd958324c74",
+        "id": "863e302708a1e16b",
         "type": "function",
-        "z": "f75435b5cdd49b69",
+        "z": "7c3fa96fb5d32a21",
         "name": "checkDataFormat",
         "func": "// Dependiendo de la cantidad de datos enviados\n// por el puerto serial, se deberá indicar el\n// sizeData para ser validada la integridad\n// de los datos\nconst sizeData = 2;\n\n// Si el dato viene con carrier return descomentar\n// la siguiente línea:\nmsg.payload = msg.payload.replace(\"\\r\\n\", \"\");\n\n// Se crea un vector a partir del string del payload\n// el cual está partido por los espacios en blanco\n// del mensaje enviado desde micropython\nlet data = msg.payload.split(\" \")\n\n// Se crea dos status para validar\n// el proceso\nconst Status = {OK:0, ERROR:1};\n\n// Se inicia en un status OK\nlet state = Status.OK; \n\n// 1ra validación: el tamaño de los datos\n// deberá coincididir con el sizeData esperado\nif(data.length == sizeData){\n    // 2da validación: cada elemento enviado\n    // deberá ser convertible a número que es\n    // lo esperado\n    for( let i in data ){\n        if(!Number(data[i])){\n            state = Status.ERROR;\n            break;\n        }\n    }\n    // Si todo sale bien se deberá entregar\n    // al siguiente módulo\n    if(state == Status.OK) {\n        return [\n            {payload: \"OK\"},\n            {payload: data[0]},\n            {payload: data[1]}\n        ];\n    }\n    return [\n        {payload: \"No se pudo a transformar a número\"+\n        \"los datos: \"+msg.payload\n        }\n    ];\n}\n\nreturn [\n    {payload: \"El tamaño no coincide: \"+msg.payload\n    }\n];\n",
         "outputs": 3,
@@ -100,31 +100,31 @@
         "y": 340,
         "wires": [
             [
-                "f25d497c1bb0eafe",
-                "1fcd687ba4ca4a6e"
+                "42f55108bb088e71",
+                "ab61a7d298e80ab8"
             ],
             [
-                "5fe59d7a34f993bd"
+                "8b4856148f5fe386"
             ],
             [
-                "1b46933df982ab5b"
+                "3ae920867885fce5"
             ]
         ]
     },
     {
-        "id": "d4f9ee7fdea77a49",
+        "id": "87cdb16e137b1701",
         "type": "serial out",
-        "z": "f75435b5cdd49b69",
+        "z": "7c3fa96fb5d32a21",
         "name": "serialport RX",
         "serial": "87202a0bef7f094e",
-        "x": 810,
-        "y": 660,
+        "x": 822,
+        "y": 557,
         "wires": []
     },
     {
-        "id": "45f329e8d8a65edd",
+        "id": "8b7c57b742185537",
         "type": "debug",
-        "z": "f75435b5cdd49b69",
+        "z": "7c3fa96fb5d32a21",
         "name": "debug serialport RX",
         "active": true,
         "tosidebar": true,
@@ -134,15 +134,15 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 840,
-        "y": 600,
+        "x": 852,
+        "y": 497,
         "wires": []
     },
     {
-        "id": "b0a459f6ab269c5d",
+        "id": "d9f9613d89d182ab",
         "type": "ui_button",
-        "z": "f75435b5cdd49b69",
-        "g": "9d18818de4c5a326",
+        "z": "7c3fa96fb5d32a21",
+        "g": "c8d8797df1ab50ce",
         "name": "",
         "group": "bb6ce9b6b92af7aa",
         "order": 1,
@@ -159,19 +159,19 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 300,
-        "y": 620,
+        "x": 312,
+        "y": 517,
         "wires": [
             [
-                "f35e43898af462f9"
+                "1b250b42f87f41d1"
             ]
         ],
         "info": "Cuando se oprime el botón LED ON\nSe envía por al REPL el string c(1)\npara que sea evaluado"
     },
     {
-        "id": "f35e43898af462f9",
+        "id": "1b250b42f87f41d1",
         "type": "function",
-        "z": "f75435b5cdd49b69",
+        "z": "7c3fa96fb5d32a21",
         "name": "addCarrierReturn",
         "func": "// Al payload del mensaje se le agrega el retorno de\n// carro para que pueda ejecutarse en REPL de\n// micropython\nmsg.payload = msg.payload + \"\\r\";\n// Modificado el mensaje se retorna para ser usado\n// por el destino\nreturn msg;\n",
         "outputs": 1,
@@ -180,20 +180,20 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 530,
-        "y": 660,
+        "x": 542,
+        "y": 557,
         "wires": [
             [
-                "45f329e8d8a65edd",
-                "d4f9ee7fdea77a49"
+                "8b7c57b742185537",
+                "87cdb16e137b1701"
             ]
         ]
     },
     {
-        "id": "45ee2009d524a95b",
+        "id": "8c1652efd5d2971b",
         "type": "ui_button",
-        "z": "f75435b5cdd49b69",
-        "g": "9d18818de4c5a326",
+        "z": "7c3fa96fb5d32a21",
+        "g": "c8d8797df1ab50ce",
         "name": "",
         "group": "bb6ce9b6b92af7aa",
         "order": 2,
@@ -210,20 +210,20 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 300,
-        "y": 680,
+        "x": 312,
+        "y": 577,
         "wires": [
             [
-                "f35e43898af462f9"
+                "1b250b42f87f41d1"
             ]
         ],
         "info": "Cuando se oprime el botón LED ON\nSe envía por al REPL el string c(2)\npara que sea evaluado"
     },
     {
-        "id": "5fe59d7a34f993bd",
+        "id": "8b4856148f5fe386",
         "type": "ui_chart",
-        "z": "f75435b5cdd49b69",
-        "g": "5ac80afcbbae69f1",
+        "z": "7c3fa96fb5d32a21",
+        "g": "a45292a37da18a4e",
         "name": "",
         "group": "c55d6e3fcd7e92be",
         "order": 1,
@@ -265,10 +265,10 @@
         ]
     },
     {
-        "id": "1b46933df982ab5b",
+        "id": "3ae920867885fce5",
         "type": "ui_gauge",
-        "z": "f75435b5cdd49b69",
-        "g": "5ac80afcbbae69f1",
+        "z": "7c3fa96fb5d32a21",
+        "g": "a45292a37da18a4e",
         "name": "",
         "group": "c55d6e3fcd7e92be",
         "order": 2,
@@ -294,10 +294,10 @@
         "wires": []
     },
     {
-        "id": "1fcd687ba4ca4a6e",
+        "id": "ab61a7d298e80ab8",
         "type": "ui_text",
-        "z": "f75435b5cdd49b69",
-        "g": "5ac80afcbbae69f1",
+        "z": "7c3fa96fb5d32a21",
+        "g": "a45292a37da18a4e",
         "group": "c55d6e3fcd7e92be",
         "order": 3,
         "width": 0,
