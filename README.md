@@ -689,6 +689,8 @@ val = adc.read_u16()         # read value, 0-65535 across voltage range 0.0v - 3
 
 ### Microcontrolador enviando datos a red local
 
+!?[Enviar datos desde microcontrolador a red local con Micropython y Node Red](https://www.youtube.com/watch?v=ZE4nFGTepT8)
+
 En este taller se aprenderá a compartir los datos de los sensores en una red Local
 como también dar órdenes a microcontroladores para que cambien el estado de algunos
 actuadores. En este ejemplo, los sensores son simulados por funciones de generación
