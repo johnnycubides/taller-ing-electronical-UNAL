@@ -5,7 +5,7 @@ led = Pin(25, Pin.OUT)
 
 # Ésta función emula la lectura de un sensor
 def readSensor():
-    return random.random()*3.3
+    return random.random()*10
 
 # variables globales
 volt1 = 0
