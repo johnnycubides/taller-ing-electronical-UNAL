@@ -3,7 +3,6 @@ author:   Johnny Cubides
 email:    jgcubidesc@unal.edu.co
 version:  0.1.0
 language: en
-narrator: UK English Female
 logo:     
 comment:  Documentación para el curso de Taller de Ingeniería Electrónica de la Universidad Nacional de Colombia
 script:   https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js
@@ -12,6 +11,7 @@ link:     https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css
 link:     https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
 -->
 
+<!-- narrator: UK English Female -->
 # Taller de Ingeniería Electrónica
 
 [Enlace liascript del curso](https://liascript.github.io/course/?https://raw.githubusercontent.com/johnnycubides/taller-ing-electronical-UNAL/main/README.md#1)
