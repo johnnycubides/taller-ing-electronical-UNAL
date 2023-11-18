@@ -41,6 +41,14 @@ link:     https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.c
 
 ### Poster
 
+### Creación de PCB
+
+!include`incrementSection=2` ./pcb.md
+
+## Herramientas
+
+!include`incrementSection=2, format="markdown-pipe_tables-all_symbols_escapable"` ./tools.md
+
 ## Talleres
 
 !include`incrementSection=2, format="markdown-pipe_tables-all_symbols_escapable"` ./taller1.md
