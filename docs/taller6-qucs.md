@@ -1,6 +1,6 @@
 # Simulaciones con Qucs
 
-Este taller está diseñado para que el estudiante analice circuitos circuitales en DC como es el caso
+Este taller está diseñado para que el estudiante analice circuitos en DC como es el caso
 de el divisor de tensión, resistencias en seria y paralelo, divisor de corriente y finalmente
 un circuito de un rectificador que hace uso de un diodo.
 

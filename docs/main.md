@@ -43,11 +43,7 @@ link:     https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.c
 
 ### Creación de PCB
 
-!include`incrementSection=2` ./pcb.md
-
-## Herramientas
-
-!include`incrementSection=2, format="markdown-pipe_tables-all_symbols_escapable"` ./tools.md
+!include`incrementSection=3` ./pcb.md
 
 ## Talleres
 
@@ -64,6 +60,10 @@ link:     https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.c
 
 !include`incrementSection=2, format="markdown-pipe_tables-all_symbols_escapable"` ./taller5.md
 
+## Herramientas
+
+!include`incrementSection=2, format="markdown-pipe_tables-all_symbols_escapable"` ./tools.md
+
 ## Tareas recomendadas
 
 * Ver el vídeo [Resistencias explicadas](https://www.youtube.com/watch?v=blUimcoNpKs&t), realizar la documentación (resumen, grafo, entre otros), compartir el resumen en discord.
@@ -79,10 +79,6 @@ link:     https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.c
 * [Tecnología criolla](https://youtu.be/fh5WTvsvSwg?si=UOBS7h-vBRLTMpoZ)
 * [Arduino el documental](https://youtu.be/mltWc9_C9gs?si=kiv2YYFiv9YqnJFI)
 * [Construimos un smartwatch](https://youtu.be/GC0GuNWkyHg?si=jfrezkIOTFkaNdBO)
-
-## Herramientas
-
-!include`incrementSection=2, format="markdown-pipe_tables-all_symbols_escapable"` ./tools.md
 
 ## Proyectos de Referencia
 
