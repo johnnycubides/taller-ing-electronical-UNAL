@@ -104,7 +104,7 @@ Ejemplo de brochure:
 
 ### Ideación
 
-[Vídeo actividad 1](https://drive.google.com/file/d/1cr9HWrEm-xNYFIIi8ZitDjLSpGTT1DDn/view?usp=share_link)
+!?[¿Qué quiero hacer en taller de electrónica?](https://www.youtube.com/watch?v=QCF4yAdXylk)
 
 ### Diagrama de Cajas Negras
 
