@@ -165,34 +165,28 @@ de uso para dominar este excelente simulador.
 
 # Herramientas de documentación
 
-* GitHub
-* Codeberg
-* Bitbucket
-* Gitlab
+La siguiente lista se refiere a gestores de repositorios de proyectos, los cuales tienen como característica
+el seguimiento de avance de proyectos y la capacidad de aporte grupales al proyecto.
 
-Las anteriores herramientas hacen uso del formato de Markdown para realizar la documentación **Markdown**.
+* [GitHub](https://github.com/)
+* [Gitlab](https://gitlab.com)
+* [Codeberg](https://codeberg.org/)
+* [Bitbucket](https://bitbucket.org/)
 
-## Markdown
+Las herramientas listadas hacen uso del sistema de gestión de versiones denominado [git](https://es.wikipedia.org/wiki/Git),
+esta herramienta en principio no es fácil aprender, sin embargo, existes diferentes clientes que puede usar para facilitar
+el proceso de alimentar los proyectos. Conozca la [lista de aplicaciones clientes recomendada por git](https://git-scm.com/downloads/guis).
 
-![Imagen de tutorial de markdown](img/markdown-tutorial.png)
-[Tutorial Markdown](https://www.markdowntutorial.com/es/)
+Si hace uso de github, puede usar el cliente creado por github denominado [Github client desktop](https://desktop.github.com/).
 
-## Git
+> Las anteriores herramientas hacen uso del formato de [Markdown](https://es.wikipedia.org/wiki/Markdown), el cual
+> es sencillo y fácil de aprender, para aprender de éste, visite el siguiente enlace:
+> ![Imagen de tutorial de markdown](img/markdown-tutorial.png)
+> [Tutorial Markdown](https://www.markdowntutorial.com/es/)
 
-**GITHUB DESKTOP**
+> Si conoce o sabe usar [Notion](https://www.notion.so/) puede hacer uso de este para enlazarlo con su proyecto git
 
-![github desktop](https://user-images.githubusercontent.com/634063/202742985-bb3b3b94-8aca-404a-8d8a-fd6a6f030672.png)
-
-La recomendación para iniciarse con la herramienta de Git y Github es hacer uso de *Github Desktop*,
-se recomienda buscar vídeos sobre el uso de esta herramienta.
-
-* [Github client desktop](https://desktop.github.com/)
-
-
-# Herramientas de diseño de PCB
-
-## KICAD
-
+# KiCAD: Herramienta de diseño de PCB
 
 ![KiCAD](./img/kicad/kicad.png)
 

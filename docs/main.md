@@ -41,14 +41,6 @@ link:     https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.c
 
 ### Poster
 
-## Creación de PCB
-
-!include`incrementSection=2` ./pcb.md
-
-## Herramientas
-
-!include`incrementSection=2, format="markdown-pipe_tables-all_symbols_escapable"` ./tools.md
-
 ## Talleres
 
 !include`incrementSection=2, format="markdown-pipe_tables-all_symbols_escapable"` ./taller1.md
@@ -80,40 +72,9 @@ link:     https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.c
 * [Arduino el documental](https://youtu.be/mltWc9_C9gs?si=kiv2YYFiv9YqnJFI)
 * [Construimos un smartwatch](https://youtu.be/GC0GuNWkyHg?si=jfrezkIOTFkaNdBO)
 
-## Tiendas electrónicas
+## Herramientas
 
-A continuación se comparte una lista de tiendas electrónicas que se
-encuentran en bogotá y sus alrededores.
-
-https://www.sigmaelectronica.net/
-
-https://www.mactronica.com.co/
-
-https://yorobotics.co/
-
-https://electronilab.co/
-
-https://www.vistronica.com/
-
-https://www.controldinamico.com/
-
-https://ferretronica.com/
-
-https://laredelectronica.com/
-
-https://www.bigtronica.com/
-
-https://www.embtronik.com/
-
-https://www.tuvoltio.com/
-
-https://osakaelectronicsltda.com/
-
-http://www.microelectronicos.com/
-
-https://tundamacomplejoelectronico.com/locales/
-
-https://ja-bots.com/
+!include`incrementSection=2, format="markdown-pipe_tables-all_symbols_escapable"` ./tools.md
 
 ## Proyectos de Referencia
 
@@ -154,4 +115,39 @@ podrá adoptar para emprender su propio proyecto.
 [Hackster](https://www.hackster.io)
 
 [Hackaday](https://hackaday.com)
+
+## Tiendas electrónicas
+
+A continuación se comparte una lista de tiendas electrónicas que se
+encuentran en bogotá y sus alrededores.
+
+https://www.sigmaelectronica.net/
+
+https://www.mactronica.com.co/
+
+https://yorobotics.co/
+
+https://electronilab.co/
+
+https://www.vistronica.com/
+
+https://www.controldinamico.com/
+
+https://ferretronica.com/
+
+https://laredelectronica.com/
+
+https://www.bigtronica.com/
+
+https://www.embtronik.com/
+
+https://www.tuvoltio.com/
+
+https://osakaelectronicsltda.com/
+
+http://www.microelectronicos.com/
+
+https://tundamacomplejoelectronico.com/locales/
+
+https://ja-bots.com/
 
