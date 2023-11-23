@@ -177,13 +177,13 @@ se pretende:
 Teniendo presente los contenidos vistos en el curso de taller de electrónica la documentación
 tiene la siguiente estructura, la cual es flexible según las características de cada proyecto:
 
--   Poster/Brochure
+-   Poster o Brochure
 
 -   Título del proyecto
 
 -   Integrantes
 
--   Descripción/Introducción
+-   Descripción y/o Introducción
 
 -   Problemática
 
@@ -206,7 +206,7 @@ tiene la siguiente estructura, la cual es flexible según las características d
 
 -   Imágenes sobre los diseños creados (papel/tablero) sobre las tecnologías a usar
 
--   Simulaciones según haya sido necesario
+-   Simulaciones según haya sido necesario (opcional)
 
 -   Diseño de PCB en KiCad:
 
@@ -243,13 +243,15 @@ tiene la siguiente estructura, la cual es flexible según las características d
 
 -   Referentes
 
+**A tener en cuenta**: Cualquier imagen o código que suba debera tener asociada una descripción para saber cuál es su relación.
+
 **SRC (archivos fuente)**
 
--   Los archivos deben están en el gestor de proyectos y **no en formatos comprimidos**, por ejemplo *no* en archivos.zip.
+-   Los archivos deben están en el gestor de proyectos y **no en formatos comprimidos**, por ejemplo **no** en archivos.zip.
 -   Se recomienda el orden en los archivos fuentes, por ejemplo en directorios separados con nombres representativos.
 -   Las evidencias deben estar en un directorio de evidencias.
--   Los vídeos de grandes tamaños serán subidos a una plataforma como puede ser el caso de youtube, por favor no hacer
-    uso de drive u cualquier otro similar.
+-   Los vídeos de gran tamaños serán subidos a una plataforma como puede ser el caso de youtube, por favor no hacer
+    uso de drive o cualquier otro similar.
 
 **Recomendación**: Haga uso de un cliente de git como puede ser github desktop para que no tenga problemas subiendo el contenido a su
 gestor de proyectos.
