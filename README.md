@@ -21,18 +21,19 @@ A continuación verá un esquema que representa las diferentes fases/tareas del 
 
 ![proyecto](./img/projectSE/cronograma.drawio.png)
 
-<h3>¿Qué queremos hacer?</h3>
+<h3>¿Qué se quiere realizar?</h3>
 
-En nuestro curso lo que deseamos hacer es un producto terminado,
-que esté orientado a la solución de una situación real.
+En el curso de taller de electrónica se pretende realizar un producto terminado
+el cual está orientado como alternativa de solución a una situación real
+problematizada por los estudiantes, la cual pueda será alineada con metas o esfuerzos
+de interés global.
 
 <h3>¿Qué se debe entregar?</h3>
-
 
 * **Sistema electrónico**
 * **Caja**
 * **Documentación**
-* **Brochure comercial**
+* **Brochure comercial** o **Poster**
 
 <h3>Sobre el sistema electrónico</h3>
 
@@ -70,7 +71,7 @@ realizado del proyecto como también el producto terminado con algún demo; los 
 de proyectos anteriormente mencionados tienen la posibilidad de crear wikis asociadas al proyecto, pero
 también puede hacer uso de un blog o crear páginas web staticas (gitlab y github tienen esa propiedad y por ahora es libre).
 
-<h3>Sobre el brochure</h3>
+<h3>Sobre el brochure o poster</h3>
 
 Queremos que piensen que este producto va a ser ofrecido a un público que lo pueda necesitar por tanto
 muestre el producto de tal manera que se pueda reconocer sus características y particularidades.
@@ -119,8 +120,6 @@ Ejemplo de brochure:
 
 ### Diagrama de flujo
 
-### Poster
-
 ### Creación de PCB
 
 #### Tamaño de pistas para el ruteo de pistas
@@ -150,6 +149,112 @@ como pinheader de 2.54mm y pinsocket de 2.54mm
 ![pin headers](././desing/pcb/pinheader.jpeg)
 
 ![pin header selected](././desing/pcb/pinheader-selected.png)
+
+### Proceso de documentación
+
+**WIKI**:
+
+**A tener en cuenta**: La mayoría de servicios como es github o gitlab permiten crear y asociar
+wikis en formato Markdown (archivos.md), también puede crear este Wiki haciendo uso de distintos
+README.md que cumplan el orden que será propuesto más adelante en este documento. Comparto un ejemplos
+de WiKi creados con github [Kaku_bot](https://github.com/DonJoseGo/Kaku_Bot/wiki) (Tenga presente que
+el contenido del ejemplo está incompleto o desordenado).
+
+El proceso de documentar es un ejercicio prioritario en el desarrollo de un proyecto,
+permite reconocer aprendizajes, vacíos de conocimiento, necesidades, y ser
+referente para emprender otros proyectos por parte de los autores u otras comunidades de desarrollo/aprendizaje.
+
+Usando como referente el enfoque planteado, en el ejercicio de documentación
+se pretende:
+
+> -   Describir el planteamiento del problema y una ruta para abordar los retos que se puedan presentar.
+> -   Identificar vacíos de conocimiento a nivel del problema como también de orden técnico.
+> -   Proponer soluciones tecnológicas contextualizadas haciendo uso de referentes.
+> -   Detallar el proceso de implementación de la solución propuesta con sus aciertos y desaciertos
+> -   Evidenciar el resultado final evaluando resultados en función de objetivos.
+> -   Recoger conclusiones y recomendaciones para iteraciones futuras.
+
+Teniendo presente los contenidos vistos en el curso de taller de electrónica la documentación
+tiene la siguiente estructura, la cual es flexible según las características de cada proyecto:
+
+-   Poster/Brochure
+
+-   Título del proyecto
+
+-   Integrantes
+
+-   Descripción/Introducción
+
+-   Problemática
+
+-   Objetivos
+
+-   Alcance
+
+-   Ruta o Roadmap o Cronograma
+
+-   Diagramas de caja negra (abstractos)
+
+-   Diagramas tecnológicos
+
+-   Diagrama de flujo general del proyecto (cómo interactúa con el usuario final)
+
+-   Diseño o adaptación del case (caja contenedora del proyecto)
+
+    1.  Diseño corte 3d o corte láser
+    2.  Imágenes de evidencias de implementación
+
+-   Imágenes sobre los diseños creados (papel/tablero) sobre las tecnologías a usar
+
+-   Simulaciones según haya sido necesario
+
+-   Diseño de PCB en KiCad:
+
+    1.  Diseño esquemático del circuito en pdf y png
+    2.  Diseño de PCB layout (ruteo)
+    3.  Imagen png en 3d del diseño final de la PCB
+    4.  Fotografías de la PCB implementada
+    5.  Imagen de la PCB con componentes soldados
+    6.  Imagen de la PCB con los sensores, actuadores y demás componentes interconectados
+
+-   Software:
+
+    1.  Diagramas de flujo sobre las diferentes tareas que realiza el proyecto
+    2.  Código sobre las diferentes pruebas unitarias de sensores y actuadores
+    3.  Diagramas o código explicado sobre el cómo interactúa con otras interfaces
+
+-   Evidencias:
+
+    1.  Puede subir información sobre el proceso de integración y de ensamble de cada cosa que sea relevante para el grupo
+        por ejemplo, aquellas cosas que no funcionaron o se dañaron.
+
+-   Vídeo del proyecto:
+    Deberá crear un vídeo y subirlo a una plataforma como puede ser youtube, explicando el proyecto realizado:
+
+    1.  La problemática
+    2.  La solución planteada (los módulos usados)
+    3.  El criterio que tuvo para las decisiones tomadas
+    4.  El funcionamiento del proyecto desde el punto de vista del usuario
+    5.  Recomendaciones y conclusiones
+
+-   Conclusiones
+
+-   Recomendaciones para trabajos futuros
+
+-   Referentes
+
+**SRC (archivos fuente)**
+
+-   Los archivos deben están en el gestor de proyectos y **no en formatos comprimidos**, por ejemplo *no* en archivos.zip.
+-   Se recomienda el orden en los archivos fuentes, por ejemplo en directorios separados con nombres representativos.
+-   Las evidencias deben estar en un directorio de evidencias.
+-   Los vídeos de grandes tamaños serán subidos a una plataforma como puede ser el caso de youtube, por favor no hacer
+    uso de drive u cualquier otro similar.
+
+**Recomendación**: Haga uso de un cliente de git como puede ser github desktop para que no tenga problemas subiendo el contenido a su
+gestor de proyectos.
+
+### Poster
 
 ## Talleres
 
@@ -922,7 +1027,7 @@ la cualnos reta a pensar la manera correcta de conectar nodos de colores a trav�
 -   [Arduino el documental](https://youtu.be/mltWc9_C9gs?si=kiv2YYFiv9YqnJFI)
 -   [Construimos un smartwatch](https://youtu.be/GC0GuNWkyHg?si=jfrezkIOTFkaNdBO)
 
-## Proyectos de Referencia
+## Fuentes de referencia e inspiración
 
 **Plataformas de Crowdfunding**
 

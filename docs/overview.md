@@ -4,18 +4,19 @@ A continuación verá un esquema que representa las diferentes fases/tareas del 
 
 ![proyecto](./img/projectSE/cronograma.drawio.png)
 
-<h3>¿Qué queremos hacer?</h3>
+<h3>¿Qué se quiere realizar?</h3>
 
-En nuestro curso lo que deseamos hacer es un producto terminado,
-que esté orientado a la solución de una situación real.
+En el curso de taller de electrónica se pretende realizar un producto terminado
+el cual está orientado como alternativa de solución a una situación real
+problematizada por los estudiantes, la cual pueda será alineada con metas o esfuerzos
+de interés global.
 
 <h3>¿Qué se debe entregar?</h3>
-
 
 * **Sistema electrónico**
 * **Caja**
 * **Documentación**
-* **Brochure comercial**
+* **Brochure comercial** o **Poster**
 
 <h3>Sobre el sistema electrónico</h3>
 
@@ -53,7 +54,7 @@ realizado del proyecto como también el producto terminado con algún demo; los 
 de proyectos anteriormente mencionados tienen la posibilidad de crear wikis asociadas al proyecto, pero
 también puede hacer uso de un blog o crear páginas web staticas (gitlab y github tienen esa propiedad y por ahora es libre).
 
-<h3>Sobre el brochure</h3>
+<h3>Sobre el brochure o poster</h3>
 
 Queremos que piensen que este producto va a ser ofrecido a un público que lo pueda necesitar por tanto
 muestre el producto de tal manera que se pueda reconocer sus características y particularidades.

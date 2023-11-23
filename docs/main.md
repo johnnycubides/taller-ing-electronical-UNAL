@@ -39,11 +39,13 @@ link:     https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.c
 
 ### Diagrama de flujo
 
-### Poster
-
 ### Creación de PCB
 
 !include`incrementSection=3` ./pcb.md
+
+!include`incrementSection=2, format="markdown-all_symbols_escapable"` ./proceso-de-documentacion.md
+
+### Poster
 
 ## Talleres
 
@@ -80,7 +82,7 @@ link:     https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.c
 * [Arduino el documental](https://youtu.be/mltWc9_C9gs?si=kiv2YYFiv9YqnJFI)
 * [Construimos un smartwatch](https://youtu.be/GC0GuNWkyHg?si=jfrezkIOTFkaNdBO)
 
-## Proyectos de Referencia
+## Fuentes de referencia e inspiración
 
 **Plataformas de Crowdfunding**
 
