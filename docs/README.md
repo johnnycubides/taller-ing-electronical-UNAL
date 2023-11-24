@@ -51,6 +51,10 @@ liadev  # Lanzado el servicio
 ```
 Deberá lanzar el servidor web y poner allí la del localhost
 
+## Referencias
+
+* [Documentación de Liascript](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1)
+
 Creado el 2023-02-28 por
 Actualizado 2023-09-29
 Johnny Cubides

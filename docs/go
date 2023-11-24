@@ -28,12 +28,23 @@ CYANB=`tput setab 6`
 WHITEB=`tput setab 7`
 NCB=`tput setab 0`
 
+NODE_VERSION=v18.3.0
+
+update()
+{
+  export NVM_DIR="$HOME/.nvm"
+  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+  [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+  nvm use $NODE_VERSION
+  npm install -g @liascript/devserver
+}
+
 init()
 {
   export NVM_DIR="$HOME/.nvm"
   [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
   [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-  nvm use v18.3.0
+  nvm use $NODE_VERSION
   liadev -i ../README.md
 }
 
@@ -44,12 +55,17 @@ then
   printf "\tfile Command options\n"
   printf "\t[Commands]\n"
   printf "\t\ti\tIniciar servicio liadev\n"
+  printf "\t\tinstall\tInstalar lia-dev\n"
   printf "\t\tbrowser\tLanzar la página en el navegador\n"
   printf "\t\t-h,--help\tHelp\n"
   printf "\nRegards Johnny.\n"
 elif [ "$1" = "i" ];
 then
   init
+elif [ "$1" = "install" ];
+then
+  echo "Instalar o actualizar Lia-dev"
+  update
 elif [ "$1" = "browser" ];
 then
   echo "pass"
