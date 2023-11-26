@@ -74,7 +74,7 @@ tiene la siguiente estructura, la cual es flexible según las características d
       * Imagen de la PCB con componentes soldados
       * Imagen de la PCB con los sensores, actuadores y demás componentes interconectados
 
-* Diseño de software (Página):
+* Diseño e implementación de software (Página):
   1. Diagramas de flujo sobre las diferentes tareas que realiza el proyecto
   2. Código sobre las diferentes pruebas unitarias de sensores y actuadores
   3. Diagramas o código explicado sobre el cómo interactúa con otras interfaces
@@ -83,7 +83,7 @@ tiene la siguiente estructura, la cual es flexible según las características d
 * Evidencias (Página):
   1. Puede subir información sobre el proceso de integración y de ensamble de cada cosa que sea relevante para el grupo
   por ejemplo, aquellas cosas que no funcionaron o se dañaron.
-* Conclusiones y recomendaciones (Página)
+* Conclusiones y recomendaciones futuras (Página)
   1. Conclusiones
   2. Recomendaciones para trabajos futuros
   3. Referentes
