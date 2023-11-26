@@ -232,11 +232,12 @@ tiene la siguiente estructura, la cual es flexible según las características d
         -   Imagen de la PCB con componentes soldados
         -   Imagen de la PCB con los sensores, actuadores y demás componentes interconectados
 
--   Software (Página):
+-   Diseño de software (Página):
 
     1.  Diagramas de flujo sobre las diferentes tareas que realiza el proyecto
     2.  Código sobre las diferentes pruebas unitarias de sensores y actuadores
     3.  Diagramas o código explicado sobre el cómo interactúa con otras interfaces
+    4.  Otros códigos y plataformas usadas (Nodejs, appinventor, etc).
 
 -   Evidencias (Página):
 
