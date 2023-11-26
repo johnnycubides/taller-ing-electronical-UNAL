@@ -177,71 +177,77 @@ se pretende:
 Teniendo presente los contenidos vistos en el curso de taller de electrónica la documentación
 tiene la siguiente estructura, la cual es flexible según las características de cada proyecto:
 
--   Poster o Brochure
+-   Home (Página)
 
--   Título del proyecto
+    1.  Título del proyecto
 
--   Integrantes
+    2.  Integrantes
 
--   Descripción y/o Introducción
+    3.  Descripción y/o Introducción
 
--   Problemática
+    4.  Poster o Brochure
 
--   Objetivos
+    5.  Imagen tipo banner de la implementación del proyecto (resultado final)
 
--   Alcance
+    6.  Vídeo del proyecto: Deberá crear un vídeo y subirlo a una plataforma como puede ser youtube, explicando del proyecto lo siguiente:
 
--   Ruta o Roadmap o Cronograma
+        -   
+        -   La problemática
+        -   La solución planteada (los módulos usados)
+        -   El criterio que tuvo para las decisiones tomadas
+        -   El funcionamiento del proyecto desde el punto de vista del usuario
+        -   Recomendaciones y conclusiones
 
--   Diagramas de caja negra (abstractos)
+-   Contexto (Página)
 
--   Diagramas tecnológicos
+    1.  Problemática
+    2.  Objetivos
+    3.  Alcance
+    4.  Ruta o Roadmap o Cronograma
 
--   Diagrama de flujo general del proyecto (cómo interactúa con el usuario final)
+-   Diseño de la solución (Página)
 
--   Diseño o adaptación del case (caja contenedora del proyecto)
+    1.  Diagramas de caja negra (abstractos)
+    2.  Diagramas tecnológicos
+    3.  Diagrama de flujo general del proyecto (cómo interactúa con el usuario final)
+
+-   Diseño e implementación del case (página)
 
     1.  Diseño corte 3d o corte láser
-    2.  Imágenes de evidencias de implementación
+    2.  Evidencias de implementación (imágenes,vídeos)
 
--   Imágenes sobre los diseños creados (papel/tablero) sobre las tecnologías a usar
+-   Diseño e implementación electrónica (página)
 
--   Simulaciones según haya sido necesario (opcional)
+    1.  Simulaciones según haya sido necesario (opcional)
 
--   Diseño de PCB en KiCad:
+    2.  Imágenes sobre los diseños creados (papel/tablero) sobre las tecnologías a usar
 
-    1.  Diseño esquemático del circuito en pdf y png
-    2.  Diseño de PCB layout (ruteo)
-    3.  Imagen png en 3d del diseño final de la PCB
-    4.  Fotografías de la PCB implementada
-    5.  Imagen de la PCB con componentes soldados
-    6.  Imagen de la PCB con los sensores, actuadores y demás componentes interconectados
+    3.  Diseño de PCB en KiCad (teniendo presente el siguiente contenido):
 
--   Software:
+        -   
+        -   Diseño esquemático del circuito en pdf y png
+        -   Diseño de PCB layout (ruteo)
+        -   Imagen png en 3d del diseño final de la PCB
+        -   Fotografías de la PCB implementada
+        -   Imagen de la PCB con componentes soldados
+        -   Imagen de la PCB con los sensores, actuadores y demás componentes interconectados
+
+-   Software (Página):
 
     1.  Diagramas de flujo sobre las diferentes tareas que realiza el proyecto
     2.  Código sobre las diferentes pruebas unitarias de sensores y actuadores
     3.  Diagramas o código explicado sobre el cómo interactúa con otras interfaces
 
--   Evidencias:
+-   Evidencias (Página):
 
     1.  Puede subir información sobre el proceso de integración y de ensamble de cada cosa que sea relevante para el grupo
         por ejemplo, aquellas cosas que no funcionaron o se dañaron.
 
--   Vídeo del proyecto:
-    Deberá crear un vídeo y subirlo a una plataforma como puede ser youtube, explicando el proyecto realizado:
+-   Conclusiones y recomendaciones (Página)
 
-    1.  La problemática
-    2.  La solución planteada (los módulos usados)
-    3.  El criterio que tuvo para las decisiones tomadas
-    4.  El funcionamiento del proyecto desde el punto de vista del usuario
-    5.  Recomendaciones y conclusiones
-
--   Conclusiones
-
--   Recomendaciones para trabajos futuros
-
--   Referentes
+    1.  Conclusiones
+    2.  Recomendaciones para trabajos futuros
+    3.  Referentes
 
 **A tener en cuenta**: Cualquier imagen o código que suba debera tener asociada una descripción para saber cuál es su relación.
 
