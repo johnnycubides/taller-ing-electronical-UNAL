@@ -1,3 +1,7 @@
+---
+lang: es
+---
+
 <!--
 author:   Johnny Cubides
 email:    jgcubidesc@unal.edu.co
@@ -116,6 +120,7 @@ podrá adoptar para emprender su propio proyecto.
 
 [Ulule](https://es.ulule.com/)
 
+
 **Plataformas de Chacharreo/Hackeo**
 
 [Hackster](https://www.hackster.io)
@@ -124,8 +129,10 @@ podrá adoptar para emprender su propio proyecto.
 
 ## Tiendas electrónicas
 
-A continuación se comparte una lista de tiendas electrónicas que se
-encuentran en bogotá y sus alrededores.
+Con el fin de que los estudiantes puedan realizar consultas sobre componentes
+electrónicos se comparte a continuación algunos enlaces de tiendas electrónicas
+que se encuentran en Bogotá y sus alrededores:
+
 
 https://www.sigmaelectronica.net/
 

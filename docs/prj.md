@@ -1,3 +1,7 @@
+---
+lang: es
+---
+
 # Proyectos de Taller de Electrónica 2023-I
 
 > [**Kaku Robot**, github](https://github.com/DonJoseGo/Kaku_Bot):

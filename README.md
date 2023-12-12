@@ -277,10 +277,10 @@ gestor de proyectos. A continuación un vídeo introductorio sobre la plataforma
 
 ## Talleres
 
-### Iniciandome con las herramientas de desarrollo
+### Iniciándome con las herramientas de desarrollo
 
 Este taller pretende orientar al estudiante en el inicio *Maker*; en
-este taller se enfretará a desarrollar cosas como:
+este taller se enfrentará a desarrollar cosas como:
 
 -   Análisis de corriente de un circuito D.C.
 
@@ -304,19 +304,19 @@ Puedes decargar el taller "Mi primer circuito" desde [aquí](./docs/taller1.md.p
 
 -   Una fuente de energía D.C. de tensión variable.
 -   Un par de cables bananas caimán
--   Conectores rápidos (jumper dupon)
+-   Conectores rápidos (jumper-dupon)
 -   Protoboard
 -   Una resistencia de cualquier valor no mayor a 33 Kohms.
 -   Un LED de cualquier color.
--   Dos multímetros, uno para medir corriente y el otro tensión.
+-   Dos multímetros, uno para medir corriente y el otro para medir tensión.
 -   Cuaderno para realizar apuntes
 
 2.  REALIZA ESTE PRIMER MONTAJE
 
-A continuación podrás ver un diagrama pictográfico el cual es una aproximación
+A continuación podrá ver un diagrama pictográfico el cual es una aproximación
 de como se ven las cosas realmente.
 
-![mi primer circuito](././desing/t1-primer-circuito/montaje-led-1_bb.png)
+![Mi primer circuito](././desing/t1-primer-circuito/montaje-led-1_bb.png)
 
 Una manera abstracta de entender como está interconectado un circuito es a través
 de un esquemático, este diagrama muestra los componentes representados por símbolos
@@ -333,7 +333,7 @@ con sus nodos de conexión y además etiquetados como sigue:
 -   Se debe verificar que el circuito realizado corresponda al propuesto en esta guía.
 -   A continuación conecta la fuente de energía y empieza con un voltaje de 0 V.
 -   Realizar incrementos de tensión de la fuente hasta que el LED se encienda y que la intensidad lumínica sea la deseada,
-    es decir, ni tan tenue pero tampoco tan intensa.
+    es decir, ni tan tenue, pero tampoco tan intensa.
 
 **Observación**: En la electrónica existen componentes polarizados y no polarizados, un elemento no polarizado
 es aquel que no requiere una orientación para su funcionamiento como sucede con la resistencia; en el caso
@@ -343,15 +343,15 @@ sus pines de conexión para su funcionamiento correcto.
 4.  MEDIR VOLTAJE EN CADA COMPONENTE DEL CIRCUITO
 
 Como se mencionó con anterioridad, tenemos tres componentes R1, DC Power y LED1. Para
-medir el voltaje deberás poner el multimetro en modo V en DC, como se ilustra en las
-siguiente imagen, además de lo anterior, se pone las puntas del multimetro en los puertos
-de conexión indicados como **COM** (cable negro) y **V**. Las puntas del multimetro deberán
-ser conectada sobre cada componente en cada uno de sus nodos de conexión, en la imagen siguiente
+medir el voltaje deberás poner el multímetro en modo V en DC, como se ilustra en la
+siguiente imagen, además de lo anterior, se pone las puntas del multímetro en los puertos
+de conexión indicados como **COM** (cable negro) y **V**. Las puntas del multímetro deberán
+ser conectadas sobre cada componente en cada uno de sus nodos de conexión, en la imagen siguiente
 se observa como se realiza la medición de la tensión (voltaje) en el *LED1*.
 
 ![Diagrama pictográfico de medición de tensión en el LED](././desing/t1-primer-circuito/voltaje-led/montaje-led-2_bb.png)
 
-Observar el diagrama esquemático siguiente, en el se puede observar como se realiza la medición
+Observar el diagrama esquemático siguiente, en él se puede observar como se realiza la medición
 de la tensión.
 
 ![Esquemático sobre medición de tensión en el LED](././desing/t1-primer-circuito/voltaje-led/montaje-led-2_schem.png)
@@ -359,7 +359,7 @@ de la tensión.
 Comprendiendo como se realiza las mediciones de tensión en cada uno de los tres componentes,
 registra los valores obtenidos en una tabla, como en el siguiente ejemplo:
 
-|Componente|Tension V|
+|Componente|Tensión V|
 |:--------:|:-------:|
 |R1|3.5 V|
 |DC Power 1| 5 V|
@@ -376,7 +376,7 @@ Un circuito eléctrico cerrado como es el caso anterior donde solo hay un camino
 transportarse electricidad conservará su energía; lo anterior se puede interpretar como sigue:
 `la energía que se entrega al circuito es igual a la que se consume`.
 
-Lo anterior en terminos de voltaje se puede representar así:
+Lo anterior en términos de voltaje se puede representar así:
 
 > $$ V_{DC\_POWER\_1} = V_{R1} + V_{LED1} $$
 
@@ -1088,8 +1088,9 @@ podrá adoptar para emprender su propio proyecto.
 
 ## Tiendas electrónicas
 
-A continuación se comparte una lista de tiendas electrónicas que se
-encuentran en bogotá y sus alrededores.
+Con el fin de que los estudiantes puedan realizar consultas sobre componentes
+electrónicos se comparte a continuación algunos enlaces de tiendas electrónicas
+que se encuentran en Bogotá y sus alrededores:
 
 https://www.sigmaelectronica.net/
 
