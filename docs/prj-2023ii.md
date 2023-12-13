@@ -321,6 +321,52 @@ Evidencias del proceso
 ![PCB implementada transmisor](https://github.com/JHONYALE/SoniLaser/assets/144410176/d6b9f3f1-9ae1-4b97-a0f6-507c0b5898dd)
 ![PCB receptor implementada](https://github.com/JHONYALE/SoniLaser/assets/144410176/76ad8cad-a7d0-4f89-9603-ec703fdf63fb)
 
+## Chaleco led para usuarios de bicicleta
+
+![Banner](https://raw.githubusercontent.com/SofiaTFSF/Chaleco-LED/main/Fotos/Resultado%20FInal.png.jpeg)
+
+Creadores
+=========
+
+Carlos David Manzanares Medina, Sofia Nuñez Montenegro
+
+Descripción y problemática
+==========================
+
+En la ciudad de Bogotá, los incidentes viales que afectan a los usuarios de bicicletas han alcanzado niveles preocupantes. Con el propósito de reducir al máximo esta cifra, se ha emprendido la búsqueda de una solución integral para abordar dicho problema. Con el objetivo de mejorar la visibilidad de los ciclistas en las vías, se ha implementado un sistema compuesto por luces LED incorporadas en un chaleco. Esta iniciativa tiene como finalidad asegurar que los ciclistas no pasen desapercibidos para otros conductores.
+
+El mencionado sistema, controlado mediante una aplicación que opera a través de conectividad WiFi, incluye señales básicas para indicar giros, frenados, solicitar asistencia, y además cuenta con una función integrada de patrón festivo. Los usuarios tienen la capacidad de utilizar cualquiera de estas funciones según sus necesidades específicas, contribuyendo así a mejorar la seguridad y visibilidad de los ciclistas en el entorno vial de Bogotá.
+
+Vídeo
+=====
+
+!?[Proyecto funcionamiento](https://www.youtube.com/watch?v=xouTS4MKowc)
+
+[Enlace de vídeo de funcionamiento](https://youtube.com/shorts/lSlF3ntCA68?feature=share)
+
+Repositorio
+===========
+
+* [Wiki del proyecto](https://github.com/SofiaTFSF/Chaleco-LED/wiki/1.-HOME)
+* [Repositorio del proyecto](https://github.com/SofiaTFSF/Chaleco-LED)
+
+Evidencias del proceso
+======================
+
+![poster](https://i.postimg.cc/fyz7WHrL/POSTER-CHALECO-LED-PARA-CICLISTAS-1.png)
+![imagen1](https://raw.githubusercontent.com/SofiaTFSF/Chaleco-LED/main/Fotos/Proceso%20de%20soldadura.jpeg)
+![Caja negra](https://raw.githubusercontent.com/SofiaTFSF/Chaleco-LED/main/Diagramas/Diagrama%20de%20flujo.jpeg)
+![Tecnologico](https://raw.githubusercontent.com/SofiaTFSF/Chaleco-LED/main/Diagramas/Diagrama%20tecnol%C3%B3gico.jpeg)
+![flujo](https://raw.githubusercontent.com/SofiaTFSF/Chaleco-LED/main/Diagramas/Diagrama%20de%20flujo%20del%20usuario.jpeg)
+![imagen10](https://raw.githubusercontent.com/SofiaTFSF/Chaleco-LED/main/Fotos/Esquema%20PCB%2C%20Clase..jpeg)
+![imagen9](https://raw.githubusercontent.com/SofiaTFSF/Chaleco-LED/main/Fotos/Esquema%20PCB..jpeg)
+![imagen12](https://i.postimg.cc/JnS8DVzh/Whats-App-Image-2023-12-01-at-1-26-54-AM.jpg)
+![imagen3](https://raw.githubusercontent.com/SofiaTFSF/Chaleco-LED/main/Fotos/PCB%20Fisica.jpeg)
+![imagen11](https://raw.githubusercontent.com/SofiaTFSF/Chaleco-LED/main/Fotos/Circuito%20chaleco%20LED.jpeg)
+![imagen6](https://raw.githubusercontent.com/SofiaTFSF/Chaleco-LED/main/Fotos/Luces%20conectadas.jpeg)
+![imagen2](https://raw.githubusercontent.com/SofiaTFSF/Chaleco-LED/main/Fotos/Proceso%20de%20armado.jpeg)
+!?[video](https://youtu.be/4Qi7xlfoS2E?si=XQDte4IJNDTvSQAg)
+![imagen4](https://raw.githubusercontent.com/SofiaTFSF/Chaleco-LED/main/Fotos/Luces%20de%20auxilio%20en%20el%20chaleco.jpeg)
 
 ## P
 
