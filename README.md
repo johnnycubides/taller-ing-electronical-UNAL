@@ -23,9 +23,7 @@ enfrentar una situación real.
 La experiencia de aprendizaje está enmarcada en el *Aprendizaje Basado en Fenómenos ABF*
 en el cual el objeto de estudio es la **Tecnología**. Se espera que a través
 del desarrollo de un Artefacto, (para nuestro caso un proyecto electrónico),
-podamos descubrir la relación existente entre la *Ciencia, Tecnología y Sociedad*.
-
-[Enlace liascript del curso](https://liascript.github.io/course/?https://raw.githubusercontent.com/johnnycubides/taller-ing-electronical-UNAL/main/README.md#1)
+podamos estudiar la relación existente entre la *Ciencia, Tecnología y Sociedad*.
 
 <h2>Proyecto</h2>
 
