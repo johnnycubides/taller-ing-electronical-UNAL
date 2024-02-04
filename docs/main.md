@@ -20,9 +20,33 @@ link:     https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.c
 
 !include`incrementSection=2, raw="markdown"` ./overview.md
 
+## Discord
+
+Bienvenidos al curso de **Taller de Ingeniería Electrónica**, por favor
+acceder al servidor de _Discord_ el cual es diseñado como espacio para
+realizar los encuentros asíncronos.
+
+![QR servidor de Discord](img/main/qrcode_liascript-github-io.svg)
+[Lea el código QR o de clic aquí para ir al servidor de _Discord_](https://liascript.github.io/course/?https://raw.githubusercontent.com/johnnycubides/taller-ing-electronical-UNAL/main/README.md#1)
+
+**Instrucciones:**
+
+1. Acceda al servidor de _Discord_.
+2. Sino tiene cuenta de _Discord_ crear una.
+3. En el canal que acaba de acceder llamado **#lobby** identifíquese con su
+   nombre, código y grupo del curso, ejemplo: Johnny Cubides, Taller de
+   Electrónica, Grupo 2.
+4. Espere a que el profesor le dé un rol y pueda ver el contenido del Curso.
+
+Ejemplo de identificación:
+
+![discord ejemplo](img/main/discord-ejemplo.png)
+
+
 ## Historial de Proyectos
 
-!include`incrementSection=2` ./prj.md
+* **Proyectos Taller de Ingeniería Electrónica 2023 primer semestre**
+* **Proyectos Taller de Ingeniería Electrónica 2023 segundo semestre**
 
 ## Proceso de diseño
 

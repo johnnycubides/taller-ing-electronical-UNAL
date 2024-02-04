@@ -82,22 +82,32 @@ Ejemplo de brochure:
 
 
 
+## Discord
+
+Bienvenidos al curso de **Taller de Ingeniería Electrónica**, por favor
+acceder al servidor de *Discord* el cual es diseñado como espacio para
+realizar los encuentros asíncronos.
+
+![QR servidor de Discord](./img/main/qrcode_liascript-github-io.svg)
+[Lea el código QR o de clic aquí para ir al servidor de *Discord*](https://liascript.github.io/course/?https://raw.githubusercontent.com/johnnycubides/taller-ing-electronical-UNAL/main/README.md#1)
+
+**Instrucciones:**
+
+1.  Acceda al servidor de *Discord*.
+2.  Sino tiene cuenta de *Discord* crear una.
+3.  En el canal que acaba de acceder llamado **#lobby** identifíquese con su
+    nombre, código y grupo del curso, ejemplo: Johnny Cubides, Taller de
+    Electrónica, Grupo 2.
+4.  Espere a que el profesor le dé un rol y pueda ver el contenido del Curso.
+
+Ejemplo de identificación:
+
+![discord ejemplo](./img/main/discord-ejemplo.png)
+
 ## Historial de Proyectos
 
-### Proyectos de Taller de Electrónica 2023-I
-
-> [**Kaku Robot**, github](https://github.com/DonJoseGo/Kaku_Bot):
-> Carrito con diferentes rostros cambiables realizado con madera capaz de sortear obstaculos y deplazarse en superficies planas. Cuenta con un ultrasonido que detecta estructuras cercanas y según la desicion del usuario el robot puede realizar una acción como prender una luz led del color que escoja. Finalmente su brazo con movimiento oscilatorio puede ser usado para mover objetos pequeños.
-
-![Kaku Robot](https://user-images.githubusercontent.com/133617253/249284838-1999c4d5-5b70-4be3-87db-040cfbee8dd7.png)
-!?[Video](https://user-images.githubusercontent.com/133617253/249571967-81911118-b9c0-4a47-818a-cdb0a08687de.mp4)
-
-> [**Michi bot**](https://github.com/Extra72004/MichiiBot/tree/main)
-
-!?[Michi bot](https://raw.githubusercontent.com/Extra72004/MichiiBot/main/Evidencias%20Montaje/Video%20de%20funcionamiento.mp4)
-![Micrhibot diagrama](https://raw.githubusercontent.com/Extra72004/MichiiBot/main/Planteamiento%20y%20Diagramas/Diagramas/Diagrama%20de%20planteamiento_%20MichiiBot%20.png)
-![Diagrama caja negra](https://raw.githubusercontent.com/Extra72004/MichiiBot/main/Planteamiento%20y%20Diagramas/Diagramas/Diagrama%20de%20solucion_Michiibot.png)
-![Diagrama tecnologico](https://raw.githubusercontent.com/Extra72004/MichiiBot/main/Planteamiento%20y%20Diagramas/Diagramas/Diagrama%20de%20solucion_Tecnologia_MichiiBot.png)
+-   **Proyectos Taller de Ingeniería Electrónica 2023 primer semestre**
+-   **Proyectos Taller de Ingeniería Electrónica 2023 segundo semestre**
 
 ## Proceso de diseño
 
