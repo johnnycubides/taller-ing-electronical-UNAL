@@ -13,17 +13,25 @@ link:     https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.c
 ```
 # Taller de Ingeniería Electrónica
 
-[Enlace liascript del curso](https://liascript.github.io/course/?https://raw.githubusercontent.com/johnnycubides/taller-ing-electronical-UNAL/main/README.md#1)
+Bienvenido al curso de **Taller de Ingeniería Electrónica**, en este curso
+aprenderá a "Pensar con las Manos", desarrollar habilidades Makers/Hackers, se
+espera que esta experiencia de aprendizaje contribuya a descubrir intereses
+sobre su futura vida profesional, como también, facilitarle relacionar los
+conocimientos que puede adquirir en los otros cursos y poderlos implementar al
+enfrentar una situación real.
 
----
-lang: es
----
+La experiencia de aprendizaje está enmarcada en el *Aprendizaje Basado en Fenómenos ABF*
+en el cual el objeto de estudio es la **Tecnología**. Se espera que a través
+del desarrollo de un Artefacto, (para nuestro caso un proyecto electrónico),
+podamos descubrir la relación existente entre la *Ciencia, Tecnología y Sociedad*.
+
+[Enlace liascript del curso](https://liascript.github.io/course/?https://raw.githubusercontent.com/johnnycubides/taller-ing-electronical-UNAL/main/README.md#1)
 
 <h2>Proyecto</h2>
 
 A continuación verá un esquema que representa las diferentes fases/tareas del desarrollo de un proyecto en el curso de taller de electrónica:
 
-![proyecto](./img/projectSE/cronograma.drawio.png)
+![Faces del proyecto](img/main/cronograma-overview.drawio.png)
 
 <h3>¿Qué se quiere realizar?</h3>
 

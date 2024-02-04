@@ -16,7 +16,17 @@ link:     https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.c
 
 # Taller de Ingeniería Electrónica
 
-[Enlace liascript del curso](https://liascript.github.io/course/?https://raw.githubusercontent.com/johnnycubides/taller-ing-electronical-UNAL/main/README.md#1)
+Bienvenido al curso de **Taller de Ingeniería Electrónica**, en este curso
+aprenderá a "Pensar con las Manos", desarrollar habilidades Makers/Hackers, se
+espera que esta experiencia de aprendizaje contribuya a descubrir intereses
+sobre su futura vida profesional, como también, facilitarle relacionar los
+conocimientos que puede adquirir en los otros cursos y poderlos implementar al
+enfrentar una situación real.
+
+La experiencia de aprendizaje está enmarcada en el _Aprendizaje Basado en Fenómenos ABF_
+en el cual el objeto de estudio es la **Tecnología**. Se espera que a través
+del desarrollo de un Artefacto, (para nuestro caso un proyecto electrónico),
+podamos estudiar la relación existente entre la _Ciencia, Tecnología y Sociedad_.
 
 !include`incrementSection=2, raw="markdown"` ./overview.md
 

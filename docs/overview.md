@@ -1,12 +1,8 @@
----
-lang: es
----
-
 <h2>Proyecto</h2>
 
 A continuación verá un esquema que representa las diferentes fases/tareas del desarrollo de un proyecto en el curso de taller de electrónica:
 
-![proyecto](./img/projectSE/cronograma.drawio.png)
+![Faces del proyecto](img/main/cronograma-overview.drawio.png)
 
 <h3>¿Qué se quiere realizar?</h3>
 
