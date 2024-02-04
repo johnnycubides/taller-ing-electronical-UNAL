@@ -118,8 +118,8 @@ Bienvenidos al curso de **Taller de Ingeniería Electrónica**, por favor
 acceder al servidor de *Discord* el cual es diseñado como espacio para
 realizar los encuentros asíncronos.
 
-![QR servidor de Discord](./img/main/qrcode_liascript-github-io.svg)
-[Lea el código QR o de clic aquí para ir al servidor de *Discord*](https://liascript.github.io/course/?https://raw.githubusercontent.com/johnnycubides/taller-ing-electronical-UNAL/main/README.md#1)
+![QR servidor de Discord](./img/main/qrcode_discord-gg.svg)
+[Lea el código QR o de clic aquí para ir al servidor de *Discord*](https://discord.gg/vWtMUphtrY)
 
 **Instrucciones:**
 
