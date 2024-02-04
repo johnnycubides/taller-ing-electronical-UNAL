@@ -1,3 +1,7 @@
+---
+lang: es
+---
+
 <h2>Proyecto</h2>
 
 A continuación verá un esquema que representa las diferentes fases/tareas del desarrollo de un proyecto en el curso de taller de electrónica:
@@ -17,10 +21,20 @@ de interés global.
 * **Caja**
 * **Documentación**
 * **Brochure comercial** o **Poster**
+* **Vídeo del producto final**
 
 <h3>Sobre el sistema electrónico</h3>
 
-![ejemplo de sistema electrónico](./img/ejemplo-sistema-embebido.png) ![omega modular](./img/omega-modular.jpg)
+![Final](https://github.com/ctalero/smart-pot/assets/146844443/7fbf512d-63d3-44d4-af14-4777b3967bfe)
+![Caja negra](https://raw.githubusercontent.com/SofiaTFSF/Chaleco-LED/main/Diagramas/Diagrama%20de%20flujo.jpeg)
+![Tecnologico](https://raw.githubusercontent.com/SofiaTFSF/Chaleco-LED/main/Diagramas/Diagrama%20tecnol%C3%B3gico.jpeg)
+![flujo](https://raw.githubusercontent.com/SofiaTFSF/Chaleco-LED/main/Diagramas/Diagrama%20de%20flujo%20del%20usuario.jpeg)
+![imagen10](https://raw.githubusercontent.com/SofiaTFSF/Chaleco-LED/main/Fotos/Esquema%20PCB%2C%20Clase..jpeg)
+![imagen9](https://raw.githubusercontent.com/SofiaTFSF/Chaleco-LED/main/Fotos/Esquema%20PCB..jpeg)
+![imagen12](https://i.postimg.cc/JnS8DVzh/Whats-App-Image-2023-12-01-at-1-26-54-AM.jpg)
+![imagen3](https://raw.githubusercontent.com/SofiaTFSF/Chaleco-LED/main/Fotos/PCB%20Fisica.jpeg)
+![imagen11](https://raw.githubusercontent.com/SofiaTFSF/Chaleco-LED/main/Fotos/Circuito%20chaleco%20LED.jpeg)
+![imagen6](https://raw.githubusercontent.com/SofiaTFSF/Chaleco-LED/main/Fotos/Luces%20conectadas.jpeg)
 
 El dispositivo deberá responder a los requerimientos funcionales y no funcionales
 y además tener las siguientes características:
@@ -31,7 +45,8 @@ y además tener las siguientes características:
 
 <h3>Sobre la caja</h3>
 
-![piccolo](./img/piccolo.jpg) ![estacion](./img/estacion.jpg)
+
+![Banner](https://github.com/Diego5267g/Theremin-Midi/assets/144371294/9e364c42-bd59-424b-b903-f3281910d146) ![Banner](https://github.com/ctalero/smart-pot/assets/146844443/cc3235a5-458f-4da2-849c-8e0997929791) ![Banner](https://github.com/Jusalcedo7/Brazo-rob-tico/raw/main/Presentaci%C3%B3n%20del%20proyecto/Banner%20ARM%20UNAL.png) ![Banner](https://raw.githubusercontent.com/SofiaTFSF/Chaleco-LED/main/Fotos/Resultado%20FInal.png.jpeg) !?[Michi bot](https://raw.githubusercontent.com/Extra72004/MichiiBot/main/Evidencias%20Montaje/Video%20de%20funcionamiento.mp4)
 
 En este caso se refiere a los aparatos encargados de realizar las tareas mecánicas, de protección,
 estéticas, de experiencia de usuario, las cuales contienen sensores, actuadores y el sistema diseñado;
@@ -61,6 +76,15 @@ muestre el producto de tal manera que se pueda reconocer sus características y 
 
 Ejemplo de brochure:
 
-![Brochure IFLAB](./img/brochure-iflab.png)
+![poster](https://i.postimg.cc/fyz7WHrL/POSTER-CHALECO-LED-PARA-CICLISTAS-1.png)
 
+<h3>Sobre el vídeo</h3>
 
+Como parte del producto final deberá crear que muestre el resultado final del
+artefacto creado, haciendo alusión al proceso de creación y su proceso de
+aprendizaje. El vídeo debe ser subido a alguna plataforma, como _YouTube_,
+_Vímeo_ entre otras, y en el caso de _drive_ o similares, no será admitido.
+
+A continuación un ejemplo:
+
+!?[Construye tu propio robot y domina la electrónica básica, ARM UNAL](https://www.youtube.com/watch?v=LKNlRhddJeg)
