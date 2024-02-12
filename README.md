@@ -1077,6 +1077,59 @@ la cualnos reta a pensar la manera correcta de conectar nodos de colores a trav�
 -   Ver el vídeo sobre controladores industriales [Conceptos Básicos del Controlador de Lógica Programable](https://youtu.be/NPsepHRSCls?si=S1oRka1yMF5kJhVp).
 -   Cómo soldar [Soldar para principiantes](https://youtu.be/NC2Vkf4pBKk?si=5r6KCW57Hb09AWDm)
 
+## Banco de Actividades
+
+### Plantea una solución
+
+-   Los temas principales: Abordaje de problemáticas sociales.
+-   Los estudiantes deberán trabajar en equipos y cada equipo deberá encargarse
+    de una problemática.
+-   Cada estudiante del equipo de trabajo será responsable de un subtema de la
+    problemática seleccionada.
+-   Todos los equipos de trabajo deberán tener el mismo número de integrantes,
+    los cuales corresponden al mismo número de Subtemas
+
+Fase 1 (30 min): Seleccionado los grupos y sus problemáticas, los estudiantes deberán
+reunirse por subtemas para comprender el subtema y así poder realizar aportes a
+la intervención de la problemática. Los estudiantes podrán discutir sus
+problemáticas para generar relaciones de interés y prioridades.
+
+Fase 2 (30 min): Los estudiantes deberán reunirse según problemática seleccionada para
+estudiarla, comprenderla y plantear una alternativa de abordaje.
+
+Fase 3 (20 min): Los estudiantes socializarán el estudio de su problemática haciendo uso
+de un PITCH de máximo 5 minutos
+
+Ejemplo de problemáticas sociales:
+[Los 10 problemas más graves de Bogotá](https://www.dw.com/es/los-10-problemas-m%C3%A1s-graves-de-bogot%C3%A1/g-36068986)
+
+Temas:
+
+-   Vendedores ambulantes
+-   Los interminables trancones de Bogotá
+-   Obras que nunca terminan
+-   Zonas de tolerancia de Bogotá
+-   Basura y reciclaje
+-   Una negra nube cubre a Bogotá
+-   Inundación de motocicletas
+-   El colapso de Transmilenio
+-   Habitantes de la calle
+-   Los huecos en la calle
+-   Inseguridad
+
+Subtemas:
+
+-   Educación y participación ciudadana
+-   Legislación y políticas públicas
+-   Tecnología e innovación
+-   Economía y desarrollo
+-   Ambiental y salud pública
+
+**Referencias**
+
+-   [Elevator pitch](https://youtu.be/2b3xG_YjgvI?si=f7CfzbHGSqVA15rc)
+-   [JigSaw metodología](https://youtu.be/euhtXUgBEts?si=2qUqdgGsaFha7MWt)
+
 ## Vídeos recomendados en clase
 
 -   [Simbiosos entre el arte, la ciencia y la tecnologia](https://www.youtube.com/watch?v=AB9VToh2y-s)

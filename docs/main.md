@@ -90,6 +90,10 @@ podamos estudiar la relación existente entre la _Ciencia, Tecnología y Socieda
 * Ver el vídeo sobre controladores industriales [Conceptos Básicos del Controlador de Lógica Programable](https://youtu.be/NPsepHRSCls?si=S1oRka1yMF5kJhVp).
 * Cómo soldar [Soldar para principiantes](https://youtu.be/NC2Vkf4pBKk?si=5r6KCW57Hb09AWDm)
 
+## Banco de Actividades
+
+!include`incrementSection=2, format="markdown-pipe_tables-all_symbols_escapable"` ./actividades.md
+
 ## Vídeos recomendados en clase
 
 * [Simbiosos entre el arte, la ciencia y la tecnologia](https://www.youtube.com/watch?v=AB9VToh2y-s)
