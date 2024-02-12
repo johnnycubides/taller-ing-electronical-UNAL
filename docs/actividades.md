@@ -21,8 +21,7 @@ Fase 2 (30 min): Los estudiantes deberán reunirse según problemática seleccio
 estudiarla, comprenderla y plantear una alternativa de abordaje.
 
 Fase 3 (20 min): Los estudiantes socializarán el estudio de su problemática haciendo uso
-de un PITCH de máximo 5 minutos
-
+de un PITCH de máximo 3 minutos
 
 Ejemplo de problemáticas sociales:
 [Los 10 problemas más graves de Bogotá](https://www.dw.com/es/los-10-problemas-m%C3%A1s-graves-de-bogot%C3%A1/g-36068986)
