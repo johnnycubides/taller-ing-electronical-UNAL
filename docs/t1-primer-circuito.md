@@ -1,16 +1,21 @@
 ---
 geometry: margin=2cm
 lang: es
+toc: true
+title: Mi primer circuito
 ---
 
-# Iniciándome con las herramientas de desarrollo
+Iniciándome con las herramientas de desarrollo
+===============================================
+
 
 Este taller pretende orientar al estudiante en el inicio *Maker*; en
 este taller se enfrentará a desarrollar cosas como:
 
 * Análisis de corriente de un circuito D.C. 
 
-## Uso del multímetro
+Uso del multímetro
+------------------
 
 * ¿Cómo verificar que los fusibles del multímetro no están dañados?
 * ¿Cómo medir el valor de una resistencia?
@@ -22,9 +27,10 @@ este taller se enfrentará a desarrollar cosas como:
 * [Calculadora de resistencias digikey](https://www.digikey.com/es/resources/conversion-calculators/conversion-calculator-resistor-color-code)
 * Ver el vídeo [Resistencias explicadas](https://www.youtube.com/watch?v=blUimcoNpKs&t)
 
-## Mi primer circuito
+Montaje del circuito
+====================
 
-Puedes decargar el taller "Mi primer circuito" desde [aquí](./docs/taller1.md.pdf)
+Puedes descargar el taller "Mi primer circuito" desde [aquí](./docs/taller1.md.pdf)
 
 1. MATERIALES A USAR
 
@@ -129,10 +135,12 @@ verá que solo hay un camino cerrado en el circuito.
 
 **Observación**: Dependiendo del multímetro, se puede usar escalas diferentes a **A**, tal es el caso de **mA** (miliamperios) o **uA** (microamperios).
 
-## Simulación de circuitos
+Simulación de circuitos
+=======================
 
-![Simulación de mi primer circuito](./desing/t1-primer-circuito/simulacion-circuitjs/simulacion-mi-primer-circuito.jpg)
-![Simulación de circuitos](./desing/t1-primer-circuito/simulacion-circuitjs/simulacion-mi-primer-circuito.png)
+![Simulación de mi primer circuito](./desing/t1-primer-circuito/simulacion-circuitjs/simulacion-mi-primer-circuito.jpg){width=9cm}
+
+![Simulación de circuitos](./desing/t1-primer-circuito/simulacion-circuitjs/simulacion-mi-primer-circuito.png){width=9cm}
 
 La simulación es una herramienta que permite comparar los resultados de los cálculos de los diseños eléctricos, antes de
 realizar una implementación física del mismo, en las simulaciones se pueden observar comportamientos de diferentes variables,
@@ -158,7 +166,8 @@ pero también hay otros simuladores con características profesionales que puede
 
 **Observación** Sobre cómo instalar Qucs, puede seguir las instrucciones que encontrará en [este enlace](https://github.com/johnnycubides/qucs-tutorial-examples/)
 
-## Reto de diseño
+Reto de diseño
+==============
 
 En vista de lo aprendido en el taller "Mi primer circuito" deberá desarrollar el siguiente reto que verá en la siguiente imagen.
 

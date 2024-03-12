@@ -1,3 +1,7 @@
+---
+lang: es
+---
+
 # Simulaciones con Qucs
 
 Este taller está diseñado para que el estudiante analice circuitos en DC como es el caso

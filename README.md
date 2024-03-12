@@ -317,46 +317,62 @@ gestor de proyectos. A continuación un vídeo introductorio sobre la plataforma
 
 ## Talleres
 
-### Iniciándome con las herramientas de desarrollo
+### Mi primer circuito
+
+```{=html}
+<!-- !include`raw="markdown", format="markdown-pipe_tables-all_symbols_escapable"` ./t1-primer-circuito.md -->
+```
+---
+geometry: margin=2cm
+lang: es
+toc: true
+title: Mi primer circuito
+---
+
+Iniciándome con las herramientas de desarrollo
+===============================================
+
 
 Este taller pretende orientar al estudiante en el inicio *Maker*; en
 este taller se enfrentará a desarrollar cosas como:
 
--   Análisis de corriente de un circuito D.C.
+* Análisis de corriente de un circuito D.C. 
 
-#### Uso del multímetro
+Uso del multímetro
+------------------
 
--   ¿Cómo verificar que los fusibles del multímetro no están dañados?
--   ¿Cómo medir el valor de una resistencia?
--   ¿Cómo calcular el valor de una resistencia de carbón?
--   Configuración de fuente DC y medición de tensión de la misma con el multímetro
+* ¿Cómo verificar que los fusibles del multímetro no están dañados?
+* ¿Cómo medir el valor de una resistencia?
+* ¿Cómo calcular el valor de una resistencia de carbón?
+* Configuración de fuente DC y medición de tensión de la misma con el multímetro
 
 **Referencias útiles**
 
--   [Calculadora de resistencias digikey](https://www.digikey.com/es/resources/conversion-calculators/conversion-calculator-resistor-color-code)
--   Ver el vídeo [Resistencias explicadas](https://www.youtube.com/watch?v=blUimcoNpKs&t)
+* [Calculadora de resistencias digikey](https://www.digikey.com/es/resources/conversion-calculators/conversion-calculator-resistor-color-code)
+* Ver el vídeo [Resistencias explicadas](https://www.youtube.com/watch?v=blUimcoNpKs&t)
 
-#### Mi primer circuito
+Montaje del circuito
+====================
 
-Puedes decargar el taller "Mi primer circuito" desde [aquí](./docs/taller1.md.pdf)
+Puedes descargar el taller "Mi primer circuito" desde [aquí](./docs/taller1.md.pdf)
 
-1.  MATERIALES A USAR
+1. MATERIALES A USAR
 
--   Una fuente de energía D.C. de tensión variable.
--   Un par de cables bananas caimán
--   Conectores rápidos (jumper-dupon)
--   Protoboard
--   Una resistencia de cualquier valor no mayor a 33 Kohms.
--   Un LED de cualquier color.
--   Dos multímetros, uno para medir corriente y el otro para medir tensión.
--   Cuaderno para realizar apuntes
+* Una fuente de energía D.C. de tensión variable.
+* Un par de cables bananas caimán
+* Conectores rápidos (jumper-dupon)
+* Protoboard
+* Una resistencia de cualquier valor no mayor a 33 Kohms.
+* Un LED de cualquier color.
+* Dos multímetros, uno para medir corriente y el otro para medir tensión.
+* Cuaderno para realizar apuntes
 
-2.  REALIZA ESTE PRIMER MONTAJE
+2. REALIZA ESTE PRIMER MONTAJE
 
 A continuación podrá ver un diagrama pictográfico el cual es una aproximación
 de como se ven las cosas realmente.
 
-![Mi primer circuito](././desing/t1-primer-circuito/montaje-led-1_bb.png)
+![Mi primer circuito](./desing/t1-primer-circuito/montaje-led-1_bb.png)
 
 Una manera abstracta de entender como está interconectado un circuito es a través
 de un esquemático, este diagrama muestra los componentes representados por símbolos
@@ -366,21 +382,21 @@ con sus nodos de conexión y además etiquetados como sigue:
 > DC Power 1: Fuente de energía DC
 > LED1: Diodo emisor de Luz
 
-![Esquemático primer circuito](././desing/t1-primer-circuito/montaje-led-1_schem.png)
+![Esquemático primer circuito](./desing/t1-primer-circuito/montaje-led-1_schem.png)
 
-3.  ENERGIZAR CIRCUITO
+3. ENERGIZAR CIRCUITO
 
--   Se debe verificar que el circuito realizado corresponda al propuesto en esta guía.
--   A continuación conecta la fuente de energía y empieza con un voltaje de 0 V.
--   Realizar incrementos de tensión de la fuente hasta que el LED se encienda y que la intensidad lumínica sea la deseada,
-    es decir, ni tan tenue, pero tampoco tan intensa.
+* Se debe verificar que el circuito realizado corresponda al propuesto en esta guía.
+* A continuación conecta la fuente de energía y empieza con un voltaje de 0 V.
+* Realizar incrementos de tensión de la fuente hasta que el LED se encienda y que la intensidad lumínica sea la deseada,
+es decir, ni tan tenue, pero tampoco tan intensa.
 
 **Observación**: En la electrónica existen componentes polarizados y no polarizados, un elemento no polarizado
 es aquel que no requiere una orientación para su funcionamiento como sucede con la resistencia; en el caso
 del LED este si tiene polaridad (Ánodo y Cátodo) y si no enciende es muy probable que deba intercambiar
 sus pines de conexión para su funcionamiento correcto.
 
-4.  MEDIR VOLTAJE EN CADA COMPONENTE DEL CIRCUITO
+4. MEDIR VOLTAJE EN CADA COMPONENTE DEL CIRCUITO
 
 Como se mencionó con anterioridad, tenemos tres componentes R1, DC Power y LED1. Para
 medir el voltaje deberás poner el multímetro en modo V en DC, como se ilustra en la
@@ -389,12 +405,12 @@ de conexión indicados como **COM** (cable negro) y **V**. Las puntas del multí
 ser conectadas sobre cada componente en cada uno de sus nodos de conexión, en la imagen siguiente
 se observa como se realiza la medición de la tensión (voltaje) en el *LED1*.
 
-![Diagrama pictográfico de medición de tensión en el LED](././desing/t1-primer-circuito/voltaje-led/montaje-led-2_bb.png)
+![Diagrama pictográfico de medición de tensión en el LED](./desing/t1-primer-circuito/voltaje-led/montaje-led-2_bb.png)
 
 Observar el diagrama esquemático siguiente, en él se puede observar como se realiza la medición
 de la tensión.
 
-![Esquemático sobre medición de tensión en el LED](././desing/t1-primer-circuito/voltaje-led/montaje-led-2_schem.png)
+![Esquemático sobre medición de tensión en el LED](./desing/t1-primer-circuito/voltaje-led/montaje-led-2_schem.png)
 
 Comprendiendo como se realiza las mediciones de tensión en cada uno de los tres componentes,
 registra los valores obtenidos en una tabla, como en el siguiente ejemplo:
@@ -405,7 +421,7 @@ registra los valores obtenidos en una tabla, como en el siguiente ejemplo:
 |DC Power 1| 5 V|
 |LED1|1.5 V|
 
-5.  COMPROBAR LA SIGUIENTE TEORÍA
+5. COMPROBAR LA SIGUIENTE TEORÍA
 
 En un circuito existen componentes activos y pasivos; los activos son aquellos que son
 capaces de entregar energía como es el caso de la *DC Power*, mientras que los pasivos
@@ -423,14 +439,14 @@ Lo anterior en términos de voltaje se puede representar así:
 Hay que comprobar la anterior ecuación, tomando los valores obtenidos y registrados en la tabla comprueba
 que la tensión en la fuente es igual a la suma de las tensiones de los componentes que consumen energía.
 
-6.  MEDICIÓN DE CORRIENTE ELÉCTRICA
+6. MEDICIÓN DE CORRIENTE ELÉCTRICA
 
 Para medir la corriente eléctrica que pasa por el circuito con el multimetro, éste último
 deberá hacer parte de ese cicuiro cerrado, por tanto, deberá abrir un nodo en el circuito
 y poner en serie el multimetro con los demás componentes; para mayor claridad observe las
 siguiente imagen:
 
-![Multímetro como amperímetro](././desing/t1-primer-circuito/corriente-circuito/montaje-led-medir-corriente_bb.png)
+![Multímetro como amperímetro](./desing/t1-primer-circuito/corriente-circuito/montaje-led-medir-corriente_bb.png)
 
 Observe ademés de los cables cómo están interconectados que la perilla o selector del multímetro se debe
 poner en la función de medición de corriente continua simbolizado con la letra **A** la cual tiene encima
@@ -439,14 +455,16 @@ dos líneas: una línea recta y continua y debajo de ella una línea recta y dis
 También puede ver la abstracción de este diagrama pictográfico, donde preste atención a los nodos de conexión,
 verá que solo hay un camino cerrado en el circuito.
 
-![Diagrama esquemático circuito con amperímetro](././desing/t1-primer-circuito/corriente-circuito/montaje-led-medir-corriente_schem.png)
+![Diagrama esquemático circuito con amperímetro](./desing/t1-primer-circuito/corriente-circuito/montaje-led-medir-corriente_schem.png)
 
 **Observación**: Dependiendo del multímetro, se puede usar escalas diferentes a **A**, tal es el caso de **mA** (miliamperios) o **uA** (microamperios).
 
-#### Simulación de circuitos
+Simulación de circuitos
+=======================
 
-![Simulación de mi primer circuito](././desing/t1-primer-circuito/simulacion-circuitjs/simulacion-mi-primer-circuito.jpg)
-![Simulación de circuitos](././desing/t1-primer-circuito/simulacion-circuitjs/simulacion-mi-primer-circuito.png)
+![Simulación de mi primer circuito](./desing/t1-primer-circuito/simulacion-circuitjs/simulacion-mi-primer-circuito.jpg){width=9cm}
+
+![Simulación de circuitos](./desing/t1-primer-circuito/simulacion-circuitjs/simulacion-mi-primer-circuito.png){width=9cm}
 
 La simulación es una herramienta que permite comparar los resultados de los cálculos de los diseños eléctricos, antes de
 realizar una implementación física del mismo, en las simulaciones se pueden observar comportamientos de diferentes variables,
@@ -467,16 +485,19 @@ cómo está interconectado un circuito y qué modelo corresponde, se invita a de
 Desde luego hay diferentes tipos de simuladores, están aquellos como éste ([circuitjs](https://www.falstad.com/circuit/circuitjs.html))que es a nivel pedagógico una herramienta poderosa para visualizar el comportamiento,
 pero también hay otros simuladores con características profesionales que pueden ser opensource, gratis o privativos, a continuación se señalan dos de ellos que pueden ser útiles en su carrera de ingeniería.
 
--   [Qucs](https://ra3xdh.github.io/)
--   [LTSpice](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html)
+* [Qucs](https://ra3xdh.github.io/)
+* [LTSpice](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html)
 
 **Observación** Sobre cómo instalar Qucs, puede seguir las instrucciones que encontrará en [este enlace](https://github.com/johnnycubides/qucs-tutorial-examples/)
 
-#### Reto de diseño
+Reto de diseño
+==============
 
 En vista de lo aprendido en el taller "Mi primer circuito" deberá desarrollar el siguiente reto que verá en la siguiente imagen.
 
-![Reto de calculo de resistencias](././desing/t1-primer-circuito/reto/reto-mi-primer-circuito.png)
+![Reto de calculo de resistencias](./desing/t1-primer-circuito/reto/reto-mi-primer-circuito.png)
+
+
 
 ### Simulaciones con Qucs
 
@@ -510,17 +531,17 @@ Conocer el valor de corriente para el giro de motor.
 
 Montar el siguiente circuito:
 
-![Control de motor por transistor-motor](././desing/t2-digital-analog/analogico/motorDC-driver_bb.png)
+![Control de motor por transistor-motor](././desing/t2-digital-analogo/analogico/motorDC-driver_bb.png)
 
-![Control de motor por transistor-motor](././desing/t2-digital-analog/analogico/motorDC-driver_schem.png)
+![Control de motor por transistor-motor](././desing/t2-digital-analogo/analogico/motorDC-driver_schem.png)
 
 Cambiar la fuente DC por un generador de señales cuadrada equivalente y controlar el PWM
 
 Agregar una tarjeta de desarrollo para programar el PWM.
 
-![Control de motor por PWM](././desing/t2-digital-analog/digital/motorDC-driver-micro_bb.png)
+![Control de motor por PWM](././desing/t2-digital-analogo/digital/motorDC-driver-micro_bb.png)
 
-![Control de motor por PWM](././desing/t2-digital-analog/digital/motorDC-driver-micro_schem.png)
+![Control de motor por PWM](././desing/t2-digital-analogo/digital/motorDC-driver-micro_schem.png)
 
 ### Driver de motor
 
@@ -692,12 +713,12 @@ que han manejado en el transcurso del curso.
 ![Microcontrolador conectado por USB a node-red](././desing/t5-node-red/node-red-micropython-usb-usb-connect.drawio.png)
 ![Envío y control desde el microcontrolador hasta el monitor del usuario](././desing/t5-node-red/node-red-micropython-usb-node-red-usb.drawio.png)
 
-#### Configuración de Node-red
+**1. Configuración de Node-red**
 
 *Node-Red* es un software que permite conectar información de diferentes medios y protocolos
 ya sea para almacenar, presentar o controlar información de interés en un sistemas.
 
-**Instalación de node-red**
+**1.1 Instalación de node-red**
 
 Para instalar Node-Red deberá primero instalar [NodeJS](https://nodejs.org/en) para su sistema operativo, seguido,
 desde la línea de comandos de una terminal deberá instalar *node-red* con el gestor de paquetes
@@ -711,7 +732,7 @@ Si tiene dificultades en la instalación puede buscar un ejemplo de instalación
 presente la documentación oficial ya que puede tener algunas variaciones en los comandos que deberá
 considerar, [ejemplo de instalación de node-red](http://pdacontroles.com/instalacion-node-red-en-windows/)
 
-**EJECUTAR NODE-RED**
+**1.2 EJECUTAR NODE-RED**
 
 Para ejecutar la aplicación nuevamente desde la terminal ejecute el siguiente comando:
 
@@ -728,7 +749,7 @@ http://127.0.0.1:1880
 
 Ponga la anterior dirección IP en el navegador para que *Node-red* esté listo para usarse.
 
-**INSTALACIÓN DE COMPLEMENTOS/MÓDULOS EN NODE-RED**
+**1.3 INSTALACIÓN DE COMPLEMENTOS/MÓDULOS EN NODE-RED**
 
 Para que el ejemplo pueda ser ejecutado requiere los módulos de *Dashboard* y *Serialport*. Dashboard
 permite crear una interfaz de usuario y Serialport la comunicación con el microcontrolador.
@@ -746,7 +767,7 @@ Es posible que la aplicación le pida que deba reiniciar node-red, para tal fin,
 la ejecución con **Control + C** y vuelva a iniciar el servicio de node-red con **node-red** en la misma
 terminal.
 
-#### Flujo de Node-red
+**2. Flujo de Node-red**
 
 A continuación se comparte el flujo diseñado en node-red que podrá descargar e importar en node-red
 y desplegar:
@@ -793,7 +814,7 @@ http://192.168.1.100:1880/ui/#!/0?socketid=2xbT63rXMJDBZ5i3AAAB
 
 Se recomienda codificar la URL en un código QR para que pueda ser compartido a un celular.
 
-#### Micropython y node-red (comunicación)
+**3. Micropython y node-red (comunicación)**
 
 El siguiente programa que se ejecuta en el microcontrolador, permite la generación de los datos que
 se van a compartir en la red, como se hace uso de micropython es importante reconocer que la programación
@@ -1078,57 +1099,6 @@ la cualnos reta a pensar la manera correcta de conectar nodos de colores a trav�
 -   Cómo soldar [Soldar para principiantes](https://youtu.be/NC2Vkf4pBKk?si=5r6KCW57Hb09AWDm)
 
 ## Banco de Actividades
-
-### Plantea una solución
-
--   Los temas principales: Abordaje de problemáticas sociales.
--   Los estudiantes deberán trabajar en equipos y cada equipo deberá encargarse
-    de una problemática.
--   Cada estudiante del equipo de trabajo será responsable de un subtema de la
-    problemática seleccionada.
--   Todos los equipos de trabajo deberán tener el mismo número de integrantes,
-    los cuales corresponden al mismo número de Subtemas
-
-Fase 1 (30 min): Seleccionado los grupos y sus problemáticas, los estudiantes deberán
-reunirse por subtemas para comprender el subtema y así poder realizar aportes a
-la intervención de la problemática. Los estudiantes podrán discutir sus
-problemáticas para generar relaciones de interés y prioridades.
-
-Fase 2 (30 min): Los estudiantes deberán reunirse según problemática seleccionada para
-estudiarla, comprenderla y plantear una alternativa de abordaje.
-
-Fase 3 (20 min): Los estudiantes socializarán el estudio de su problemática haciendo uso
-de un PITCH de máximo 3 minutos
-
-Ejemplo de problemáticas sociales:
-[Los 10 problemas más graves de Bogotá](https://www.dw.com/es/los-10-problemas-m%C3%A1s-graves-de-bogot%C3%A1/g-36068986)
-
-Temas:
-
--   Vendedores ambulantes
--   Los interminables trancones de Bogotá
--   Obras que nunca terminan
--   Zonas de tolerancia de Bogotá
--   Basura y reciclaje
--   Una negra nube cubre a Bogotá
--   Inundación de motocicletas
--   El colapso de Transmilenio
--   Habitantes de la calle
--   Los huecos en la calle
--   Inseguridad
-
-Subtemas:
-
--   Educación y participación ciudadana
--   Legislación y políticas públicas
--   Tecnología e innovación
--   Economía y desarrollo
--   Ambiental y salud pública
-
-**Referencias**
-
--   [Elevator pitch](https://youtu.be/2b3xG_YjgvI?si=f7CfzbHGSqVA15rc)
--   [JigSaw metodología](https://youtu.be/euhtXUgBEts?si=2qUqdgGsaFha7MWt)
 
 ## Vídeos recomendados en clase
 

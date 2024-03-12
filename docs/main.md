@@ -28,9 +28,9 @@ en el cual el objeto de estudio es la **Tecnología**. Se espera que a través
 del desarrollo de un Artefacto, (para nuestro caso un proyecto electrónico),
 podamos estudiar la relación existente entre la _Ciencia, Tecnología y Sociedad_.
 
-!include`incrementSection=2, raw="markdown"` ./overview.md
+!include`incrementSection=2, raw="markdown"` ./doc-overview.md
 
-!include`incrementSection=1` ./discord.md
+!include`incrementSection=1` ./doc-discord.md
 
 ## Historial de Proyectos
 
@@ -58,30 +58,31 @@ podamos estudiar la relación existente entre la _Ciencia, Tecnología y Socieda
 
 ### Creación de PCB
 
-!include`incrementSection=3` ./pcb.md
+!include`incrementSection=3` ./doc-pcb.md
 
-!include`incrementSection=2, format="markdown-all_symbols_escapable"` ./proceso-de-documentacion.md
+!include`incrementSection=2, format="markdown-all_symbols_escapable"` ./doc-proceso-de-documentacion.md
 
 ### Poster
 
 ## Talleres
 
-!include`incrementSection=2, format="markdown-pipe_tables-all_symbols_escapable"` ./taller1.md
+### Mi primer circuito
 
-!include`incrementSection=2, format="markdown-pipe_tables-all_symbols_escapable"` ./taller6-qucs.md
+!include`raw="markdown", format="markdown-pipe_tables-all_symbols_escapable"` ./t1-primer-circuito.md
 
-!include`incrementSection=2, format="markdown-pipe_tables-all_symbols_escapable"` ./taller2.md
+!include`incrementSection=2, format="markdown-pipe_tables-all_symbols_escapable"` ./t6-qucs.md
 
+!include`incrementSection=2, format="markdown-pipe_tables-all_symbols_escapable"` ./t2-digital-analogo.md
 
-!include`incrementSection=2, format="markdown-pipe_tables-all_symbols_escapable"` ./taller3.md
+!include`incrementSection=2, format="markdown-pipe_tables-all_symbols_escapable"` ./t3-bridge-h.md
 
-!include`incrementSection=2, format="markdown-pipe_tables-all_symbols_escapable"` ./taller4.md
+!include`incrementSection=2, format="markdown-pipe_tables-all_symbols_escapable"` ./t4-adc.md
 
-!include`incrementSection=2, format="markdown-pipe_tables-all_symbols_escapable"` ./taller5.md
+!include`incrementSection=2, format="markdown-pipe_tables-all_symbols_escapable"` ./t5-node-red.md
 
 ## Herramientas
 
-!include`incrementSection=2, format="markdown-pipe_tables-all_symbols_escapable"` ./tools.md
+!include`incrementSection=2, format="markdown-pipe_tables-all_symbols_escapable"` ./doc-tools.md
 
 ## Tareas recomendadas
 
