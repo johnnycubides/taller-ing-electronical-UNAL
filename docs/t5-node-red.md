@@ -1,9 +1,9 @@
 ---
 lang: es
 geometry: margin=2cm
+title: Microcontrolador enviando datos a red local
+toc: true
 ---
-
-# Microcontrolador enviando datos a red local
 
 !?[Enviar datos desde microcontrolador a red local con Micropython y Node Red](https://www.youtube.com/watch?v=ZE4nFGTepT8)
 
@@ -21,12 +21,14 @@ que han manejado en el transcurso del curso.
 ![Microcontrolador conectado por USB a node-red](./desing/t5-node-red/node-red-micropython-usb-usb-connect.drawio.png)
 ![Envío y control desde el microcontrolador hasta el monitor del usuario](./desing/t5-node-red/node-red-micropython-usb-node-red-usb.drawio.png)
 
-**1. Configuración de Node-red**
+Configuración de Node-red
+=========================
 
 *Node-Red* es un software que permite conectar información de diferentes medios y protocolos
 ya sea para almacenar, presentar o controlar información de interés en un sistemas. 
 
-**1.1 Instalación de node-red**
+Instalación de node-red
+-----------------------
 
 Para instalar Node-Red deberá primero instalar [NodeJS](https://nodejs.org/en) para su sistema operativo, seguido,
 desde la línea de comandos de una terminal deberá instalar *node-red* con el gestor de paquetes
@@ -40,7 +42,8 @@ Si tiene dificultades en la instalación puede buscar un ejemplo de instalación
 presente la documentación oficial ya que puede tener algunas variaciones en los comandos que deberá
 considerar, [ejemplo de instalación de node-red](http://pdacontroles.com/instalacion-node-red-en-windows/)
 
-**1.2 EJECUTAR NODE-RED**
+EJECUTAR NODE-RED
+-----------------
 
 Para ejecutar la aplicación nuevamente desde la terminal ejecute el siguiente comando:
 ```bash
@@ -54,7 +57,8 @@ http://127.0.0.1:1880
 ```
 Ponga la anterior dirección IP en el navegador para que *Node-red* esté listo para usarse.
 
-**1.3 INSTALACIÓN DE COMPLEMENTOS/MÓDULOS EN NODE-RED**
+INSTALACIÓN DE COMPLEMENTOS/MÓDULOS EN NODE-RED
+-----------------------------------------------
 
 Para que el ejemplo pueda ser ejecutado requiere los módulos de *Dashboard* y *Serialport*. Dashboard
 permite crear una interfaz de usuario y Serialport la comunicación con el microcontrolador. 
@@ -72,7 +76,8 @@ Es posible que la aplicación le pida que deba reiniciar node-red, para tal fin,
 la ejecución con **Control + C** y vuelva a iniciar el servicio de node-red con **node-red** en la misma
 terminal.
 
-**2. Flujo de Node-red**
+Flujo de Node-red
+=================
 
 A continuación se comparte el flujo diseñado en node-red que podrá descargar e importar en node-red
 y desplegar:
@@ -115,7 +120,8 @@ http://192.168.1.100:1880/ui/#!/0?socketid=2xbT63rXMJDBZ5i3AAAB
 ```
 Se recomienda codificar la URL en un código QR para que pueda ser compartido a un celular.
 
-**3. Micropython y node-red (comunicación)**
+Micropython y node-red (comunicación)
+=====================================
 
 El siguiente programa que se ejecuta en el microcontrolador, permite la generación de los datos que
 se van a compartir en la red, como se hace uso de micropython es importante reconocer que la programación

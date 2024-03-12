@@ -78,7 +78,9 @@ podamos estudiar la relación existente entre la _Ciencia, Tecnología y Socieda
 
 !include`incrementSection=2, format="markdown-pipe_tables-all_symbols_escapable"` ./t4-adc.md
 
-!include`incrementSection=2, format="markdown-pipe_tables-all_symbols_escapable"` ./t5-node-red.md
+### Microcontrolador enviando datos a red local
+
+!include`raw="markdown", format="markdown-pipe_tables-all_symbols_escapable"` ./t5-node-red.md
 
 ## Herramientas
 
