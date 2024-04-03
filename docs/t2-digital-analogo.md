@@ -1,11 +1,11 @@
 ---
 geometry: margin=2cm
-
+lang: es
 ---
 
 # Diferencia entre lo analógico y lo digital
 
-Determinar el betra del transistor
+Determinar el beta del transistor
 
 Conocer el valor de corriente para el giro de motor.
 

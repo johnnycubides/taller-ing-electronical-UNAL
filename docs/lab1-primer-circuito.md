@@ -30,7 +30,7 @@ Uso del multímetro
 Montaje del circuito
 ====================
 
-Puedes descargar el taller "Mi primer circuito" desde [aquí](./docs/taller1.md.pdf)
+Puedes descargar el taller "Mi primer circuito" desde [aquí](./docs/pdf/lab1-primer-circuito.md.pdf)
 
 1. MATERIALES A USAR
 
@@ -158,7 +158,7 @@ cómo está interconectado un circuito y qué modelo corresponde, se invita a de
 
 [Archivos en formato .txt de mi primer circuito en CircuitJS](./desing/t1-primer-circuito/simulacion-circuitjs/simulacion-mi-primer-circuito-circuitjs.txt)
 
-Desde luego hay diferentes tipos de simuladores, están aquellos como éste ([circuitjs](https://www.falstad.com/circuit/circuitjs.html))que es a nivel pedagógico una herramienta poderosa para visualizar el comportamiento,
+Desde luego hay diferentes tipos de simuladores, están aquellos como éste ([circuitjs](https://www.falstad.com/circuit/circuitjs.html)) que es a nivel pedagógico una herramienta poderosa para visualizar el comportamiento,
 pero también hay otros simuladores con características profesionales que pueden ser opensource, gratis o privativos, a continuación se señalan dos de ellos que pueden ser útiles en su carrera de ingeniería.
 
 * [Qucs](https://ra3xdh.github.io/)

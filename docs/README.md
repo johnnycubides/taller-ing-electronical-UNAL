@@ -2,9 +2,21 @@
 
 ## Instalación de herramientas
 
+### Instalación de Pandoc
+
+Pando permite generar PDFs individuales desde archivos markdown.
 ```bash
 sudo apt install pandoc
 pip install --user pandoc-include
+```
+
+### Instalación de LiaDev
+
+Hacer uso del script `go`, con el comando:
+
+```
+./go install
+
 ```
 
 ## ¿Cómo crear la documentación?

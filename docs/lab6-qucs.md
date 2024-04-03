@@ -1,8 +1,12 @@
 ---
+geometry: margin=2cm
 lang: es
+toc: true
+title: Simulaciones con Qucs
 ---
 
-# Simulaciones con Qucs
+Simulaciones con Qucs
+=====================
 
 Este taller está diseñado para que el estudiante analice circuitos en DC como es el caso
 de el divisor de tensión, resistencias en seria y paralelo, divisor de corriente y finalmente
@@ -22,6 +26,6 @@ siguientes enlaces:
 
 Ejemplos de simulaciones:
 
-![Divisor de voltaje](https://raw.githubusercontent.com/johnnycubides/qucs-tutorial-examples/main/examples/dc/resistencias-divisor-voltaje/resistencias-divisor-voltaje.png)
+![Divisor de voltaje](https://raw.githubusercontent.com/johnnycubides/qucs-tutorial-examples/main/analog-examples/dc/resistencias-divisor-voltaje/resistencias-divisor-voltaje.png)
 
-![Divisor de corriente](https://raw.githubusercontent.com/johnnycubides/qucs-tutorial-examples/main/examples/dc/resistencias-divisor-de-corriente/resistencias-divisor-de-corriente.png)
+![Divisor de corriente](https://raw.githubusercontent.com/johnnycubides/qucs-tutorial-examples/main/analog-examples/dc/resistencias-divisor-de-corriente/resistencias-divisor-de-corriente.png)

@@ -64,13 +64,15 @@ podamos estudiar la relación existente entre la _Ciencia, Tecnología y Socieda
 
 ### Poster
 
-## Talleres
+## Laboratorios
 
 ### Mi primer circuito
 
-!include`raw="markdown", format="markdown-pipe_tables-all_symbols_escapable"` ./t1-primer-circuito.md
+!include`raw="markdown", format="markdown-pipe_tables-all_symbols_escapable"` ./lab1-primer-circuito.md
 
-!include`incrementSection=2, format="markdown-pipe_tables-all_symbols_escapable"` ./t6-qucs.md
+### Simulaciones con Qucs
+
+!include`raw="markdown", format="markdown-pipe_tables-all_symbols_escapable"` ./lab6-qucs.md
 
 !include`incrementSection=2, format="markdown-pipe_tables-all_symbols_escapable"` ./t2-digital-analogo.md
 

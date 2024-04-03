@@ -16,7 +16,7 @@ pdf:
 	@echo "Exportando a pdf un archivo md."
 	pandoc\
 		--filter pandoc-include\
-		-i $(i) -o $(i).pdf --verbose\
+		-i $(i) -o pdf/$(i).pdf --verbose\
 
 build:
 	# pandoc -i main.md --filter pandoc-include -t markdown --to markdown+pipe_tables -o ../README.md --verbose
@@ -50,4 +50,6 @@ serve:
 	cd ../ && liadev
 
 clear:
-	rm *.md.pdf
+	rm pdf/*.md.pdf
+
+.PHONY: pdf

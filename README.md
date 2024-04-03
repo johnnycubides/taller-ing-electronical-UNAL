@@ -315,7 +315,7 @@ gestor de proyectos. A continuación un vídeo introductorio sobre la plataforma
 
 ### Poster
 
-## Talleres
+## Laboratorios
 
 ### Mi primer circuito
 
@@ -351,7 +351,7 @@ Uso del multímetro
 Montaje del circuito
 ====================
 
-Puedes descargar el taller "Mi primer circuito" desde [aquí](./docs/taller1.md.pdf)
+Puedes descargar el taller "Mi primer circuito" desde [aquí](./docs/pdf/lab1-primer-circuito.md.pdf)
 
 1. MATERIALES A USAR
 
@@ -479,7 +479,7 @@ cómo está interconectado un circuito y qué modelo corresponde, se invita a de
 
 [Archivos en formato .txt de mi primer circuito en CircuitJS](./desing/t1-primer-circuito/simulacion-circuitjs/simulacion-mi-primer-circuito-circuitjs.txt)
 
-Desde luego hay diferentes tipos de simuladores, están aquellos como éste ([circuitjs](https://www.falstad.com/circuit/circuitjs.html))que es a nivel pedagógico una herramienta poderosa para visualizar el comportamiento,
+Desde luego hay diferentes tipos de simuladores, están aquellos como éste ([circuitjs](https://www.falstad.com/circuit/circuitjs.html)) que es a nivel pedagógico una herramienta poderosa para visualizar el comportamiento,
 pero también hay otros simuladores con características profesionales que pueden ser opensource, gratis o privativos, a continuación se señalan dos de ellos que pueden ser útiles en su carrera de ingeniería.
 
 * [Qucs](https://ra3xdh.github.io/)
@@ -498,6 +498,16 @@ En vista de lo aprendido en el taller "Mi primer circuito" deberá desarrollar e
 
 ### Simulaciones con Qucs
 
+---
+geometry: margin=2cm
+lang: es
+toc: true
+title: Simulaciones con Qucs
+---
+
+Simulaciones con Qucs
+=====================
+
 Este taller está diseñado para que el estudiante analice circuitos en DC como es el caso
 de el divisor de tensión, resistencias en seria y paralelo, divisor de corriente y finalmente
 un circuito de un rectificador que hace uso de un diodo.
@@ -509,20 +519,20 @@ los resultados en un informe de formato libre.
 Las simulaciones las deberá realizar con *Qucs* y cuenta con información de uso e instalación en los
 siguientes enlaces:
 
--   [Instalación de Qucs en Windows](https://github.com/johnnycubides/qucs-tutorial-examples/blob/main/install/windows/README.md)
--   [Instalación de Qucs en Linux](https://github.com/johnnycubides/qucs-tutorial-examples/blob/main/install/linux/README.md)
--   [Ejemplos de simulaciones](https://github.com/johnnycubides/qucs-tutorial-examples/tree/main/examples)
--   [Qucs en español](https://qucs-help.readthedocs.io/_/downloads/es/qucs-0.0.18/pdf/)
+* [Instalación de Qucs en Windows](https://github.com/johnnycubides/qucs-tutorial-examples/blob/main/install/windows/README.md)
+* [Instalación de Qucs en Linux](https://github.com/johnnycubides/qucs-tutorial-examples/blob/main/install/linux/README.md)
+* [Ejemplos de simulaciones](https://github.com/johnnycubides/qucs-tutorial-examples/tree/main/examples)
+* [Qucs en español](https://qucs-help.readthedocs.io/_/downloads/es/qucs-0.0.18/pdf/)
 
 Ejemplos de simulaciones:
 
-![Divisor de voltaje](https://raw.githubusercontent.com/johnnycubides/qucs-tutorial-examples/main/examples/dc/resistencias-divisor-voltaje/resistencias-divisor-voltaje.png)
+![Divisor de voltaje](https://raw.githubusercontent.com/johnnycubides/qucs-tutorial-examples/main/analog-examples/dc/resistencias-divisor-voltaje/resistencias-divisor-voltaje.png)
 
-![Divisor de corriente](https://raw.githubusercontent.com/johnnycubides/qucs-tutorial-examples/main/examples/dc/resistencias-divisor-de-corriente/resistencias-divisor-de-corriente.png)
+![Divisor de corriente](https://raw.githubusercontent.com/johnnycubides/qucs-tutorial-examples/main/analog-examples/dc/resistencias-divisor-de-corriente/resistencias-divisor-de-corriente.png)
 
 ### Diferencia entre lo analógico y lo digital
 
-Determinar el betra del transistor
+Determinar el beta del transistor
 
 Conocer el valor de corriente para el giro de motor.
 
@@ -1067,6 +1077,8 @@ la cualnos reta a pensar la manera correcta de conectar nodos de colores a trav�
 -   Cómo soldar [Soldar para principiantes](https://youtu.be/NC2Vkf4pBKk?si=5r6KCW57Hb09AWDm)
 
 ## Banco de Actividades
+
+!include`incrementSection=2, format="markdown-pipe_tables-all_symbols_escapable"` ./actividades.md
 
 ## Vídeos recomendados en clase
 
