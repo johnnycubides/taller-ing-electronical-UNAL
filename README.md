@@ -897,11 +897,10 @@ navegador.
 
 **Herramientas para esp32:**
 
--   [Configuración de Thonny editor para micropython en placas de desarrollo esp8266 y esp32](https://randomnerdtutorials.com/getting-started-thonny-micropython-python-ide-esp32-esp8266/)
-
--   [Firmware micropython para esp32 (Download firmware.bin)](https://micropython.org/download/esp32/)
-
+-   [Simular proyectos del esp32 en wokwi](https://wokwi.com/projects/new/micropython-esp32)
 -   [Referencia rápida de micropython con el esp32](https://docs.micropython.org/en/latest/esp32/quickref.html)
+-   [Configuración de Thonny editor para micropython en placas de desarrollo esp8266 y esp32](https://randomnerdtutorials.com/getting-started-thonny-micropython-python-ide-esp32-esp8266/)
+-   [Firmware micropython para esp32 (Download firmware.bin)](https://micropython.org/download/esp32/)
 
 #### ESP32CAM
 
@@ -945,10 +944,9 @@ el esp32cam está en modo de ejecución de programas.
 
 **Herramientas y documentación Raspberry pi pico:**
 
--   [Firware micropython: descarga e instalación](https://www.raspberrypi.com/documentation/microcontrollers/micropython.html#drag-and-drop-micropython)
-
+-   [Simulación de proyectos en wokwi](https://wokwi.com/projects/new/micropython-pi-pico)
+-   [Fimrware micropython: descarga e instalación](https://www.raspberrypi.com/documentation/microcontrollers/micropython.html#drag-and-drop-micropython)
 -   [Documentación de micropython para raspberry pi pico](https://docs.micropython.org/en/latest/rp2/quickref.html)
-
 -   [Hoja de datos (datasheet) para la raspberry pi pico](https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf)
 
 #### Arduino UNO
@@ -964,6 +962,7 @@ el esp32cam está en modo de ejecución de programas.
 **Herramientas para Arduino:**
 
 -   [Arduino IDE (software)](https://www.arduino.cc/en/software)
+-   [Programación en wokwi](https://wokwi.com/projects/new/arduino-uno)
 
 ### Entornos de programación
 
