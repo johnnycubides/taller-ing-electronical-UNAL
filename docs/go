@@ -29,7 +29,7 @@ WHITEB=$(tput setab 7)
 NCB=$(tput setab 0)
 
 # NODE_VERSION=v18.3.0
-NODE_VERSION=v21.7.1
+NODE_VERSION=v21.7.3
 
 pandoc() {
 	sudo apt install pandoc

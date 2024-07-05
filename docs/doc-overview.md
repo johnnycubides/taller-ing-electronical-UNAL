@@ -6,9 +6,9 @@ A continuación verá un esquema que representa las diferentes fases/tareas del 
 
 <h3>¿Qué se quiere realizar?</h3>
 
-En el curso de taller de electrónica se pretende realizar un producto terminado
+En el curso de taller de ingeniería electrónica se pretende realizar un producto terminado
 el cual está orientado como alternativa de solución a una situación real
-problematizada por los estudiantes, la cual pueda será alineada con metas o esfuerzos
+problematizada por los estudiantes, la cual se puede alinear con metas o esfuerzos
 de interés global.
 
 <h3>¿Qué se debe entregar?</h3>

@@ -97,7 +97,7 @@ podamos estudiar la relación existente entre la _Ciencia, Tecnología y Socieda
 
 ## Banco de Actividades
 
-!include`incrementSection=2, format="markdown-pipe_tables-all_symbols_escapable"` ./actividades.md
+!include`incrementSection=2, format="markdown-pipe_tables-all_symbols_escapable"` ./doc-actividades.md
 
 ## Vídeos recomendados en clase
 

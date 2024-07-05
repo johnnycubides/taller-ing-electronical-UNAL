@@ -33,9 +33,9 @@ A continuación verá un esquema que representa las diferentes fases/tareas del 
 
 <h3>¿Qué se quiere realizar?</h3>
 
-En el curso de taller de electrónica se pretende realizar un producto terminado
+En el curso de taller de ingeniería electrónica se pretende realizar un producto terminado
 el cual está orientado como alternativa de solución a una situación real
-problematizada por los estudiantes, la cual pueda será alineada con metas o esfuerzos
+problematizada por los estudiantes, la cual se puede alinear con metas o esfuerzos
 de interés global.
 
 <h3>¿Qué se debe entregar?</h3>
@@ -225,11 +225,13 @@ tiene la siguiente estructura y cantidad de páginas:
 
     3.  Descripción y/o Introducción
 
-    4.  Poster o Brochure
+    4.  Palabras clave
 
-    5.  Imagen tipo banner de la implementación del proyecto (resultado final)
+    5.  Poster o Brochure
 
-    6.  Vídeo del proyecto: Deberá crear un vídeo y subirlo a una plataforma como puede ser youtube, explicando del proyecto lo siguiente:
+    6.  Imagen tipo banner de la implementación del proyecto (resultado final)
+
+    7.  Vídeo del proyecto: Deberá crear un vídeo y subirlo a una plataforma como puede ser youtube, explicando del proyecto lo siguiente:
 
         -   
         -   La problemática
@@ -1077,7 +1079,56 @@ la cualnos reta a pensar la manera correcta de conectar nodos de colores a trav�
 
 ## Banco de Actividades
 
-!include`incrementSection=2, format="markdown-pipe_tables-all_symbols_escapable"` ./actividades.md
+### Plantea una solución
+
+-   Los temas principales: Abordaje de problemáticas sociales.
+-   Los estudiantes deberán trabajar en equipos y cada equipo deberá encargarse
+    de una problemática.
+-   Cada estudiante del equipo de trabajo será responsable de un subtema de la
+    problemática seleccionada.
+-   Todos los equipos de trabajo deberán tener el mismo número de integrantes,
+    los cuales corresponden al mismo número de Subtemas
+
+Fase 1 (30 min): Seleccionado los grupos y sus problemáticas, los estudiantes deberán
+reunirse por subtemas para comprender el subtema y así poder realizar aportes a
+la intervención de la problemática. Los estudiantes podrán discutir sus
+problemáticas para generar relaciones de interés y prioridades.
+
+Fase 2 (30 min): Los estudiantes deberán reunirse según problemática seleccionada para
+estudiarla, comprenderla y plantear una alternativa de abordaje.
+
+Fase 3 (20 min): Los estudiantes socializarán el estudio de su problemática haciendo uso
+de un PITCH de máximo 3 minutos
+
+Ejemplo de problemáticas sociales:
+[Los 10 problemas más graves de Bogotá](https://www.dw.com/es/los-10-problemas-m%C3%A1s-graves-de-bogot%C3%A1/g-36068986)
+
+Temas:
+
+-   Vendedores ambulantes
+-   Los interminables trancones de Bogotá
+-   Obras que nunca terminan
+-   Zonas de tolerancia de Bogotá
+-   Basura y reciclaje
+-   Una negra nube cubre a Bogotá
+-   Inundación de motocicletas
+-   El colapso de Transmilenio
+-   Habitantes de la calle
+-   Los huecos en la calle
+-   Inseguridad
+
+Subtemas:
+
+-   Educación y participación ciudadana
+-   Legislación y políticas públicas
+-   Tecnología e innovación
+-   Economía y desarrollo
+-   Ambiental y salud pública
+
+**Referencias**
+
+-   [Elevator pitch](https://youtu.be/2b3xG_YjgvI?si=f7CfzbHGSqVA15rc)
+-   [JigSaw metodología](https://youtu.be/euhtXUgBEts?si=2qUqdgGsaFha7MWt)
 
 ## Vídeos recomendados en clase
 

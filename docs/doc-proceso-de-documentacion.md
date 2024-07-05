@@ -30,9 +30,10 @@ tiene la siguiente estructura y cantidad de páginas:
   1. Título del proyecto
   2. Integrantes
   3. Descripción y/o Introducción
-  4. Poster o Brochure
-  5. Imagen tipo banner de la implementación del proyecto (resultado final)
-  6. Vídeo del proyecto: Deberá crear un vídeo y subirlo a una plataforma como puede ser youtube, explicando del proyecto lo siguiente:
+  4. Palabras clave
+  5. Poster o Brochure
+  6. Imagen tipo banner de la implementación del proyecto (resultado final)
+  7. Vídeo del proyecto: Deberá crear un vídeo y subirlo a una plataforma como puede ser youtube, explicando del proyecto lo siguiente:
 
       *
       * La problemática
