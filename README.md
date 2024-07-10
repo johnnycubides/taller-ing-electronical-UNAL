@@ -244,11 +244,11 @@ tiene la siguiente estructura y cantidad de páginas:
 
     4.  Palabras clave
 
-    5.  Poster o Brochure
+    5.  Poster o brochure
 
     6.  Imagen tipo banner de la implementación del proyecto (resultado final)
 
-    7.  Vídeo del proyecto: Deberá crear un vídeo y subirlo a una plataforma como puede ser youtube, explicando del proyecto lo siguiente:
+    7.  Vídeo del proyecto: Deberá crear un vídeo y subirlo a una plataforma como puede ser Youtube, explicando del proyecto lo siguiente:
 
         -   
         -   La problemática
@@ -262,17 +262,18 @@ tiene la siguiente estructura y cantidad de páginas:
     1.  Problemática
     2.  Objetivos
     3.  Alcance
-    4.  Ruta o Roadmap o Cronograma
+    4.  Ruta o roadmap o cronograma
 
 -   Diseño de la solución (Página 3)
 
     1.  Diagramas de caja negra (abstractos)
     2.  Diagramas tecnológicos
     3.  Diagrama de flujo general del proyecto (cómo interactúa con el usuario final)
+    4.  Impacto ambiental y acciones propuestas de mitigación
 
 -   Diseño e implementación del case (página 4)
 
-    1.  Diseño corte 3d o corte láser
+    1.  Diseño corte 3D o corte láser
     2.  Evidencias de implementación (imágenes, vídeos)
 
 -   Diseño e implementación electrónica (página 5)
@@ -286,19 +287,19 @@ tiene la siguiente estructura y cantidad de páginas:
         -   
         -   Diseño esquemático del circuito en pdf y png
         -   Diseño de PCB layout (imagen del ruteo)
-        -   Imagen png en 3d del diseño final de la PCB
+        -   Imagen PNG en 3D del diseño final de la PCB
         -   Fotografías de la PCB fabricada
         -   Imagen de la PCB con componentes soldados
         -   Imagen de la PCB con los sensores, actuadores y demás componentes interconectados
 
 -   Diseño e implementación de software (Página 6):
 
-    1.  Diagrama(s) de flujo sobre las diferentes tareas que realiza el proyecto (A nivel de las solución)
+    1.  Diagrama(s) de flujo sobre las diferentes tareas que realiza el proyecto (A nivel de la solución)
     2.  Código sobre las diferentes pruebas unitarias de sensores y actuadores
     3.  Diagramas o código explicado sobre el cómo interactúa con otras interfaces
-    4.  Otros códigos y plataformas usadas (Nodejs, appinventor, etc).
+    4.  Otros códigos y plataformas usadas (NodeJS, Appinventor, etc).
 
--   Evidencias (Página 7 ):
+-   Evidencias (Página 7):
 
     1.  Puede subir información sobre el proceso de integración y de ensamble de cada cosa que sea relevante para el grupo
         por ejemplo, aquellas cosas que no funcionaron o se dañaron, aquellas cosas que fueron descubrimientos, aciertos o desaciertos.
@@ -320,14 +321,14 @@ En el siguiente ejemplo se muestra una imagen de las páginas de la wiki bien or
 -   Los archivos deben están en el gestor de proyectos, **no en formatos comprimidos**, por ejemplo **no** en archivos.zip, **tampoco podrán estar** en gestores de archivos como es el caso de drive o similares.
 -   Se recomienda el orden en los archivos fuentes, por ejemplo en directorios separados con nombres representativos.
 -   Las evidencias deben estar en un directorio de evidencias.
--   Los vídeos de gran tamaños serán subidos a una plataforma como puede ser el caso de youtube, por favor no hacer
+-   Los vídeos de gran tamaño serán subidos a una plataforma como puede ser el caso de Youtube, por favor no hacer
     uso de drive o cualquier otro similar.
 
-A continuación se observará un ejemplo de la organización de los archivos fuente en un repositorio de github:
+A continuación se observará un ejemplo de la organización de los archivos fuente en un repositorio de Github:
 
 ![Ejemplo de documentación](././img/design-process/docs/docs-src-example.png)
 
-**Recomendación**: Haga uso de un cliente de git como puede ser github desktop para que no tenga problemas subiendo el contenido a su
+**Recomendación**: Haga uso de un cliente de git como puede ser *Github desktop* para que no tenga problemas subiendo el contenido a su
 gestor de proyectos. A continuación un vídeo introductorio sobre la plataforma.
 
 !?[Github Destop Tutorial (Faz Code)](https://www.youtube.com/watch?v=TuOQBfhp-r0)

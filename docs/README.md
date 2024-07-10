@@ -1,3 +1,7 @@
+---
+lang: es
+---
+
 # Creación de documentación
 
 ## Instalación de herramientas
@@ -10,13 +14,15 @@ sudo apt install pandoc
 pip install --user pandoc-include
 ```
 
+Observación: se recomienda la instalación de una variable de entorno en conda
+para esta instalación, por ejemplo, una variable de entorno llamada work.
+
 ### Instalación de LiaDev
 
 Hacer uso del script `go`, con el comando:
 
 ```
 ./go install
-
 ```
 
 ## ¿Cómo crear la documentación?
@@ -33,7 +39,7 @@ make b
 make p i=taller1.md
 ```
 
-El anterior comando genera un archibo **./taller1.md.pdf** 
+El anterior comando genera un archivo **./taller1.md.pdf** 
 
 ## Recomendaciones sobre pandoc
 
@@ -67,7 +73,7 @@ Deberá lanzar el servidor web y poner allí la del localhost
 
 * [Documentación de Liascript](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md#1)
 
-Creado el 2023-02-28 por
-Actualizado 2023-09-29
+Creado el 2023-02-28 y actualizado 2023-09-29 por
+
 Johnny Cubides
 
