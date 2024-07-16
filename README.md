@@ -147,6 +147,37 @@ Ejemplo de identificación:
 
 !?[¿Qué quiero hacer en taller de electrónica?](https://www.youtube.com/watch?v=QCF4yAdXylk)
 
+---
+lang: es
+---
+
+### Diagrama de flujo
+
+Un diagrama de flujo representa de manera gráfica la solución general y abstracta sobre una situación o problema propuesto.
+
+![DFD, nivel 0: contextual](https://www.researchgate.net/profile/Antonio-Bono-Nuez/publication/266036789/figure/fig2/AS:669373161304078@1536602406662/Nivel-0-DFD-Diagrama-de-contexto-de-un-microondas.png) Este diagrama hace referencia al nivel contextual a la que se plantea la solución, por ejemplo, permite observar cómo el sistema a diseñar interactua con los otros sistemas externos, también es una aproximación que en el diseño de un diagrama de caja negra permite relacionar el flujo de la información con los dispositivos con los cuales el sistema contará.
+
+![Diagrama de flujo como ejemplo, fuente: Wiki](https://upload.wikimedia.org/wikipedia/commons/3/3d/LampFlowchart_es.svg) Este diagrama representa el flujo de la información, las operaciones y decisiones
+que se toman para cumplir una tarea. Un diagrama general puede estar compuesto por
+otros diagramas que representan las especificidades de las diferentes tareas.
+
+Los diagramas de flujo se diseña a través de un estandar de símbolos los cuales indican, tareas, procesos, flujos, entre otros.
+A continuación puede conocer una lista de ellos:
+
+<h4>Documentación de referencia</h4>
+
+* [Símbolos para la creación de diagramas de flujo en formato PDF](./pdf/flow-chart-symbols.pdf)
+* [Información de referencia sobre Diagramas de Flujo de Datos (DFD)](./pdf/DFD.pdf)
+* [Enseñanza de una metodología para la programación de microcontroladores](./pdf/ENSENANZA_DE_UNA_METODOLOGIA_PARA_LA_PROGRAMACION_.pdf)
+
+<h4>Herramientas opensource para el diseño de diagramas de flujo</h4>
+
+Estos diagramas los puede realizar a mano, como a través de software que contenga estos símbolos.
+
+* [Drawio](https://app.diagrams.net/): Herramienta opensource está disponible en suite de Google o como [aplicación de escritorio desde github](https://github.com/jgraph/drawio-desktop/releases).
+
+* [Plantuml](https://plantuml.com/activity-diagram-beta): Herramienta opensource que permite la creación de diagramas a través de un lenguaje textual. Puede ser instalado en su sistema operativo o puede proabar la versión [Plantuml web](http://www.plantuml.com/plantuml/uml)
+
 ### Diagrama de Cajas Negras
 
 ![diagrama-caja-negra](././desing/diagrama-caja-negra-general.drawio.png)
@@ -158,33 +189,14 @@ Ejemplo de identificación:
 
 </div>
 
-### Diagrama de flujo
-
-Un diagrama de flujo representa de manera gráfica la solución general y abstracta sobre una situación o problema propuesto.
-
-![Diagrama de flujo como ejemplo, fuente: Wiki](https://upload.wikimedia.org/wikipedia/commons/3/3d/LampFlowchart_es.svg)
-
-Los diagramas de flujo se diseña a través de un estandar de símbolos los cuales indican, tareas, procesos, flujos, entre otros.
-A continuación puede conocer una lista de ellos:
-
-[Símbolos para la creación de diagramas de flujo en formato PDF](./pdf/flow-chart-symbols.pdf)
-
-Estos diagramas los puede realizar a mano, como a través de software que contenga estos símbolos.
-
-[Plantuml: herramienta para crear diagramas UML a través de texto](https://plantuml.com/activity-diagram-beta)
-
-[Plantuml web](http://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000)
-
-[drawio](https://app.diagrams.net/)
-
 ### Creación de PCB
 
-#### Tamaño de pistas para el ruteo de pistas
+<h4> Tamaño de pistas para el ruteo de pistas </h4>
 
 Para algunas tecnologías que encontrarán en Bogotá para creación de la PCB
 se recomienda en KiCad hacer uso de los siguientes tamaños:
 
-![tamaño de pistas](././desing/pcb/size-route.png)
+![tamaño de pistas](./desing/pcb/size-route.png)
 
 Las anteriores reglas definen dos tipos de clases, una que se llama POWER, para las pistas que
 requieren conducir más energía y las SIGNAL, las cuales son solo señales de información. Si
@@ -195,17 +207,18 @@ Estas reglas las puede editar en `File -> Board Setup -> Desing Rules -> Net Cla
 A continuación se puede ver un ejemplo donde se asocia las reglas de net a específicos patrones
 de nets
 
-![ejemplo de reglas](././desing/pcb/reglasRuteo.png)
+![ejemplo de reglas](./desing/pcb/reglasRuteo.png)
 
-#### Conectores pinheader y pinsocket
+<h4> Conectores pinheader y pinsocket </h4>
 
 Estos conectores se pueden usar para diferentes sensores y actuadores, como es el caso
 de sensores ultrasonido o servomotores sg90. En kicad las huellas son conocidas
 como pinheader de 2.54mm y pinsocket de 2.54mm
 
-![pin headers](././desing/pcb/pinheader.jpeg)
+![pin headers](./desing/pcb/pinheader.jpeg)
 
-![pin header selected](././desing/pcb/pinheader-selected.png)
+![pin header selected](./desing/pcb/pinheader-selected.png)
+
 
 ### Proceso de documentación
 

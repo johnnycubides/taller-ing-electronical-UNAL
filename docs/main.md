@@ -45,6 +45,8 @@ podamos estudiar la relación existente entre la _Ciencia, Tecnología y Socieda
 
 !?[¿Qué quiero hacer en taller de electrónica?](https://www.youtube.com/watch?v=QCF4yAdXylk)
 
+!include`raw="markdown"` ./doc-diagrama-de-flujo.md
+
 ### Diagrama de Cajas Negras
 
 ![diagrama-caja-negra](./desing/diagrama-caja-negra-general.drawio.png)
@@ -54,28 +56,8 @@ podamos estudiar la relación existente entre la _Ciencia, Tecnología y Socieda
     </iframe>
 </div>
 
-### Diagrama de flujo
 
-Un diagrama de flujo representa de manera gráfica la solución general y abstracta sobre una situación o problema propuesto.
-
-![Diagrama de flujo como ejemplo, fuente: Wiki](https://upload.wikimedia.org/wikipedia/commons/3/3d/LampFlowchart_es.svg)
-
-Los diagramas de flujo se diseña a través de un estandar de símbolos los cuales indican, tareas, procesos, flujos, entre otros.
-A continuación puede conocer una lista de ellos:
-
-[Símbolos para la creación de diagramas de flujo en formato PDF](./pdf/flow-chart-symbols.pdf)
-
-Estos diagramas los puede realizar a mano, como a través de software que contenga estos símbolos.
-
-[Plantuml: herramienta para crear diagramas UML a través de texto](https://plantuml.com/activity-diagram-beta)
-
-[Plantuml web](http://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000)
-
-[drawio](https://app.diagrams.net/)
-
-### Creación de PCB
-
-!include`incrementSection=3` ./doc-pcb.md
+!include`raw="markdown"` ./doc-pcb.md
 
 !include`incrementSection=2, format="markdown-all_symbols_escapable"` ./doc-proceso-de-documentacion.md
 

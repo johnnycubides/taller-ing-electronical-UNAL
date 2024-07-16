@@ -1,4 +1,6 @@
-# Tamaño de pistas para el ruteo de pistas
+### Creación de PCB
+
+<h4> Tamaño de pistas para el ruteo de pistas </h4>
 
 Para algunas tecnologías que encontrarán en Bogotá para creación de la PCB
 se recomienda en KiCad hacer uso de los siguientes tamaños:
@@ -16,8 +18,7 @@ de nets
 
 ![ejemplo de reglas](./desing/pcb/reglasRuteo.png)
 
-
-# Conectores pinheader y pinsocket
+<h4> Conectores pinheader y pinsocket </h4>
 
 Estos conectores se pueden usar para diferentes sensores y actuadores, como es el caso
 de sensores ultrasonido o servomotores sg90. En kicad las huellas son conocidas
