@@ -114,7 +114,7 @@ el esp32cam está en modo de ejecución de programas.
 * [Espruino](https://www.espruino.com/)
 * [Node-RED](https://nodered.org/)
 
-## Thonny Editor
+**Thonny Editor**
 
 ![Presentación de Thonny](https://thonny.org/img/screenshot.png)
 
@@ -132,13 +132,13 @@ desarrollo:
 
 # Simuladores de circuitos
 
-* Qucs
-* LTSpice
-* CircuitJS
+* [Qucs-s](https://ra3xdh.github.io/)
+* [LTSpice](https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html)
+* [CircuitJS](https://www.falstad.com/circuit/circuitjs.html)
 
-## Qucs
+**Qucs**
 
-![Ejemplo de Qucs](https://raw.githubusercontent.com/johnnycubides/qucs-tutorial-examples/main/examples/diodo/diodo-sim-dc.png)
+![Ejemplo de Qucs](https://raw.githubusercontent.com/johnnycubides/qucs-tutorial-examples/main/analog-examples/diodo/diodo-sim-dc.png)
 
 **Instalación de Qucs en Windows y primer acercamiento**
 

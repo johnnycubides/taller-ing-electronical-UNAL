@@ -643,13 +643,13 @@ led23.duty(100)
 # led.init()
 ```
 
-### Periferico ADC
+### Periférico ADC
 
 El conversor ADC es un módulo que convierte señales de tensión
 analógicas a valores enteros en un rango determinado; la resolución
 de la conversión está determinada por el tamaño de bits del conversor,
 es decir, si el ADC es de 16 bits, el número máximo a obtener en una
-conversión será de $2n^{16}-1=65535$.
+conversión será de $2^{n}-1$, donde n es el número de bits, es decir, $2^{16}-1=65535$.
 
 **ESQUEMÁTICO**:
 Este diagrama representa la solución a realizar, solo se ha agregado en sí el
@@ -899,6 +899,14 @@ interactúe con los botones de encendido y de apagado del LED.
 Si por alguna razón no se puede visualizar los datos, es recomendable reiniciar *Node-red* y refrescar las ventanas del
 navegador.
 
+### Microcontrolador y appInventor, control por WiFi
+
+Este ejemplo contienen información base para enviar datos desde una aplicación
+en Android creada con AppInventor, tiene el código para la app de android y
+el programa que debe tener un esp32 el cual corre un interpretye de micropython.
+
+[Enlace de la aplicación base en github](https://github.com/johnnycubides/appinventor-upy-ulua-socket-connect/tree/main/digital-controller)
+
 ## Herramientas
 
 ### Tarjetas de desarrollo
@@ -1014,7 +1022,7 @@ el esp32cam está en modo de ejecución de programas.
 -   [Espruino](https://www.espruino.com/)
 -   [Node-RED](https://nodered.org/)
 
-#### Thonny Editor
+**Thonny Editor**
 
 ![Presentación de Thonny](https://thonny.org/img/screenshot.png)
 
@@ -1032,13 +1040,13 @@ desarrollo:
 
 ### Simuladores de circuitos
 
--   Qucs
--   LTSpice
--   CircuitJS
+-   [Qucs-s](https://ra3xdh.github.io/)
+-   [LTSpice](https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html)
+-   [CircuitJS](https://www.falstad.com/circuit/circuitjs.html)
 
-#### Qucs
+**Qucs**
 
-![Ejemplo de Qucs](https://raw.githubusercontent.com/johnnycubides/qucs-tutorial-examples/main/examples/diodo/diodo-sim-dc.png)
+![Ejemplo de Qucs](https://raw.githubusercontent.com/johnnycubides/qucs-tutorial-examples/main/analog-examples/diodo/diodo-sim-dc.png)
 
 **Instalación de Qucs en Windows y primer acercamiento**
 

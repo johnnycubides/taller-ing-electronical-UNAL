@@ -2,13 +2,13 @@
 geometry: margin=2cm
 ---
 
-# Periferico ADC
+# Periférico ADC
 
 El conversor ADC es un módulo que convierte señales de tensión
 analógicas a valores enteros en un rango determinado; la resolución
 de la conversión está determinada por el tamaño de bits del conversor,
 es decir, si el ADC es de 16 bits, el número máximo a obtener en una
-conversión será de $2n^{16}-1=65535$.
+conversión será de $2^{n}-1$, donde n es el número de bits, es decir, $2^{16}-1=65535$.
 
 **ESQUEMÁTICO**:
 Este diagrama representa la solución a realizar, solo se ha agregado en sí el

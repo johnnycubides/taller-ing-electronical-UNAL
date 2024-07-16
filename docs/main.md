@@ -92,6 +92,14 @@ de guía como parte de los conceptos fundamentales para el desarrollo de estos e
 
 !include`raw="markdown", format="markdown-pipe_tables-all_symbols_escapable"` ./t5-node-red.md
 
+### Microcontrolador y appInventor, control por WiFi
+
+Este ejemplo contienen información base para enviar datos desde una aplicación
+en Android creada con AppInventor, tiene el código para la app de android y
+el programa que debe tener un esp32 el cual corre un interpretye de micropython.
+
+[Enlace de la aplicación base en github](https://github.com/johnnycubides/appinventor-upy-ulua-socket-connect/tree/main/digital-controller)
+
 ## Herramientas
 
 !include`incrementSection=2, format="markdown-pipe_tables-all_symbols_escapable"` ./doc-tools.md
