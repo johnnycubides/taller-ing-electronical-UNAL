@@ -1,3 +1,7 @@
+---
+lang: es
+---
+
 # Tarjetas de desarrollo
 
 * [Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/)
@@ -34,12 +38,18 @@
 ![Esp32 Dev Kit v1](img/samples-SE/pinout/nodemcu-esp32-pinout.png)
 ![Esp32 Dev Kit v3](img/samples-SE/pinout/esp32-dev-kit-c.png)
 
-**Herramientas para esp32:**
+**Herramientas para el esp32:**
 
 * [Simular proyectos del esp32 en wokwi](https://wokwi.com/projects/new/micropython-esp32)
 * [Referencia rápida de micropython con el esp32](https://docs.micropython.org/en/latest/esp32/quickref.html)
 * [Configuración de Thonny editor para micropython en placas de desarrollo esp8266 y esp32](https://randomnerdtutorials.com/getting-started-thonny-micropython-python-ide-esp32-esp8266/)
-* [Firmware micropython para esp32 (Download firmware.bin)](https://micropython.org/download/esp32/)
+
+Si tiene dificultades para descargar las herramientas de desarrollo, pruebe directamente desde estos enlaces
+
+* [Descargar Thonny Editor para Windows](https://github.com/thonny/thonny/releases/download/v4.1.4/thonny-4.1.4.exe)
+* [Firmware micropython para esp32](https://micropython.org/download/esp32/)
+* [Driver cp210x universal para Windows](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads)
+
 
 ## ESP32CAM
 
