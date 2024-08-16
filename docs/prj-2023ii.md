@@ -168,6 +168,20 @@ Evidencias del proceso
 ![PCB con sensores y actuadores](https://github.com/LuisARodriguezA/PETinador/assets/144032031/c6ac8b91-6457-49f9-a818-4b74bff642be)
 ![Diseño del software](https://raw.githubusercontent.com/LuisARodriguezA/PETinador/main/002%20Fotos%20y%20videos%20ELEC/DiagramaDeFlujoSip.png)
 
+Conclusiones
+============
+
+* El dispositivo ha sido diseñado y desarrollado de manera satisfactoria, superando desafíos significativos en su proceso de creación. Una de las innovaciones clave en esta solución fue la sustitución del termo controlador y el regulador convencionales por el ESP32
+* En el transcurso de este proyecto de electrónica básica, se ha logrado un valioso avance tanto en el conocimiento técnico como en las habilidades prácticas del equipo. La superación de desafíos técnicos ha proporcionado valiosas lecciones y ha fortalecido la comprensión de los principios fundamentales de la electrónica.
+* La adopción exitosa del ESP32 en lugar de los componentes convencionales no solo resalta la capacidad de adaptación del equipo, sino que también abre la puerta a futuras mejoras y optimizaciones respecto al funcionamiento y optimización en gastos del PETinador.
+
+Recomendaciones para trabajos futuros
+======================================
+
+* Sugerimos, en primer lugar, la elaboración de un diagrama detallado que describa las tareas a realizar en el proyecto y asignar a cada integrante las responsabilidades correspondientes. Además, recomendamos establecer fechas límite para cada fase del proyecto. En nuestro caso, experimentamos retrasos significativos en la construcción de la máquina, lo que resultó en la incapacidad de cumplir con todas las funciones inicialmente planificadas.
+* Considerar como punto de referencia el petamentor versión 2, ya que la primera versión incluye engranajes innecesarios que podrían ser eliminados mediante el uso de una base diferente.
+*Antes de comenzar el proyecto, sería prudente examinar qué partes y componentes están disponibles para el grupo y si cumplen satisfactoriamente su función. Esto es especialmente relevante debido a que el motor recomendado resulta difícil de encontrar en Colombia a precios accesibles.
+
 ## Smart Pot
 
 ![Banner](https://github.com/ctalero/smart-pot/assets/146844443/cc3235a5-458f-4da2-849c-8e0997929791)
@@ -213,6 +227,16 @@ Evidencias del proceso
 ![Impreso final](https://github.com/ctalero/smart-pot/assets/146844443/9d404f15-bdf1-4b29-903b-c137e8476b88)
 ![Final](https://github.com/ctalero/smart-pot/assets/146844443/7fbf512d-63d3-44d4-af14-4777b3967bfe)
 
+Conclusiones
+============
+
+En conclusión, el proyecto del dispositivo para el cuidado de plantas ha demostrado ser una solución efectiva para garantizar un entorno óptimo de crecimiento. La combinación de sensores de humedad, temperatura y luz, ha mejorado significativamente la salud de la planta. Además, la interfaz de usuario intuitiva facilita la supervisión. Este dispositivo no solo simplifica el proceso de cuidado de las plantas, sino que también fomenta la conexión entre la tecnología y la naturaleza, promoviendo la sostenibilidad en entornos domésticos.
+
+Recomendaciones para futuros trabajos
+=====
+ 
+La correcta distribución del trabajo, así como el manejo de tiempos son imprecindibles para el correcto desarrollo del cualquier proyecto.
+
 ## Theremín-MIDI
 
 ![Banner](https://github.com/Diego5267g/Theremin-Midi/assets/144371294/9e364c42-bd59-424b-b903-f3281910d146)
@@ -255,6 +279,17 @@ Evidencias del proceso
 ![3d](https://github.com/Diego5267g/Theremin-Midi/assets/144371294/bf3cd348-b818-4b85-9561-ffa5e090b258)
 ![IMG_20231129_102043](https://github.com/Diego5267g/Theremin-Midi/assets/144371294/bf41dfb3-374f-4bec-b3ea-9582c98104ad)
 ![IMG_20231129_102029](https://github.com/Diego5267g/Theremin-Midi/assets/144371294/0f5b9748-7955-4f06-8fc1-5afd6dbdddc1)
+
+Conclusiones
+====
+
+El proyecto fue una gran idea y si logro reducir mucho los costes, aunque aun no se podría dar por suficiente, ya que en ciertos componentes el precio llego a ser elevado hasta cierto punto, lo cual hace mejorable el ahorro que debería generar el proyecto, aun así es una alternativa muy buena a un instrumento musical promedio, y es muchísimo mas barato que un theremín, por lo tanto cumple bastante bien su función.
+
+Recomendaciones para trabajos futuros
+====
+
+Para trabajos futuros se pueden revisar mas opciones de compra en los materiales y comprar los materiales con mas tiempo de antelación para que puedan llegar a ser mas baratos reduciendo así el precio general de la maquina. 
+esto también se le puede agregar el revisar bien los tamaños de cada uno de los componentes del proyecto, para que los mismos entren correctamente tanto en el case como en la pcb.
 
 
 ## Foodinator
@@ -310,6 +345,20 @@ Evidencias del proceso
 ![PCB](https://github.com/AngelLeguizamon/Foodineitor/assets/146735840/98c03cbe-3143-49e4-b388-6467a32fa0de)
 ![Componenetes soldados](https://github.com/AngelLeguizamon/Foodineitor/assets/146735840/ad4acf44-768e-4370-bed1-c40667dfd4ab)
 
+Conclusiones
+====
+
+- El proyecto realizado a lo largo de la clase le permitió al equipo desarrollar habilidades técnicas sobre cómo diseñar circuitos esquemáticos, mejor entendimiento de los requerimientos y persepción del cliente hacía el producto y planteamiento y resolución de alternativas.
+- Después de las pruebas realizadas no se logró obtener un buen funcionamiento del sensor y el actuador, se plantearon varias alternativas de solución pero el resultado fue negativo.
+- A lo largo del proceso fueron necesarios cambios en el rumbo de desarrollo que se estaba llevando, la falta de buena planeación es siempre algo determinante en estos casos, y para el nuestro fue deficiente.
+
+Recomendaciones para trabajos futuros
+====
+
+- Es importante realizar test continuamente en cada proceso del diseño y ejecución, realizadas siempre en un plazo prudente y basadas en buscar algo en específico, esto último a fin de concretizar el tiempo invertido en las pruebas y los resultados observados.
+- Es importante hacer un análisis funcional y morfológico de los componentes y del sistema que se están diseñando, pues a la hora de hacer el diseño detallado y mandarlo a fabricar suele haber una gran brecha entre lo pensado en el diseño y lo obtenido en el ensamblaje.
+- Revisar siempre qué conocimientos y limitaciones tiene el equipo es importante para llevar adelante el proyecto de una mejor manera, por consiguiente, a la hora de estar desarrollando uyn proyecto es prioritario tener en cuenta estos dos factores.
+- En ocaciones el fracasar en una etapa representa una oportunidad de aprendizaje, en nuestro caso el prototipo que se fabrico presentó muchas fallas y al final no cumplió exactamente con nuestras espectativas; pero las experiencias vividas brindaron una oportunidad de aprender acerca de diversos factores.
 
 ## Sonilaser
 
@@ -356,9 +405,48 @@ Evidencias del proceso
 ![PCB implementada transmisor](https://github.com/JHONYALE/SoniLaser/assets/144410176/d6b9f3f1-9ae1-4b97-a0f6-507c0b5898dd)
 ![PCB receptor implementada](https://github.com/JHONYALE/SoniLaser/assets/144410176/76ad8cad-a7d0-4f89-9603-ec703fdf63fb)
 
+
+Conclusiones
+===
+
+**Desarrollo de Habilidades Técnicas**: 
+Los participantes han mejorado sus habilidades en diseño de circuitos, desarrollo de PCB en KiCad y el uso de tecnologías.
+
+**Relevancia Educativa**:
+El proyecto destacó la importancia de proyectos educativos y experimentales para motivar el interés en la ciencia y la tecnología, sirviendo como ejemplo de cómo la experimentación práctica puede mejorar la comprensión teórica.
+
+**Colaboración y Trabajo en Equipo**:
+El trabajo en equipo fue esencial para superar desafíos, compartiendo conocimientos y abordando problemas de manera colaborativa, fortaleciendo las habilidades de trabajo en equipo de los participantes.
+
+**Inspiración para Futuros Proyectos**: 
+El proyecto sirvió como plataforma inspiradora para futuros proyectos, estimulando la creatividad y el interés por innovaciones tecnológicas en el equipo.
+
+_A lo largo del proceso, hemos enfrentado diversos desafíos y aprendido valiosas lecciones. La adaptabilidad y la resolución de problemas han sido fundamentales para avanzar en el desarrollo del proyecto SoniLáser. A pesar de los obstáculos, estamos comprometidos con la mejora continua y la búsqueda de soluciones para lograr un proyecto exitoso._
+
+Recomendaciones 
+====
+
+**Investigación Preliminar**: 
+Realizar una investigación exhaustiva antes de iniciar el diseño para comprender completamente los principios tecnológicos y anticipar posibles desafíos.
+
+**Documentación Exhaustiva**: 
+Mantener una documentación completa y detallada de cada fase del proyecto, incluyendo decisiones de diseño, problemas encontrados y soluciones aplicadas.
+
+**Evaluación de Costos**: 
+Realizar una evaluación detallada de los costos asociados con cada componente y fase del proyecto, considerando alternativas que optimicen el uso de recursos.
+
+**Evaluación Continua del Progreso**: 
+Realizar evaluaciones regulares del progreso del proyecto frente a los objetivos establecidos. Ajustar estrategias según sea necesario para asegurar el éxito.
+
 ## Chaleco led para usuarios de bicicleta
 
 ![Banner](https://raw.githubusercontent.com/SofiaTFSF/Chaleco-LED/main/Fotos/Resultado%20FInal.png.jpeg)
+
+Repositorio
+===========
+
+* [Wiki del proyecto](https://github.com/SofiaTFSF/Chaleco-LED/wiki/1.-HOME)
+* [Repositorio del proyecto](https://github.com/SofiaTFSF/Chaleco-LED)
 
 Creadores
 =========
@@ -379,12 +467,6 @@ Vídeo
 
 [Enlace de vídeo de funcionamiento](https://youtube.com/shorts/lSlF3ntCA68?feature=share)
 
-Repositorio
-===========
-
-* [Wiki del proyecto](https://github.com/SofiaTFSF/Chaleco-LED/wiki/1.-HOME)
-* [Repositorio del proyecto](https://github.com/SofiaTFSF/Chaleco-LED)
-
 Evidencias del proceso
 ======================
 
@@ -402,6 +484,18 @@ Evidencias del proceso
 ![imagen2](https://raw.githubusercontent.com/SofiaTFSF/Chaleco-LED/main/Fotos/Proceso%20de%20armado.jpeg)
 !?[video](https://youtu.be/4Qi7xlfoS2E?si=XQDte4IJNDTvSQAg)
 ![imagen4](https://raw.githubusercontent.com/SofiaTFSF/Chaleco-LED/main/Fotos/Luces%20de%20auxilio%20en%20el%20chaleco.jpeg)
+
+Conclusiones
+====
+
+Aunque el proceso no estuvo exento de desafíos, caracterizado por fluctuaciones y contratiempos, la culminación exitosa del proyecto se atribuye a diversos factores. La colaboración y orientación proporcionadas por el docente desempeñaron un papel fundamental, brindando dirección y apoyo técnico a lo largo de todas las etapas. Las herramientas facilitadas por el docente también desempeñaron un papel crucial al dotar al equipo de los recursos necesarios para abordar las complejidades del proyecto.
+
+La resolución efectiva de problemas de última hora resultó ser un elemento determinante en el éxito final del emprendimiento. Este logro fue posible gracias al compromiso y dedicación de los miembros del equipo, quienes demostraron una actitud perseverante frente a los desafíos surgidos durante el desarrollo del chaleco funcional. La capacidad de adaptación y la disposición para superar obstáculos fueron cualidades clave que caracterizaron el desempeño del equipo.
+
+Recomendaciones para trabajos futuros
+====
+
+Optimizar el espacio de comunicación y compromiso entre los integrantes del equipo, mejorando la organización de tiempo y entrega de las diversas partes del proyecto.
 
 ## ZEROBOID CHAN
 
@@ -442,6 +536,20 @@ Evidencias del proceso
 ![algo1](https://github.com/srojasu/Zeroboid-chan/assets/143129720/57942b05-6b4a-4381-8f16-3c42c58fa271)
 ![algoritmo2](https://github.com/srojasu/Zeroboid-chan/assets/143129720/e78f5654-1d52-4671-8df2-7fd3e1e0e8b7)
 ![pruebas en protoboard](https://github.com/srojasu/Zeroboid-chan/assets/143129720/d70e9cc9-0bd8-4ccf-b2fe-e9d9ecfdd8f0)
+
+CONCLUSIONES
+====
+
++ El proyecto fue una gran oportunidad para aprender y poner en practica lo aprendido en taller de ingeniería electrónica, el proyecto no salió de la manera esperada sin embargo se pudo trabajar de la mejor manera. 
++ El proyecto tiene potencial para ayudar en la gestión del tiempo de las personas.
++ El proyecto es una alternativa divertida, interesante y mas efectiva a las típicas alarmas de las cuales la gente se cansa y ve como sinónimo de presión y estrés.
+
+RECOMENDACIONES FUTURAS
+====
+
++ A la hora de hacer un proyecto gestionar mejor el tiempo y la organización de las tareas ya que debido a esto no pudimos terminar el proyecto de manera satisfactoria.
++ Tener mas en cuenta las clases para preguntar y solicitar ayuda con el proyecto.
++ Mejorar la comunicación en el grupo.
 
 ## Dispositivo de Detección UV
 
@@ -494,7 +602,7 @@ Evidencias del proceso
 ![285733729-bd901661-d68d-4cf2-8d94-f8f066b124d4](https://github.com/Lamorenobo/dispositivo-de-deteccion-uv/assets/142939223/23612237-e419-43d9-abb5-7f5a120e2b39)
 ![image-3](https://github.com/Lamorenobo/dispositivo-de-deteccion-uv/assets/142939223/22da11a9-1d06-4b9b-a9d4-e2bf18f5e678)
 
-Concluciones
+Conclusiones
 ============
 Este proyecto significo un aprendizaje significativo para cada integrante del grupo, uno de los mas importantes es el hecho de explorar y adentrare en distintas tecnologías , en este caso (esp-32), salir de nuestra zona de confort (Arduino) y aprender sobre nuevas y provechoso módulos que nos servirán en nuestra vida de ingenieros mas adelante.Ademas desarrollamos exponencialmente el ser autodidacta y sobre todo a manejar la frustacion puesto que durante las fases de pruebas NUNCA va a salir a la primera, posiblemente tampoco a la segunda ni tercera ni cuarta etc....,pero con paciencia se lograra el objetivo.
 Específicamente el resultado de nuestro proyecto fue satisfactorio sin embargo la exactitud del sensor no era 100% debido a que era uno de los mas baratos del mercado, pero se acercaba mucho a los valores reales de intensidad UV.
@@ -504,6 +612,95 @@ Recomendaciones
 * Durante el proceso de soldadura de los componentes en la PCB siempre medir la continuidad, para evitar sustos futuros.
 * Es indispensable realizar diagramas negros y tecnológicos ya que ayudan a estructurar la idea que se tiene en la cabeza del proyecto, y la falta de estos puede conducir a la poca claridad cuando se tiene que empezar a prototipar
 * No engancharse con solo un tipo de tecnología por la pereza de aprender el funciomaiento de otras cosas ya que esto solo hará que nos auto limitemos y así mismo auto limitemos nuestro proyecto
+
+## Dispensador Automático de Comida
+
+![Banner](https://github.com/Dintash/Dispensador-autom-tico-de-comida-/assets/152512753/d09c145d-49e8-4480-97ea-c036e091df4d)
+
+Repositorio
+===========
+
+* [Wiki del proyecto](https://github.com/Dintash/Dispensador-automa-tico-de-comida-/wiki)
+* [Repositorio del proyecto](https://github.com/Dintash/Dispensador-automa-tico-de-comida-)
+
+
+Creadores
+=========
+
+Samuel Correales, Andrés Giraldo, Breiner Villota
+
+
+Descripción y problemática
+==========================
+
+En un mundo cada vez más ocupado, la gestión del tiempo se vuelve crucial. En este contexto, presentamos nuestro innovador proyecto: un dispensador automático de comida. Diseñado para simplificar la alimentación diaria de mascotas o cualquier ser que requiera una dieta programada, nuestro dispensador ofrece comodidad y precisión. Con tecnología de punta y una interfaz fácil de usar, este dispositivo busca mejorar la vida cotidiana al proporcionar una solución eficiente y confiable para la alimentación automatizada. Descubre cómo nuestro dispensador automático de comida redefine la forma en que cuidamos a nuestros seres queridos, ofreciendo una experiencia de alimentación más inteligente y conveniente.
+
+Evidencias del proceso
+======================
+
+![CAJA NEGRA 3](https://github.com/Dintash/Dispensador-automa-tico-de-comida-/assets/152512753/1143d60e-2d95-4912-9c65-262fdfe71c18)
+![DIAGRAMA TECNOLÓGICO](https://github.com/Dintash/Dispensador-automa-tico-de-comida-/assets/152512753/73271a58-fa7d-4aab-84a9-628db7f3cfe8)
+![DIAGRAMA DE FLUJO](https://github.com/Dintash/Dispensador-automa-tico-de-comida-/assets/152512753/d5e77786-d68a-46c5-aa8c-9c84ac0fd80c)
+![Imagen de WhatsApp 2023-11-30 a las 23 32 15_5649c91a](https://github.com/Dintash/Dispensador-automa-tico-de-comida-/assets/152512753/b96b75f1-ac71-4dfa-910e-1f90f9a99da7)
+![Imagen de WhatsApp 2023-11-30 a las 23 32 16_e077486c](https://github.com/Dintash/Dispensador-automa-tico-de-comida-/assets/152512753/3f5ca7b3-add9-4657-8dae-69d4f316e24a)
+![Imagen de WhatsApp 2023-11-30 a las 23 32 16_fd9b4146](https://github.com/Dintash/Dispensador-automa-tico-de-comida-/assets/152512753/74d60175-cb1e-4e9e-812f-1bb3d3c2f022)
+![Imagen de WhatsApp 2023-11-30 a las 23 32 17_1dbe6ec1](https://github.com/Dintash/Dispensador-automa-tico-de-comida-/assets/152512753/949ac842-2a65-4995-a99a-25c22e6b09bd)
+![Imagen de WhatsApp 2023-11-30 a las 23 32 17_8f741af1](https://github.com/Dintash/Dispensador-automa-tico-de-comida-/assets/152512753/75bee8b3-43e1-4a10-b4ed-e8bc4019571a)
+![Imagen de WhatsApp 2023-12-01 a las 00 14 38_5aeeffe7](https://github.com/Dintash/Dispensador-automa-tico-de-comida-/assets/152512753/cc0b3c22-c657-4c15-a7d8-f54b96544423)
+![Imagen de WhatsApp 2023-12-01 a las 00 14 39_796a5a5d](https://github.com/Dintash/Dispensador-automa-tico-de-comida-/assets/152512753/a0467024-43af-426a-b536-3f4d0f6d3a26)
+![image](https://github.com/Dintash/Dispensador-automa-tico-de-comida-/assets/147168924/1ad72fd0-866d-447d-995b-7a5a0e7afe17)
+![image](https://github.com/Dintash/Dispensador-automa-tico-de-comida-/assets/147168924/243e4f8d-f9a3-4fd2-b5b1-f35bbb11e1c8)
+![image](https://github.com/Dintash/Dispensador-automa-tico-de-comida-/assets/147168924/dcb1f06b-2145-4796-84ba-3f10f5783299)
+
+Conclusiones
+===========
+
+1. El dispensador automático de comida para mascotas se destaca por su capacidad para mantener un suministro constante de agua fresca mediante la utilización de una fotocelda, asegurando así la hidratación continua de las mascotas.
+
+2. La integración de una pesa para medir con precisión las porciones de comida ofrece una solución personalizada, adaptándose a las necesidades dietéticas individuales y proporcionando una alimentación equilibrada.
+
+3. Este dispositivo no solo automatiza la entrega de alimentos y agua, sino que también garantiza la seguridad alimentaria al proteger la comida de factores externos como la humedad y los insectos, asegurando la frescura y calidad de los alimentos dispensados.
+
+4. La posibilidad de monitorear y controlar remotamente el dispensador a través de una aplicación móvil brinda a los dueños una gestión proactiva y un acceso conveniente a información en tiempo real sobre la alimentación de sus mascotas.
+
+5. El sistema de alertas y notificaciones añade un nivel adicional de seguridad y eficiencia, manteniendo a los dueños informados sobre el estado del dispensador y cualquier problema operativo que requiera atención.
+
+En resumen, el dispensador automático no solo cumple con los objetivos específicos del proyecto, sino que también ofrece beneficios adicionales, convirtiéndose en una solución completa y tecnológicamente avanzada para el cuidado de las mascotas.
+
+
+Recomendaciones para trabajos futuras
+====================================
+
+
+1. Integración de Inteligencia Artificial (IA):
+   - Explora la posibilidad de integrar tecnologías de inteligencia artificial para aprender y adaptarse a los hábitos alimentarios de las mascotas, permitiendo una dispensación más personalizada.
+
+2. Detección de Salud:
+   - Considera la incorporación de sensores para monitorear la salud de las mascotas, como la detección de peso o la evaluación de la frecuencia de alimentación, brindando datos útiles para el cuidado veterinario.
+
+3. Compatibilidad con Diferentes Tipos de Alimentos:
+   - Amplía la versatilidad del dispensador para manejar una variedad de alimentos secos y fórmulas de comida húmeda, brindando opciones más amplias para los dueños de mascotas.
+
+4. Integración de Cámaras:
+   - Agrega cámaras de monitoreo para permitir a los propietarios visualizar a sus mascotas mientras se alimentan, proporcionando una experiencia más interactiva y tranquilidad adicional.
+
+5. Compatibilidad con Asistentes de Voz:
+   - Explora la integración con asistentes de voz, permitiendo a los propietarios controlar y programar el dispensador mediante comandos de voz desde dispositivos como Google Home o Amazon Alexa.
+
+6. Gestión de Múltiples Mascotas:
+   - Desarrolla funciones que permitan la gestión de múltiples mascotas, adaptándose a hogares con varios animales y ofreciendo un control individualizado para cada uno.
+
+7. Diseño Ecológico:
+   - Considera opciones de diseño más sostenibles, como materiales reciclables y eficiencia energética, para hacer el dispensador más respetuoso con el medio ambiente.
+
+8. Notificaciones de Salud:
+   - Implementa notificaciones de salud basadas en patrones de alimentación anormales o cambios en los hábitos de consumo, lo que podría indicar problemas de salud potenciales.
+
+9. Actualizaciones de Software Remotas:
+   - Diseña el dispensador para permitir actualizaciones de software remotas, lo que facilitará la implementación de mejoras y nuevas características sin requerir intervenciones físicas.
+
+10. Colaboración con Expertos Veterinarios:
+    - Establece asociaciones con profesionales veterinarios para asegurar que el diseño y las funciones del dispensador estén respaldados por la experiencia en cuidado animal.
 
 ## P
 
