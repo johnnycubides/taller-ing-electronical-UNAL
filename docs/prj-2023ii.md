@@ -8,6 +8,12 @@ lang: es
 
 ![Banner](https://github.com/Jusalcedo7/Brazo-rob-tico/raw/main/Presentaci%C3%B3n%20del%20proyecto/Banner%20ARM%20UNAL.png)
 
+Repositorio
+===========
+
+* [Wiki del proyecto arm unal](https://github.com/Jusalcedo7/Brazo-rob-tico/wiki/1.-Home)
+* [Repositorio github del proyecto](https://github.com/Jusalcedo7/Brazo-rob-tico)
+
 Creadores
 =========
 
@@ -26,12 +32,6 @@ Vídeo
 
 !?[Construye tu propio robot y domina la electrónica básica, ARM UNAL](https://www.youtube.com/watch?v=LKNlRhddJeg)
 
-Repositorio
-===========
-
-* [Wiki del proyecto arm unal](https://github.com/Jusalcedo7/Brazo-rob-tico/wiki/1.-Home)
-* [Repositorio del proyecto](https://github.com/Jusalcedo7/Brazo-rob-tico)
-
 Evidencias del proceso
 ======================
 
@@ -42,10 +42,40 @@ Evidencias del proceso
 ![PCB_B](https://github.com/Jusalcedo7/Brazo-rob-tico/raw/main/Monataje/Hardware/PCb%20componentes%20soldados%20posterior.jpg)
 ![Armado completo](https://github.com/Jusalcedo7/Brazo-rob-tico/raw/main/Monataje/Hardware/Brazo%20Ensamblado%20final.jpg)
 
+Conclusiones
+============
+
+* El ESP32 tiene más características que el Arduino, pero su documentación es menos extensa, lo que puede complicar el proyecto. Por lo tanto, se aconseja verificar las librerías y si se puede preguntar a una persona que posea conocimientos en el tema para que dé su punto de vista acerca de la complejidad.
+
+* El proyecto se puede implementar en procesos educativos para evitar accidentes al poderse realizar utilizando el brazo.
+
+* Este proyecto contribuye a ampliar los horizontes al asumir nuevos desafíos, que conllevan un mayor nivel de exigencia y conocimiento, al comprender el motivo de cada cosa y cómo se puede optimizar. Con lo que verdaderamente se obtiene un conocimiento básico en electrónica y se desarrollan habilidades en el ámbito.
+
+* El funcionamiento de la app es correcto, pero al mover el slider puede enviar varios datos a la vez, lo que produce errores que requieren reiniciar el robot. También hay un error en el movimiento, que es muy abrupto y provoca que el robot se desconecte en ocasiones
+
+
+Recomendaciones para futuros trabajos
+=====================================
+
+* Se recomienda incorporar la función Try catch en el main del código para evitar que se deba reiniciar el proceso cuando aparezca un error de transmisión de datos por parte de la aplicación.
+
+* Se recomienda mejorar el movimiento en el software para que sea más suave el movimiento, ya sea desde la incorporación de for en el cada movimiento o encontrar otra solución. Además, intenta mejorar la relación del peso del case incorporado con los componentes para que el movimiento sea más suave.
+
+* Se recomienda revisar que el funcionamiento de cada uno de sus componentes este correcto para evitar dañar otros, como la PCB al creer que está en corto esta cuando en realidad es un componente.
+
+* Arreglar el footprint del jack ya que los agujeros de estos son muy pequeños, por lo que se deben agrandar para que al momento de imprimir la PCB no se deba perforar esta.
+
 
 ## Alimentador automático para mascotas
 
-![Banner](https://private-user-images.githubusercontent.com/144504347/287315738-ab533bcc-c220-4137-8b3e-9c05822cc8a1.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDIzOTc4NTAsIm5iZiI6MTcwMjM5NzU1MCwicGF0aCI6Ii8xNDQ1MDQzNDcvMjg3MzE1NzM4LWFiNTMzYmNjLWMyMjAtNDEzNy04YjNlLTljMDU4MjJjYzhhMS5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIxMlQxNjEyMzBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lNzEwODcwMGFiMTBmZjc3OTlmMGI2ZmE1MjgwYmZkYjdhNzNhMjFkZjhlMDZhYjg0YjVhZTZmMWFkNDgxMzIxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.mtQxon5Ewyk_92eOC2Hd0GognA7TE_Wm0UUfZ43Y6eY)
+![Banner](https://github.com/DiegoZea0412/Comedor_para_mascotas/assets/144504347/ab533bcc-c220-4137-8b3e-9c05822cc8a1)
+
+Repositorio
+===========
+
+* [Wiki del proyecto](https://github.com/DiegoZea0412/Comedor_para_mascotas/wiki/1.-Home)
+* [Repositorio github del proyecto](https://github.com/DiegoZea0412/Comedor_para_mascotas)
+* [PDF del proyecto](https://github.com/DiegoZea0412/Comedor_para_mascotas/blob/main/Dise%C3%B1o%20de%20la%20solucion/Proyecto%20TALLER.pdf)
 
 Creadores
 =========
@@ -65,28 +95,39 @@ Existen condiciones dentro de la vida adulta que exigen a los amantes de las mas
 Vídeo
 =====
 
-!?[Alimentador automático para mascotas](https://www.youtube.com/watch?v=r1HtruMf9OQ)
-
-Repositorio
-===========
-
-* [Wiki del proyecto](https://github.com/DiegoZea0412/Comedor_para_mascotas/wiki/1.-Home)
-* [Repositorio del proyecto](https://github.com/DiegoZea0412/Comedor_para_mascotas)
+!?[Alimentador automático para mascotas](https://www.youtube.com/watch?v=Z0mrX8JiHOk)
 
 Evidencias del proceso
 ======================
 
-![Poster](https://private-user-images.githubusercontent.com/144504347/286597402-8afde34b-d3a3-4bb1-9bf7-c408ed47cceb.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDIzOTc4NTAsIm5iZiI6MTcwMjM5NzU1MCwicGF0aCI6Ii8xNDQ1MDQzNDcvMjg2NTk3NDAyLThhZmRlMzRiLWQzYTMtNGJiMS05YmY3LWM0MDhlZDQ3Y2NlYi5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIxMlQxNjEyMzBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01YjZhMTg0YjIwYjc5Mzc3ODk4OTE3NTgwYjkwNWMwNzU5NTAxNTJiNDI1N2Y5ZDY3MDZhNmM1ZGY1YmU4ODE5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.BmQiHA85dCx1TJPrgRgO3th_52NnnKdu1jJMBzasB3s)
-![Diagrama tecnológico](https://private-user-images.githubusercontent.com/144504347/287317553-b40242ee-3a39-4957-9113-805f7ec54909.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDIzOTc2NzEsIm5iZiI6MTcwMjM5NzM3MSwicGF0aCI6Ii8xNDQ1MDQzNDcvMjg3MzE3NTUzLWI0MDI0MmVlLTNhMzktNDk1Ny05MTEzLTgwNWY3ZWM1NDkwOS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIxMlQxNjA5MzFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mZmFmYzI3ZDQ2YjU3NGQzMTNhMDk5NWM2YWY4MjM4ODllYzY0MzMxNTAwOWMwYTJkNTQzYTJkMWNmOGVmZDA5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.AmFK_cjVkQvmPgkMMg1unY31s9zMvEGAlBLBGZNwq2w)
-![Puente H](https://private-user-images.githubusercontent.com/144504347/287320755-24d904dc-04a3-42a7-991a-2fed53754524.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDIzOTczMDUsIm5iZiI6MTcwMjM5NzAwNSwicGF0aCI6Ii8xNDQ1MDQzNDcvMjg3MzIwNzU1LTI0ZDkwNGRjLTA0YTMtNDJhNy05OTFhLTJmZWQ1Mzc1NDUyNC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIxMlQxNjAzMjVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05YjBhZWQwYzA0NzFlYWYzZTJiNGE2ODA0MDQ1NTYyZTczMDdjZmJlZDM1ODNjZDUzNmIwNzVmMDdjZmUxZmEwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.3qBlDIxYi2e32X4EwdNcj6UpqQwjJmNyVYOTYdqi54I)
-![Tornillos 3d](https://private-user-images.githubusercontent.com/144504347/287319852-81f4d7b8-8a9c-490d-8954-f03c28dcd674.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDIzOTczMDUsIm5iZiI6MTcwMjM5NzAwNSwicGF0aCI6Ii8xNDQ1MDQzNDcvMjg3MzE5ODUyLTgxZjRkN2I4LThhOWMtNDkwZC04OTU0LWYwM2MyOGRjZDY3NC5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIxMlQxNjAzMjVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lOWU5NmQ3MDUxOGZmNTFhNGI0NjIzNzcwNzE1NjRkZjAwNGQ0ZTQxZGIxMGNhMTlkZGVkNmZiODQwZDFmMGU2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.rlh3SxvN9y-GHgHY8S3ytVBEsVt3emevJlarUEbMhCg)
-![Diseño de pcb](https://private-user-images.githubusercontent.com/144504347/287327760-e46c1895-9ea0-4e74-bac1-32ae00f22f5d.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDIzOTczODMsIm5iZiI6MTcwMjM5NzA4MywicGF0aCI6Ii8xNDQ1MDQzNDcvMjg3MzI3NzYwLWU0NmMxODk1LTllYTAtNGU3NC1iYWMxLTMyYWUwMGYyMmY1ZC5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIxMlQxNjA0NDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wNWUyYjc4MTAyM2VkNjJkNjUzOTNiOTBiNjQ3M2EyNTM2ODRmMDUxYTBiZmY1NzNiZjY3MTk3YjQzNmVkODBiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.7-bs4qOmtEWI0ziisx5WytH70N0iQ2GxjrhgoAfHnak)
-![Diseño de la aplicación](https://private-user-images.githubusercontent.com/144504347/287322336-4ede623d-87ad-4c34-931c-74fd1a1f061a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDIzOTc0MTQsIm5iZiI6MTcwMjM5NzExNCwicGF0aCI6Ii8xNDQ1MDQzNDcvMjg3MzIyMzM2LTRlZGU2MjNkLTg3YWQtNGMzNC05MzFjLTc0ZmQxYTFmMDYxYS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIxMlQxNjA1MTRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lZmIyZTc2NjI3ODY1NDYzYmVlYWU0NjQ1N2RhN2Y3ZWI2YjI4OWFlNWMwMTUxZDNhZDgzYWQ5NThkYWM5OGRhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.iJtVsvMNQHiq5TY_uiPGfDUuuGLgADis49RVhhcL7Fo)
-!?[Probando funcionamiento](https://private-user-images.githubusercontent.com/144504347/287326722-6ecfbe59-4d68-4fa9-ab46-e8fcb66110ca.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDIzOTc0NTksIm5iZiI6MTcwMjM5NzE1OSwicGF0aCI6Ii8xNDQ1MDQzNDcvMjg3MzI2NzIyLTZlY2ZiZTU5LTRkNjgtNGZhOS1hYjQ2LWU4ZmNiNjYxMTBjYS5tcDQ_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIxMlQxNjA1NTlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yOWQ3ZWM0NDM2YWZlMTc3YzI5YmY4NTcyYThlMDVjZjg3NjZhMDlhNDUyYzQzYzI4MGEzYjM3ODczZDU2ZTAyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.LYRk8LgWMng-v9NsxUv7YMYam2gPgPOy2UClnILKauc)
+![Poster](https://github.com/DiegoZea0412/Comedor_para_mascotas/assets/144504347/8afde34b-d3a3-4bb1-9bf7-c408ed47cceb)
+![Diagrama de caja negra](https://github.com/DiegoZea0412/Comedor_para_mascotas/assets/144504347/ad3bca27-68f4-487a-860a-6cf46d8a0d78)
+![Diagrama tecnológico](https://github.com/DiegoZea0412/Comedor_para_mascotas/assets/144504347/b40242ee-3a39-4957-9113-805f7ec54909)
+![Puente H](https://github.com/DiegoZea0412/Comedor_para_mascotas/assets/144504347/24d904dc-04a3-42a7-991a-2fed53754524)
+![Tornillos 3d](https://github.com/DiegoZea0412/Comedor_para_mascotas/assets/144504347/81f4d7b8-8a9c-490d-8954-f03c28dcd674)
+
+Conclusiones
+============
+
+En base a lo trabajado durante todo el semestre y el proceso de aprendizaje que mantuvimos, tenemos como conclusion que no es facil crear y desarrollar un proyecto que busque resolver un problema de la vida cotidiana, desde nuestro bajo conocimiento en varias areas que trabajamos durante este periodo de tiempo desarrollamos diferentes habilidades.
+
+Ahora hablando un poco mas cerca de nuestro proyecto, es un prototipo funcional, cumple para nosotros la principal tarea de dispensar comida a distancia, tuvimos el principal percance de que se debe siempre mantener conectado por un la red wifi de la esp-32 y la cual por esto dicho antes ese es su rango maximo. 
+
+Recomendaciones para trabajos futuros
+=====================================
+
+La principal recoemndacion es buscar e investigar mucha mas informacion y estar mejor preparados y organizados en tiempo para la resolucion de algun problema, ya que para nosotros nos complico demasiado no tener mucho conocimiento y casi que llegar en blanco a desarrollar un prototipo, tambien nos parace lo mas ideal organizar un horario de trabajo aparte del horario ya asignado por taller de electronica ya que hubo momentos donde nos sentimos cortos de tiempo en contraste al cronograma establecido.
 
 ## Petinador
 
-![Banner](https://private-user-images.githubusercontent.com/147554318/285715217-38a1191d-28b3-4726-a9d2-de11844e2087.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDIzOTgxMTksIm5iZiI6MTcwMjM5NzgxOSwicGF0aCI6Ii8xNDc1NTQzMTgvMjg1NzE1MjE3LTM4YTExOTFkLTI4YjMtNDcyNi1hOWQyLWRlMTE4NDRlMjA4Ny5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIxMlQxNjE2NTlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yYjc2OWYzYmY0ZjZjNDExMDJiOTdhZjAzNzI3MjBiNmJiZjI2YjE5MjYyMGM4NzczODcyNmYyMTYyZjQ4ZWRiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.bQAA-3gL1fYk0-vkKndnMtdPZ8q1ff6eZeGchkgewLo)
+![Banner](https://github.com/LuisARodriguezA/PETinador/assets/147554318/38a1191d-28b3-4726-a9d2-de11844e2087)
+
+Repositorio
+===========
+
+* [Wiki del proyecto](https://github.com/LuisARodriguezA/PETinador/wiki)
+* [Repositorio github del proyecto](https://github.com/LuisARodriguezA/PETinador)
+
 
 Creadores
 =========
@@ -110,12 +151,6 @@ Vídeo
 
 !?[PETindaor - Una extrusora de filamento PET](https://www.youtube.com/watch?v=Ge7dVCigejI)
 
-Repositorio
-===========
-
-* [Wiki del proyecto](https://github.com/LuisARodriguezA/PETinador/wiki)
-* [Repositorio del proyecto](https://github.com/LuisARodriguezA/PETinador)
-
 Evidencias del proceso
 ======================
 
@@ -130,12 +165,18 @@ Evidencias del proceso
 ![Ruteo](https://raw.githubusercontent.com/LuisARodriguezA/PETinador/main/002%20Fotos%20y%20videos%20ELEC/PCB%20Footprint.png)
 ![3D PCB](https://raw.githubusercontent.com/LuisARodriguezA/PETinador/main/002%20Fotos%20y%20videos%20ELEC/3dview.png)
 ![PCB impresa](https://raw.githubusercontent.com/LuisARodriguezA/PETinador/main/002%20Fotos%20y%20videos%20ELEC/Pcb2.jpeg)
-![PCB con sensores y actuadores](https://private-user-images.githubusercontent.com/144032031/287316735-c6ac8b91-6457-49f9-a818-4b74bff642be.jpeg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDIzOTg3ODYsIm5iZiI6MTcwMjM5ODQ4NiwicGF0aCI6Ii8xNDQwMzIwMzEvMjg3MzE2NzM1LWM2YWM4YjkxLTY0NTctNDlmOS1hODE4LTRiNzRiZmY2NDJiZS5qcGVnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMTIxMiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzEyMTJUMTYyODA2WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9OWEyNmI1OTUyMWZmNzlmNmQ3NWQxYmE1YTAxZTFjNjBmZjJlMjgyZTg0ODQyYzE2NGEwMzdlNjQxOGQxNWI0NCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.ug-Pfc2DEX8Si06ZdhCbx8v1URcgqwtOE5QG0ZegWUM)
+![PCB con sensores y actuadores](https://github.com/LuisARodriguezA/PETinador/assets/144032031/c6ac8b91-6457-49f9-a818-4b74bff642be)
 ![Diseño del software](https://raw.githubusercontent.com/LuisARodriguezA/PETinador/main/002%20Fotos%20y%20videos%20ELEC/DiagramaDeFlujoSip.png)
 
 ## Smart Pot
 
 ![Banner](https://github.com/ctalero/smart-pot/assets/146844443/cc3235a5-458f-4da2-849c-8e0997929791)
+
+Repositorio
+===========
+
+* [Wiki del proyecto](https://github.com/ctalero/smart-pot/wiki/1.-Home)
+* [Repositorio del proyecto](https://github.com/ctalero/smart-pot)
 
 Creadores
 =========
@@ -156,21 +197,14 @@ Gestión del Riego: La correcta gestión del riego es esencial para el éxito de
 
 Tiempo y Compromiso: Muchas personas tienen horarios ocupados y no pueden dedicar el tiempo necesario para cuidar de sus jardines de manera efectiva. Esto puede resultar en el abandono de la jardinería o en la elección de plantas que requieren menos atención, pero que no satisfacen completamente las preferencias del jardinero.
 
-Vídeo
-=====
+Póster
+======
 
-!?[Smart Pot](https://www.youtube.com/watch?v=0TKn5UvQbYI)
-
-Repositorio
-===========
-
-* [Wiki del proyecto](https://github.com/ctalero/smart-pot/wiki/1.-Home)
-* [Repositorio del proyecto](https://github.com/ctalero/smart-pot)
+![Poster](https://github.com/ctalero/smart-pot/assets/142280379/8ad7eb69-c758-4204-8491-9ba98de3549f)
 
 Evidencias del proceso
 ======================
 
-![Poster](https://github.com/ctalero/smart-pot/assets/142280379/8ad7eb69-c758-4204-8491-9ba98de3549f)
 ![caja-negra](https://github.com/ctalero/smart-pot/assets/146844443/32e1a509-1a94-4571-86ed-514097d93eba)
 ![tecnológico](https://github.com/ctalero/smart-pot/assets/146844443/4d6d5a35-36cc-4fae-820d-a8d6f613467d)
 ![Diagrama-de-flujo](https://github.com/ctalero/smart-pot/assets/146844443/2f6cda47-909a-4266-bd66-a2e901ea3241)
@@ -182,6 +216,12 @@ Evidencias del proceso
 ## Theremín-MIDI
 
 ![Banner](https://github.com/Diego5267g/Theremin-Midi/assets/144371294/9e364c42-bd59-424b-b903-f3281910d146)
+
+Repositorio
+===========
+
+* [Wiki del proyecto](https://github.com/Diego5267g/Theremin-Midi/wiki)
+* [Repositorio del proyecto](https://github.com/Diego5267g/Theremin-Midi)
 
 Creadores
 =========
@@ -199,15 +239,10 @@ Vídeo
 
 !?[Theremín-MIDI](https://www.youtube.com/watch?v=15zmzYb4kFM)
 
-Repositorio
-===========
-
-* [Wiki del proyecto](https://github.com/Diego5267g/Theremin-Midi/wiki)
-* [Repositorio del proyecto](https://github.com/Diego5267g/Theremin-Midi)
-
 Evidencias del proceso
 ======================
 
+![Póster](https://github.com/Diego5267g/Theremin-Midi/assets/144371294/c0b8dfe1-fb95-40cd-abde-59b5bda8f8a4)
 ![Diagrama de caja negra](https://github.com/Diego5267g/Theremin-Midi/assets/144371294/b54bc3b4-b85b-4674-9779-1ac929d82ee9)
 ![Diagrama Tecnologico](https://github.com/Diego5267g/Theremin-Midi/assets/144371294/32ff6b82-9074-446b-895a-ce0514e49c1b)
 ![Diagrama de Flujo del Usuario](https://github.com/Diego5267g/Theremin-Midi/assets/144371294/2698f8e1-340d-4069-962e-fb4b87a15870)
@@ -225,6 +260,12 @@ Evidencias del proceso
 ## Foodinator
 
 ![Banner](https://github.com/AngelLeguizamon/Foodineitor/assets/146735840/a4a04720-3d5b-475a-869e-aabac2754dc3)
+
+Repositorio
+===========
+
+* [Wiki del proyecto](https://github.com/AngelLeguizamon/Foodineitor/wiki/0.-Home)
+* [Repositorio del proyecto](https://github.com/AngelLeguizamon/Foodineitor)
 
 Creadores
 =========
@@ -246,12 +287,6 @@ Vídeo
 =====
 
 !?[Foodinator](https://www.youtube.com/watch?v=8_Jv7PbwYz8)
-
-Repositorio
-===========
-
-* [Wiki del proyecto](https://github.com/AngelLeguizamon/Foodineitor/wiki/0.-Home)
-* [Repositorio del proyecto](https://github.com/AngelLeguizamon/Foodineitor)
 
 Evidencias del proceso
 ======================
@@ -280,6 +315,12 @@ Evidencias del proceso
 
 ![Banner](https://raw.githubusercontent.com/JHONYALE/SoniLaser/main/Evidencias/Resultado_Final.jpeg)
 
+Repositorio
+===========
+
+* [Wiki del proyecto](https://github.com/JHONYALE/SoniLaser/wiki/1.-Home)
+* [Repositorio del proyecto](https://github.com/JHONYALE/SoniLaser)
+
 Creadores
 =========
 
@@ -294,12 +335,6 @@ Vídeo
 =====
 
 !?[Sonilaser](https://www.youtube.com/watch?v=aWH_dHy1hvk)
-
-Repositorio
-===========
-
-* [Wiki del proyecto](https://github.com/JHONYALE/SoniLaser/wiki/1.-Home)
-* [Repositorio del proyecto](https://github.com/JHONYALE/SoniLaser)
 
 Evidencias del proceso
 ======================
@@ -368,9 +403,118 @@ Evidencias del proceso
 !?[video](https://youtu.be/4Qi7xlfoS2E?si=XQDte4IJNDTvSQAg)
 ![imagen4](https://raw.githubusercontent.com/SofiaTFSF/Chaleco-LED/main/Fotos/Luces%20de%20auxilio%20en%20el%20chaleco.jpeg)
 
+## ZEROBOID CHAN
+
+Repositorio
+===========
+
+* [Wiki del proyecto](https://github.com/srojasu/Zeroboid-chan/wiki)
+* [Repositorio github del proyecto](https://github.com/srojasu/Zeroboid-chan)
+
+
+Creadores
+=========
+
+Stive Ferney Rodriguez Silva, Federico Jimenez Florez, Cristian Alejandro Perez
+Roa, Sabrina Rojas Uribe.
+
+
+Descripción y problemática
+==========================
+
+Para muchas personas es difícil manejar su tiempo correctamente , por lo que terminan procrastinado y dejan que el trabajo se acumule generando al final un exceso de estrés. O también puede ocurrir que se trabaja en exceso y no se descansa el tiempo suficiente, esto siendo malo para la salud. Es por esto que decidimos crear una solución a esto, nuestro pequeño robot Zeroboid que busca poder ayudar a la gente a el manejo eficiente de su  tiempo.
+
+
+Póster
+=====
+
+![Plantilla Encuentro Ingenia Futuro 2023-2S pptx](https://github.com/srojasu/Zeroboid-chan/assets/143129720/b9fb1103-015b-4721-aaaf-87bbe6987c3f)
+
+
+Evidencias del proceso
+======================
+
+![Roadmap](https://github.com/srojasu/Zeroboid-chan/assets/143129720/8eaf01a6-3010-4fca-8c09-834bf989355d)
+![Diagrama tecnológico](https://github.com/srojasu/Zeroboid-chan/assets/143129720/1bb88d68-e541-4ef1-8c4a-cb8674f4fbfd)
+![Dis 3d](https://github.com/srojasu/Zeroboid-chan/assets/143129720/a7578641-afec-48d6-bbfa-f979c2e409e1)
+![Dis1 3d](https://github.com/srojasu/Zeroboid-chan/assets/143129720/3cd5e784-a978-4a61-ade9-17080381aa52)
+![esquema electri](https://github.com/srojasu/Zeroboid-chan/assets/143129720/065780f0-60a2-49cf-9a9e-3b48c385bfd1)
+![algo1](https://github.com/srojasu/Zeroboid-chan/assets/143129720/57942b05-6b4a-4381-8f16-3c42c58fa271)
+![algoritmo2](https://github.com/srojasu/Zeroboid-chan/assets/143129720/e78f5654-1d52-4671-8df2-7fd3e1e0e8b7)
+![pruebas en protoboard](https://github.com/srojasu/Zeroboid-chan/assets/143129720/d70e9cc9-0bd8-4ccf-b2fe-e9d9ecfdd8f0)
+
+## Dispositivo de Detección UV
+
+![Banner](https://github.com/Lamorenobo/dispositivo-de-deteccion-uv/assets/142938507/c43cda23-ce44-4e62-b2e7-bebb53a6b4fb)
+
+Repositorio
+===========
+
+* [Wiki del proyecto](https://github.com/Lamorenobo/dispositivo-de-deteccion-uv/wiki/)
+* [Repositorio del proyecto](https://github.com/Lamorenobo/dispositivo-de-deteccion-uv)
+
+Creadores
+=========
+
+Thomas Enrique RIncon Parra, Laura Alejandra Moreno Borda, Paula Katalina
+Moreno Sierra, Daniel Alejandro Suarez Roa, David Enrique Godoy, Dilan
+Fourtoul.
+
+Descripción y problemática
+==========================
+
+El Dispositivo de Detección UV es un proyecto pensado para avisar a las personas sobre la intensidad de los rayos UV en tiempo presente, y presentarle al usuario las recomendaciones apropiadas según su fototipo de piel y la intensidad de radiación UV nombrada anteriormente. Todo esto con el fin de prevenir a futuro las distintas afectaciones para la piel, y mas aun en Bogota, ciudad que durante los últimos años ha registrado una elevada incidencia en casos de cáncer de piel y ademas un promedio de radiación UV muy alto durante el día dentro de la escala internacional del indice UV
+
+Póster
+======
+
+![poster-ingenia-futuro-daniel](https://github.com/Lamorenobo/dispositivo-de-deteccion-uv/assets/142939223/e9abc959-8699-4023-8425-2bbbf086a1e6)
+
+Vídeo
+=====
+
+!?[video-problemática]( https://github.com/Lamorenobo/dispositivo-de-deteccion-uv/assets/142938507/7a6a0507-e3a7-4e52-b333-51a3234b38c1)
+
+Evidencias del proceso
+======================
+
+![Captura de pantalla 2023-11-27 083247](https://github.com/Lamorenobo/dispositivo-de-deteccion-uv/assets/142938507/8ec01492-5355-4201-9902-9a6cfeccbf0d)
+![68747470733a2f2f692e706f7374696d672e63632f56766331533346342f6469616772616d612d64652d63616a61732e706e67](https://github.com/Lamorenobo/dispositivo-de-deteccion-uv/assets/142939223/bbb44536-40e0-4941-9a08-4d58d6659db2)
+![68747470733a2f2f692e706f7374696d672e63632f624a566b7039487a2f65737175656d612d656e2d6b696361642e706e67](https://github.com/Lamorenobo/dispositivo-de-deteccion-uv/assets/142939223/3077a71a-2c80-4995-a11f-b21565365c94)
+![68747470733a2f2f692e706f7374696d672e63632f624a566b7039487a2f65737175656d612d656e2d6b696361642e706e67](https://github.com/Lamorenobo/dispositivo-de-deteccion-uv/assets/142939223/cecc12f8-0ee1-4415-9554-7cb773d3bebb)
+![Captura de pantalla 2023-11-27 073500](https://github.com/Lamorenobo/dispositivo-de-deteccion-uv/assets/142938507/c704bc2f-30c0-4558-b640-a9fb17d5bda2)
+![284272939-c3e9036d-4973-42ae-8b6a-c8f784393c59](https://github.com/Lamorenobo/dispositivo-de-deteccion-uv/assets/142939223/7db9613a-7812-4297-ba55-cb3e0bf114f9)
+![IMG-20231119-WA0025](https://github.com/Lamorenobo/dispositivo-de-deteccion-uv/assets/142938507/db8b9c84-6c64-42ed-af38-8152e1afe1bf)
+![284108044-cf82e874-7b2d-4036-8f81-4ffe877c1216](https://github.com/Lamorenobo/dispositivo-de-deteccion-uv/assets/142939223/4b362d89-bdb3-4ecc-b822-2366e9194704)
+![284108063-c0e7e46a-1c48-40c4-bf70-db69e31ea9da](https://github.com/Lamorenobo/dispositivo-de-deteccion-uv/assets/142939223/6fff5947-befb-4832-92be-d4588c215f6f)
+![IMG-20231126-WA0029](https://github.com/Lamorenobo/dispositivo-de-deteccion-uv/assets/142939223/e5c3d436-491b-4520-98be-3fc619ae6dde)
+![IMG-20231126-WA0027](https://github.com/Lamorenobo/dispositivo-de-deteccion-uv/assets/142939223/960e2809-5f4b-40a7-a500-81b4c07b9e1d)
+![IMG-20231126-WA0028](https://github.com/Lamorenobo/dispositivo-de-deteccion-uv/assets/142939223/dad7664d-9f7b-4403-9dec-1cdb16af821c)
+![285733496-1b4e70c9-a4f9-4ee5-8bf3-af28fe63ef32](https://github.com/Lamorenobo/dispositivo-de-deteccion-uv/assets/142939223/f452c815-faaf-45b4-93c8-ce7c7d98a459)
+![285733729-bd901661-d68d-4cf2-8d94-f8f066b124d4](https://github.com/Lamorenobo/dispositivo-de-deteccion-uv/assets/142939223/23612237-e419-43d9-abb5-7f5a120e2b39)
+![image-3](https://github.com/Lamorenobo/dispositivo-de-deteccion-uv/assets/142939223/22da11a9-1d06-4b9b-a9d4-e2bf18f5e678)
+
+Concluciones
+============
+Este proyecto significo un aprendizaje significativo para cada integrante del grupo, uno de los mas importantes es el hecho de explorar y adentrare en distintas tecnologías , en este caso (esp-32), salir de nuestra zona de confort (Arduino) y aprender sobre nuevas y provechoso módulos que nos servirán en nuestra vida de ingenieros mas adelante.Ademas desarrollamos exponencialmente el ser autodidacta y sobre todo a manejar la frustacion puesto que durante las fases de pruebas NUNCA va a salir a la primera, posiblemente tampoco a la segunda ni tercera ni cuarta etc....,pero con paciencia se lograra el objetivo.
+Específicamente el resultado de nuestro proyecto fue satisfactorio sin embargo la exactitud del sensor no era 100% debido a que era uno de los mas baratos del mercado, pero se acercaba mucho a los valores reales de intensidad UV.
+
+Recomendaciones
+===============
+* Durante el proceso de soldadura de los componentes en la PCB siempre medir la continuidad, para evitar sustos futuros.
+* Es indispensable realizar diagramas negros y tecnológicos ya que ayudan a estructurar la idea que se tiene en la cabeza del proyecto, y la falta de estos puede conducir a la poca claridad cuando se tiene que empezar a prototipar
+* No engancharse con solo un tipo de tecnología por la pereza de aprender el funciomaiento de otras cosas ya que esto solo hará que nos auto limitemos y así mismo auto limitemos nuestro proyecto
+
 ## P
 
 ![Banner]()
+
+Repositorio
+===========
+
+* [Wiki del proyecto]()
+* [Repositorio del proyecto]()
+
 
 Creadores
 =========
@@ -383,12 +527,6 @@ Vídeo
 =====
 
 !?[]()
-
-Repositorio
-===========
-
-* [Wiki del proyecto]()
-* [Repositorio del proyecto]()
 
 Evidencias del proceso
 ======================
