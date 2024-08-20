@@ -614,8 +614,7 @@ Recomendaciones
 * No engancharse con solo un tipo de tecnología por la pereza de aprender el funciomaiento de otras cosas ya que esto solo hará que nos auto limitemos y así mismo auto limitemos nuestro proyecto
 
 ## Dispensador Automático de Comida
-
-![Banner](https://github.com/Dintash/Dispensador-autom-tico-de-comida-/assets/152512753/d09c145d-49e8-4480-97ea-c036e091df4d)
+![Banner](https://github.com/Dintash/Dispensador-automa-tico-de-comida-/assets/147168924/9bfcd6e5-7c69-4f3c-b3f7-ff32182a4fc5)
 
 Repositorio
 ===========
@@ -638,6 +637,7 @@ En un mundo cada vez más ocupado, la gestión del tiempo se vuelve crucial. En 
 Evidencias del proceso
 ======================
 
+![poster](https://github.com/Dintash/Dispensador-autom-tico-de-comida-/assets/152512753/d09c145d-49e8-4480-97ea-c036e091df4d)
 ![CAJA NEGRA 3](https://github.com/Dintash/Dispensador-automa-tico-de-comida-/assets/152512753/1143d60e-2d95-4912-9c65-262fdfe71c18)
 ![DIAGRAMA TECNOLÓGICO](https://github.com/Dintash/Dispensador-automa-tico-de-comida-/assets/152512753/73271a58-fa7d-4aab-84a9-628db7f3cfe8)
 ![DIAGRAMA DE FLUJO](https://github.com/Dintash/Dispensador-automa-tico-de-comida-/assets/152512753/d5e77786-d68a-46c5-aa8c-9c84ac0fd80c)

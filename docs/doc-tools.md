@@ -195,6 +195,10 @@ Si hace uso de github, puede usar el cliente creado por github denominado [Githu
 
 > Si conoce o sabe usar [Notion](https://www.notion.so/) puede hacer uso de este para enlazarlo con su proyecto git
 
+*Vídeos recomendados*:
+
+* [Vídeo de Github Desktop Tutorial (Faz Code)](https://www.youtube.com/watch?v=TuOQBfhp-r0)
+
 # KiCAD: Herramienta de diseño de PCB
 
 ![KiCAD](./img/kicad/kicad.png)

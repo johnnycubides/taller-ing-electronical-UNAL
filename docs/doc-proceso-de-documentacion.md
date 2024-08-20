@@ -117,6 +117,5 @@ A continuación se observará un ejemplo de la organización de los archivos fue
 **Recomendación**: Haga uso de un cliente de git como puede ser _Github desktop_ para que no tenga problemas subiendo el contenido a su
 gestor de proyectos. A continuación un vídeo introductorio sobre la plataforma.
 
-!?[Github Destop Tutorial (Faz Code)](https://www.youtube.com/watch?v=TuOQBfhp-r0)
-
+!?[Gestionar nuestro proyecto en Github](https://www.youtube.com/watch?v=INujlOd3E0o)
 

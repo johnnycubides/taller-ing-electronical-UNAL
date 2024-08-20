@@ -118,7 +118,7 @@ Bienvenidos al curso de **Taller de Ingeniería Electrónica**, por favor
 acceder al servidor de *Discord* el cual es diseñado como espacio para
 realizar los encuentros asíncronos.
 
-![QR servidor de Discord](img/main/qrcode_discord-gg.svg)
+![QR servidor de Discord](./img/main/qrcode_discord-gg.svg)
 [Lea el código QR o de clic aquí para ir al servidor de *Discord*](https://discord.gg/vWtMUphtrY)
 
 **Instrucciones:**
@@ -132,7 +132,7 @@ realizar los encuentros asíncronos.
 
 Ejemplo de identificación:
 
-![discord ejemplo](img/main/discord-ejemplo.png)
+![discord ejemplo](./img/main/discord-ejemplo.png)
 
 ## Historial de Proyectos
 
@@ -141,7 +141,7 @@ Ejemplo de identificación:
 
 ## Proceso de diseño
 
-![Proceso de diseño de proyecto](desing/desing-process/abril10-Page-1.drawio.png)
+![Proceso de diseño de proyecto](././desing/desing-process/abril10-Page-1.drawio.png)
 
 ### Ideación
 
@@ -180,7 +180,7 @@ Estos diagramas los puede realizar a mano, como a través de software que conten
 
 ### Diagrama de Cajas Negras
 
-![diagrama-caja-negra](desing/diagrama-caja-negra-general.drawio.png)
+![diagrama-caja-negra](././desing/diagrama-caja-negra-general.drawio.png)
 
 <div>
 
@@ -327,7 +327,7 @@ tiene la siguiente estructura y cantidad de páginas:
 
 En el siguiente ejemplo se muestra una imagen de las páginas de la wiki bien ordenadas:
 
-![Wiki bien ordenada](img/design-process/docs/docs-wiki-sort.png)
+![Wiki bien ordenada](./img/design-process/docs/docs-wiki-sort.png)
 
 **SRC (archivos fuente)**
 
@@ -339,12 +339,12 @@ En el siguiente ejemplo se muestra una imagen de las páginas de la wiki bien or
 
 A continuación se observará un ejemplo de la organización de los archivos fuente en un repositorio de Github:
 
-![Ejemplo de documentación](img/design-process/docs/docs-src-example.png)
+![Ejemplo de documentación](././img/design-process/docs/docs-src-example.png)
 
 **Recomendación**: Haga uso de un cliente de git como puede ser *Github desktop* para que no tenga problemas subiendo el contenido a su
 gestor de proyectos. A continuación un vídeo introductorio sobre la plataforma.
 
-!?[Github Destop Tutorial (Faz Code)](https://www.youtube.com/watch?v=TuOQBfhp-r0)
+!?[Gestionar nuestro proyecto en Github](https://www.youtube.com/watch?v=INujlOd3E0o)
 
 ### Poster
 
@@ -580,24 +580,24 @@ Conocer el valor de corriente para el giro de motor.
 
 Montar el siguiente circuito:
 
-![Control de motor por transistor-motor](desing/t2-digital-analogo/analogico/motorDC-driver_bb.png)
+![Control de motor por transistor-motor](././desing/t2-digital-analogo/analogico/motorDC-driver_bb.png)
 
-![Control de motor por transistor-motor](desing/t2-digital-analogo/analogico/motorDC-driver_schem.png)
+![Control de motor por transistor-motor](././desing/t2-digital-analogo/analogico/motorDC-driver_schem.png)
 
 Cambiar la fuente DC por un generador de señales cuadrada equivalente y controlar el PWM
 
 Agregar una tarjeta de desarrollo para programar el PWM.
 
-![Control de motor por PWM](desing/t2-digital-analogo/digital/motorDC-driver-micro_bb.png)
+![Control de motor por PWM](././desing/t2-digital-analogo/digital/motorDC-driver-micro_bb.png)
 
-![Control de motor por PWM](desing/t2-digital-analogo/digital/motorDC-driver-micro_schem.png)
+![Control de motor por PWM](././desing/t2-digital-analogo/digital/motorDC-driver-micro_schem.png)
 
 ### Driver de motor
 
 Realizaremos el siguiente circuito el cual corresponde a un driver *Puente H* con tecnología de transistores
 npn discretos (2n2222a)
 
-![Esquemático del puente H](desing/t3-bridge-h/motorDC-driver-micro-bridge-h_schem.png)
+![Esquemático del puente H](././desing/t3-bridge-h/motorDC-driver-micro-bridge-h_schem.png)
 
 Para reconocer el funcionamiento podrá ir al siguiente enlace y conocer las configuraciones posibles:
 
@@ -608,7 +608,7 @@ Para reconocer el funcionamiento podrá ir al siguiente enlace y conocer las con
 > **Programa a realizar**: Realice el programa que está planteado en el siguiente diagrama de flujo; haga uso del esp32 o rp2040
 > y Micropython.
 
-![diagrama de flujo](desing/t3-bridge-h/programa-a-realizar.drawio.png)
+![diagrama de flujo](././desing/t3-bridge-h/programa-a-realizar.drawio.png)
 
 > **Reto**: Realice un programa con funciones de python las cuales puedan ser llamadas desde el prompt de micropython
 > para iniciar o detener el motor.
@@ -658,7 +658,7 @@ el pin de 3.3v (3v3 o 3V) de la tarjeta de desarrollo, para crear los demás
 elementos del circuito deberá remitirse a los conocimientos previos de los anteriores
 talleres.
 
-![Esquema circuital](desing/t4-adc/adc-esquema.drawio.png)
+![Esquema circuital](././desing/t4-adc/adc-esquema.drawio.png)
 
 **PROGRAMA A REALIZAR**:
 
@@ -666,7 +666,7 @@ Traduzca este algoritmo a una tecnología/lenguaje, en este caso a micropython,
 si tiene dificultades para crear las diferentes instrucciones, remítase a algún
 tutorial del lenguaje python3.
 
-![Diagrama de flujo](desing/t4-adc/adc-algoritmo.drawio.png)
+![Diagrama de flujo](././desing/t4-adc/adc-algoritmo.drawio.png)
 
 **RECOMENDACIÓN PARA LA REALIZACIÓN DEL PROGRAMA**:
 
@@ -938,12 +938,12 @@ el programa que debe tener un esp32 el cual corre un interpretye de micropython.
 
 **Esp32 dev kit**:
 
-![esp32 nodemcu](img/samples-SE/nodemcu-esp32-wroom.png)
+![esp32 nodemcu](./img/samples-SE/nodemcu-esp32-wroom.png)
 
 **Pinout esp32**:
 
-![Esp32 Dev Kit v1](img/samples-SE/pinout/nodemcu-esp32-pinout.png)
-![Esp32 Dev Kit v3](img/samples-SE/pinout/esp32-dev-kit-c.png)
+![Esp32 Dev Kit v1](./img/samples-SE/pinout/nodemcu-esp32-pinout.png)
+![Esp32 Dev Kit v3](./img/samples-SE/pinout/esp32-dev-kit-c.png)
 
 **Herramientas para el esp32:**
 
@@ -961,7 +961,7 @@ Si tiene dificultades para descargar las herramientas de desarrollo, pruebe dire
 
 **Esp32CAM:**
 
-![esp32cam](img/samples-SE/esp32cam.png)
+![esp32cam](./img/samples-SE/esp32cam.png)
 
 **¿Cómo conectar el esp32CAM?:**
 
@@ -974,12 +974,12 @@ El esp32CAM no cuenta con un adaptador USB a UART en la placa y este debe ser ag
 El siguiente gráfico muestra cómo debe quedar conectado el esp32CAM, el cable de color verde es agregado en el momento de subir el firmware y no es requerido cuando
 el esp32cam está en modo de ejecución de programas.
 
-![esp32cam conexion](img/samples-SE/pinout/esp32cam-conexion.jpg)
+![esp32cam conexion](./img/samples-SE/pinout/esp32cam-conexion.jpg)
 
 **Pinout del esp32cam:**
 
-![pinout esp32cam](img/samples-SE/pinout/esp32cam-pinout.jpg)
-![pinout esp32cam front](img/samples-SE/pinout/esp32cam-pinout-front.png)
+![pinout esp32cam](./img/samples-SE/pinout/esp32cam-pinout.jpg)
+![pinout esp32cam front](./img/samples-SE/pinout/esp32cam-pinout-front.png)
 
 **Herramientas de referecia**:
 
@@ -991,7 +991,7 @@ el esp32cam está en modo de ejecución de programas.
 
 **Raspberry Pi Pico y Pico W:**
 
-![Raspberry pi pico](img/samples-SE/raspberry-pi-pico.png)
+![Raspberry pi pico](./img/samples-SE/raspberry-pi-pico.png)
 
 **Pinout raspberry pi pico:**
 
@@ -1008,11 +1008,11 @@ el esp32cam está en modo de ejecución de programas.
 
 **Arduino UNO:**
 
-![Arduino uno png](img/samples-SE/arduino-uno.png)
+![Arduino uno png](./img/samples-SE/arduino-uno.png)
 
 **Pinout de Arduino UNO:**
 
-![Pin out arduino uno](img/samples-SE/pinout/arduino-uno-pin-out.png)
+![Pin out arduino uno](./img/samples-SE/pinout/arduino-uno-pin-out.png)
 
 **Herramientas para Arduino:**
 
@@ -1067,7 +1067,7 @@ desarrollo:
 En el siguiente repositorio de github podrá encontrar Ejemplos
 de uso para dominar este excelente simulador.
 
-![qucs github](img/qucs-github.png)
+![qucs github](././img/qucs-github.png)
 [Ejemplos de uso de Qucs en github](https://github.com/johnnycubides/qucs-tutorial-examples/tree/main/examples)
 
 ### Herramientas para diagramar
@@ -1094,14 +1094,18 @@ Si hace uso de github, puede usar el cliente creado por github denominado [Githu
 
 > Las anteriores herramientas hacen uso del formato de [Markdown](https://es.wikipedia.org/wiki/Markdown), el cual
 > es sencillo y fácil de aprender, para aprender de éste, visite el siguiente enlace:
-> ![Imagen de tutorial de markdown](img/markdown-tutorial.png)
+> ![Imagen de tutorial de markdown](./img/markdown-tutorial.png)
 > [Tutorial Markdown](https://www.markdowntutorial.com/es/)
 
 > Si conoce o sabe usar [Notion](https://www.notion.so/) puede hacer uso de este para enlazarlo con su proyecto git
 
+*Vídeos recomendados*:
+
+-   [Vídeo de Github Desktop Tutorial (Faz Code)](https://www.youtube.com/watch?v=TuOQBfhp-r0)
+
 ### KiCAD: Herramienta de diseño de PCB
 
-![KiCAD](img/kicad/kicad.png)
+![KiCAD](././img/kicad/kicad.png)
 
 **DOCUMENTACIÓN DE KICAD**
 
@@ -1114,12 +1118,12 @@ Si hace uso de github, puede usar el cliente creado por github denominado [Githu
 
 **MI PRIMER PCB CON KICAD**
 
-![tutorial primera pcv](img/kicad/primera-pcb-tutorial.png)
+![tutorial primera pcv](././img/kicad/primera-pcb-tutorial.png)
 [Make Your First Printed Circuit Board](https://www.build-electronic-circuits.com/kicad-tutorial/?fbclid=IwAR3OwgRqwc85H-j0YJTUkhBbJpkR1eex80cYIkS15KJx4cIzqhzl-UpF0DQ): Este tutorial en idioma inglés acerca al estudio de la herramienta de diseño *kicad* mientras crea su primera PCB.
 
 **EJERCICIOS DE ROUTEO**
 
-![flow free](img/kicad/flow-free.png)
+![flow free](././img/kicad/flow-free.png)
 [flow free](https://www.bigduckgames.com/flowfree): Para desarrollar la habilidad de routeo, puede realizar hacer uso de la herramienta **flow free**
 la cualnos reta a pensar la manera correcta de conectar nodos de colores a través de puentes, la herramienta está compilada en distintas tiendas.
 
