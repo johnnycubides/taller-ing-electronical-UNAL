@@ -39,7 +39,7 @@ podamos estudiar la relación existente entre la _Ciencia, Tecnología y Socieda
 
 ## Proceso de diseño
 
-![Proceso de diseño de proyecto](./desing/desing-process/abril10-Page-1.drawio.png)
+![Proceso de diseño de proyecto](./desing/desing-process/flujo-de-diseno-general.drawio.png)
 
 ### Ideación
 

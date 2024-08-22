@@ -1,30 +1,11 @@
 ### Creación de PCB
 
-<h4> Tamaño de pistas para el ruteo de pistas </h4>
+En este vídeo hacemos un proceso completo en el desarrollo de una PCB de una
+sola cara, pasando por la selección de componentes, creación de esquemáticos,
+revisión de reglas eléctricas, creación de ruteo, zonas de GND, uso de
+componentes en 3D, generación de Gerbers. Aunque no se hace uso de las normas
+IPC de diseño, si se realizan recomendaciones importantes.
 
-Para algunas tecnologías que encontrarán en Bogotá para creación de la PCB
-se recomienda en KiCad hacer uso de los siguientes tamaños:
+!?[Crea tu PCB con KiCAD (ejemplo guiado)](https://www.youtube.com/watch?v=8t-4OK-C6Mc)
 
-![tamaño de pistas](./desing/pcb/size-route.png)
-
-Las anteriores reglas definen dos tipos de clases, una que se llama POWER, para las pistas que
-requieren conducir más energía y las SIGNAL, las cuales son solo señales de información. Si
-requiere que por las pistas circule una mayor corriente, deberá diseñar pistas con un ancho mayor.
-
-Estas reglas las puede editar en `File -> Board Setup -> Desing Rules -> Net Classes`
-
-A continuación se puede ver un ejemplo donde se asocia las reglas de net a específicos patrones
-de nets
-
-![ejemplo de reglas](./desing/pcb/reglasRuteo.png)
-
-<h4> Conectores pinheader y pinsocket </h4>
-
-Estos conectores se pueden usar para diferentes sensores y actuadores, como es el caso
-de sensores ultrasonido o servomotores sg90. En kicad las huellas son conocidas
-como pinheader de 2.54mm y pinsocket de 2.54mm
-
-![pin headers](./desing/pcb/pinheader.jpeg)
-
-![pin header selected](./desing/pcb/pinheader-selected.png)
-
+[Repositorio en github de el ejemplo guiado del vídeo](https://github.com/johnnycubides/design-pcb-car-kicad-example)
