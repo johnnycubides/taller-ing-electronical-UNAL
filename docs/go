@@ -32,47 +32,47 @@ NCB=$(tput setab 0)
 NODE_VERSION=v21.7.3
 
 pandoc() {
-	sudo apt install pandoc
-	echo "Activar la variable de entrorno, por ejemplo si usa conda, activar la variable de conda"
-	pip install pandoc-include
+  sudo apt install pandoc
+  echo "Activar la variable de entrorno, por ejemplo si usa conda, activar la variable de conda"
+  pip install pandoc-include
 }
 
 update() {
-	export NVM_DIR="$HOME/.nvm"
-	[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                   # This loads nvm
-	[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
-	# nvm install $NODE_VERSION
-	nvm use $NODE_VERSION
-	npm install -g @liascript/devserver
+  export NVM_DIR="$HOME/.nvm"
+  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                   # This loads nvm
+  [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
+  # nvm install $NODE_VERSION
+  nvm use $NODE_VERSION
+  npm install -g @liascript/devserver
 }
 
 init() {
-	export NVM_DIR="$HOME/.nvm"
-	[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                   # This loads nvm
-	[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
-	nvm use $NODE_VERSION
-	liadev -i ../README.md
+  export NVM_DIR="$HOME/.nvm"
+  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                   # This loads nvm
+  [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
+  nvm use $NODE_VERSION
+  liadev -i ../README.md
 }
 
 # Permite guardar información acerca de comandos usados
 if [ "$1" = "-h" ] || [ "$1" = "" ] || [ "$1" = "--help" ]; then
-	printf "Help for this command\n"
-	printf "\tfile Command options\n"
-	printf "\t[Commands]\n"
-	printf "\t\ti\tIniciar servicio liadev\n"
-	printf "\t\tinstall\tInstalar lia-dev\n"
-	printf "\t\tpandoc\tInstalar pandoc\n"
-	printf "\t\tbrowser\tLanzar la página en el navegador\n"
-	printf "\t\t-h,--help\tHelp\n"
-	printf "\nRegards Johnny.\n"
+  printf "Help for this command\n"
+  printf "\tfile Command options\n"
+  printf "\t[Commands]\n"
+  printf "\t\ti\tIniciar servicio liadev\n"
+  printf "\t\tinstall\tInstalar lia-dev\n"
+  printf "\t\tpandoc\tInstalar pandoc\n"
+  printf "\t\tbrowser\tLanzar la página en el navegador\n"
+  printf "\t\t-h,--help\tHelp\n"
+  printf "\nRegards Johnny.\n"
 elif [ "$1" = "i" ]; then
-	init
+  init
 elif [ "$1" = "install" ]; then
-	echo "Instalar o actualizar Lia-dev"
-	update
+  echo "Instalar o actualizar Lia-dev"
+  update
 elif [ "$1" = "pandoc" ]; then
-	echo "Instalar pandoc"
-	pandoc
+  echo "Instalar pandoc"
+  pandoc
 elif [ "$1" = "browser" ]; then
-	echo "pass"
+  echo "pass"
 fi
