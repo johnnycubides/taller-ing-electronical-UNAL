@@ -310,13 +310,14 @@ En el siguiente ejemplo se muestra una imagen de las páginas de la wiki bien or
 
 ![Wiki bien ordenada](./img/design-process/docs/docs-wiki-sort.png)
 
-**SRC (archivos fuente)**
+**SRC (archivos fuente) en Github**
 
 -   Los archivos deben están en el gestor de proyectos, **no en formatos comprimidos**, por ejemplo **no** en archivos.zip, **tampoco podrán estar** en gestores de archivos como es el caso de drive o similares.
 -   Se recomienda el orden en los archivos fuentes, por ejemplo en directorios separados con nombres representativos.
 -   Las evidencias deben estar en un directorio de evidencias.
 -   Los vídeos de gran tamaño serán subidos a una plataforma como puede ser el caso de Youtube, por favor no hacer
     uso de drive o cualquier otro similar.
+-   En el **about** del proyecto en github agregar el topic **taller-de-ingenieria-electronica-unal** para fácil búsqueda.
 
 A continuación se observará un ejemplo de la organización de los archivos fuente en un repositorio de Github:
 
