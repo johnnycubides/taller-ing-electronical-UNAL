@@ -114,9 +114,8 @@ A continuación un ejemplo:
 
 ## Discord
 
-Bienvenidos al curso de **Taller de Ingeniería Electrónica**, por favor
-acceder al servidor de *Discord* el cual es diseñado como espacio para
-realizar los encuentros asíncronos.
+Por favor acceder al servidor de *Discord* el cual es diseñado como espacio
+para realizar los encuentros asíncronos de los cursos.
 
 ![QR servidor de Discord](./img/main/qrcode_discord-gg.svg)
 [Lea el código QR o de clic aquí para ir al servidor de *Discord*](https://discord.gg/vWtMUphtrY)

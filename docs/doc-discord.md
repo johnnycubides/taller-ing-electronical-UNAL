@@ -4,9 +4,8 @@ lang: es
 
 # Discord
 
-Bienvenidos al curso de **Taller de Ingeniería Electrónica**, por favor
-acceder al servidor de _Discord_ el cual es diseñado como espacio para
-realizar los encuentros asíncronos.
+Por favor acceder al servidor de _Discord_ el cual es diseñado como espacio
+para realizar los encuentros asíncronos de los cursos.
 
 ![QR servidor de Discord](img/main/qrcode_discord-gg.svg)
 [Lea el código QR o de clic aquí para ir al servidor de _Discord_](https://discord.gg/vWtMUphtrY)
