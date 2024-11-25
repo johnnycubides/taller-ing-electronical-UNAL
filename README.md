@@ -357,7 +357,7 @@ INTRODUCCIÓN
 
 Tenga presente que el desarrollo de esta actividad debe quedar documentada en su cuaderno para su revisión.
 
-Puedes descargar el taller "Mi primer circuito" desde [aquí](./docs/pdf/lab1-primer-circuito.md.pdf)
+Puedes descargar el taller "Mi primer circuito" desde [aquí](./docs/pdf/lab1-primer-circuito.md.pdf) o desde [aquí](https://github.com/johnnycubides/taller-ing-electronical-UNAL/blob/main/pdf/lab1-primer-circuito.md.pdf).
 
 En este taller se enfrentará a desarrollar cosas como:
 
