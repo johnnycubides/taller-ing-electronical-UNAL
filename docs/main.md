@@ -69,10 +69,13 @@ Los laboratorios aquí propuestos permiten la exploración y el desarrollo de ha
 en electrónica y programación. A continuación se comparte información útil y general que sirve
 de guía como parte de los conceptos fundamentales para el desarrollo de estos ejercicios:
 
-- [Conceptos de electrónica y simbología de la tecnología usada en estos laboratorios, resumen en PDF](./pdf/Electronic_Cheat_Sheet.pdf)
-- [Símbolos electrónicos](./pdf/schematic-symbols.pdf)
-- [Simbología de los diagramas de flujo](./pdf/flow-chart-symbols.pdf)
-- [Programación en Python 3, resumen en PDF](./pdf/mementopython3-english.pdf)
+- Conceptos de electrónica y simbología de la tecnología usada en estos laboratorios, resumen en PDF [electronic-cheat-sheet-1.pdf](./pdf/electronic-cheat-sheet-1.pdf)
+- Símbolos electrónicos [electronic-symbols.pdf](./pdf/electronic-symbols.pdf)
+- Simbología de los diagramas de flujo [flow-chart-symbols.pdf](./pdf/flow-chart-symbols.pdf)
+- Programación en Python 3, resumen en PDF [mementopython3-english.pdf](./pdf/mementopython3-english.pdf)
+
+Los documentos anteriormente señalados son accesibles desde la URL:
+[https://github.com/johnnycubides/taller-ing-electronical-UNAL/tree/main/pdf/](https://github.com/johnnycubides/taller-ing-electronical-UNAL/tree/main/pdf)
 
 ### Mi primer circuito
 
