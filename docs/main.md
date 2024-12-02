@@ -81,6 +81,12 @@ Los documentos anteriormente señalados son accesibles desde la URL:
 
 !include`raw="markdown", format="markdown-pipe_tables-all_symbols_escapable"` ./lab1-primer-circuito.md
 
+### Quemando resistencias
+
+!include`raw="markdown", format="markdown-pipe_tables-all_symbols_escapable"` ./t-corrientes-quemando-resistencias.md
+
+
+
 ### Simulaciones con Qucs
 
 !include`raw="markdown", format="markdown-pipe_tables-all_symbols_escapable"` ./lab6-qucs.md

@@ -608,6 +608,32 @@ En vista de lo aprendido en el taller "Mi primer circuito" deberá desarrollar e
 ![Reto de calculo de resistencias](./desing/t1-primer-circuito/reto/reto-mi-primer-circuito.png)
 
 
+### Quemando resistencias
+
+---
+geometry: margin=2cm
+lang: es
+toc: true
+title: Corrientes de nodo y estresando resistencias
+---
+
+Resistencia equivalente
+=======================
+
+![Calculando resistencia equivalente](./desing/t-quemando-resistencias/resistencia-equivalente.png) 
+
+![Calculando resistencia equivalente](./desing/t-quemando-resistencias/resistencia-equivalente-1.png) 
+
+Quemando resistencias
+=====================
+
+![Quemando resistencias](./desing/t-quemando-resistencias/quemando-resistencias.png)
+
+Corrientes de nodo
+==================
+
+![corrientes de nodo](./desing/t-quemando-resistencias/corriente-de-nodo.png) 
+
 ### Simulaciones con Qucs
 
 ---
