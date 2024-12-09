@@ -8,16 +8,16 @@ title: Corrientes de nodo y estresando resistencias
 Resistencia equivalente
 =======================
 
-![Calculando resistencia equivalente](./desing/t-quemando-resistencias/resistencia-equivalente.png) 
+![Calculando resistencia equivalente](./design/t-quemando-resistencias/resistencia-equivalente.png) 
 
-![Calculando resistencia equivalente](./desing/t-quemando-resistencias/resistencia-equivalente-1.png) 
+![Calculando resistencia equivalente](./design/t-quemando-resistencias/resistencia-equivalente-1.png) 
 
 Quemando resistencias
 =====================
 
-![Quemando resistencias](./desing/t-quemando-resistencias/quemando-resistencias.png)
+![Quemando resistencias](./design/t-quemando-resistencias/quemando-resistencias.png)
 
 Corrientes de nodo
 ==================
 
-![corrientes de nodo](./desing/t-quemando-resistencias/corriente-de-nodo.png) 
+![corrientes de nodo](./design/t-quemando-resistencias/corriente-de-nodo.png) 

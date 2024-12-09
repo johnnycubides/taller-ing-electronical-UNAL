@@ -39,7 +39,7 @@ podamos estudiar la relación existente entre la _Ciencia, Tecnología y Socieda
 
 ## Proceso de diseño
 
-![Proceso de diseño de proyecto](./desing/desing-process/flujo-de-diseno-general.drawio.png)
+![Proceso de diseño de proyecto](./design/design-process/flujo-de-diseno-general.drawio.png)
 
 ### Ideación
 
@@ -49,7 +49,7 @@ podamos estudiar la relación existente entre la _Ciencia, Tecnología y Socieda
 
 ### Diagrama de Cajas Negras
 
-![diagrama-caja-negra](./desing/diagrama-caja-negra-general.drawio.png)
+![diagrama-caja-negra](./design/diagrama-caja-negra-general.drawio.png)
 
 <div>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/HvkKBwPVH_0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>

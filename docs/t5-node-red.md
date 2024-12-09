@@ -14,12 +14,12 @@ de datos aleatorios, por tanto, se invita a los estudiantes que después de comp
 el funcionamiento de este ejemplo modifiquen el ejercicio agregando sensores y actuadores
 que han manejado en el transcurso del curso.
 
-![Envio de datos desde microcontrolador con micropython a navegador en red local](./desing/t5-node-red/node-red-micropython-usb-node-red-usb.drawio.png)
+![Envio de datos desde microcontrolador con micropython a navegador en red local](./design/t5-node-red/node-red-micropython-usb-node-red-usb.drawio.png)
 
-![Dispositivos conectados a una red local](./desing/t5-node-red/node-red-micropython-usb-red-local.drawio.png)
-![Dispositivos conectados a una red local a través del hostpot del celular](./desing/t5-node-red/node-red-micropython-usb-hostpot.drawio.png)
-![Microcontrolador conectado por USB a node-red](./desing/t5-node-red/node-red-micropython-usb-usb-connect.drawio.png)
-![Envío y control desde el microcontrolador hasta el monitor del usuario](./desing/t5-node-red/node-red-micropython-usb-node-red-usb.drawio.png)
+![Dispositivos conectados a una red local](./design/t5-node-red/node-red-micropython-usb-red-local.drawio.png)
+![Dispositivos conectados a una red local a través del hostpot del celular](./design/t5-node-red/node-red-micropython-usb-hostpot.drawio.png)
+![Microcontrolador conectado por USB a node-red](./design/t5-node-red/node-red-micropython-usb-usb-connect.drawio.png)
+![Envío y control desde el microcontrolador hasta el monitor del usuario](./design/t5-node-red/node-red-micropython-usb-node-red-usb.drawio.png)
 
 Configuración de Node-red
 =========================
@@ -82,12 +82,12 @@ Flujo de Node-red
 A continuación se comparte el flujo diseñado en node-red que podrá descargar e importar en node-red
 y desplegar:
 
-* [node-red-flow.json](./desing/t5-node-red/node-red-flow.json)
+* [node-red-flow.json](./design/t5-node-red/node-red-flow.json)
 
 El flujo importado y desplegado en node red permite la comunicación bidireccional con el microcontrolador
 a través del puerto serial.
 
-![Flujo en node-red](./desing/t5-node-red/flujo-node-red.png)
+![Flujo en node-red](./design/t5-node-red/flujo-node-red.png)
 
 En la anterior imagen se puede observar los siguientes nodos:
 
@@ -101,11 +101,11 @@ datos, Volt1 y Volt2 como salida de información visual).
 La lógica de los nodos desplegados está escrita en javascript, para conocer cómo funciona puede dar clip en el nodos
 y se mostrará una ventana con un menú e información de ello, ejemplo:
 
-![Lógica de un nodo en node-red](./desing/t5-node-red/codigo-de-un-nodo.png)
+![Lógica de un nodo en node-red](./design/t5-node-red/codigo-de-un-nodo.png)
 
 Para obtener la URL del dashboard desplegado puede dar clic en el ícono que encuentra en el menú del dashboard, ejemplo:
 
-![Obtener la url del dashboard desplegado](./desing/t5-node-red/get-url-dashboard-deployed.png)
+![Obtener la url del dashboard desplegado](./design/t5-node-red/get-url-dashboard-deployed.png)
 
 La anterior URL la puede compartir a otros dispositivos que estén en la misma red cambiando la ip de la URL por la IP
 del equipo donde está el servicio de *Node-red* que en este caso es el computador, ejemplo:
@@ -133,10 +133,10 @@ también observe que en este programa se hace uso de `threads` los cuales permit
 de tareas en loops distintos de manera "simultanea".
 
 ```py
-!include ./desing/t5-node-red/main.py
+!include ./design/t5-node-red/main.py
 ```
 
-Para el ejemplo, descargue el programa [main.py](./desing/t5-node-red/main.py) y guárdelo con ese nombre
+Para el ejemplo, descargue el programa [main.py](./design/t5-node-red/main.py) y guárdelo con ese nombre
 en el microcontrolador que tiene micropython, libere el puerto de comunicación serial, en el caso de *Thonny*
 cambie de interprete o cierre la aplicación, si es necesario desconecte y conecte el microcontrolador del
 puerto USB.
@@ -144,9 +144,9 @@ puerto USB.
 Finalmente en Node-red reinicie los flujos y observe en el dashboard si se reciben datos desde el microcontrolador,
 interactúe con los botones de encendido y de apagado del LED.
 
-![Dasboard de node-red visualizadores](./desing/t5-node-red/dashboard1.png)
+![Dasboard de node-red visualizadores](./design/t5-node-red/dashboard1.png)
 
-![Dasboard de node-red botones](./desing/t5-node-red/dashboard2.png)
+![Dasboard de node-red botones](./design/t5-node-red/dashboard2.png)
 
 Si por alguna razón no se puede visualizar los datos, es recomendable reiniciar *Node-red* y refrescar las ventanas del
 navegador.

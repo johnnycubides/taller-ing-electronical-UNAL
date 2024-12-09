@@ -18,7 +18,7 @@ el pin de 3.3v (3v3 o 3V) de la tarjeta de desarrollo, para crear los demás
 elementos del circuito deberá remitirse a los conocimientos previos de los anteriores
 talleres.
 
-![Esquema circuital](./desing/t4-adc/adc-esquema.drawio.png)
+![Esquema circuital](./design/t4-adc/adc-esquema.drawio.png)
 
 **PROGRAMA A REALIZAR**:
 
@@ -26,7 +26,7 @@ Traduzca este algoritmo a una tecnología/lenguaje, en este caso a micropython,
 si tiene dificultades para crear las diferentes instrucciones, remítase a algún
 tutorial del lenguaje python3.
 
-![Diagrama de flujo](./desing/t4-adc/adc-algoritmo.drawio.png)
+![Diagrama de flujo](./design/t4-adc/adc-algoritmo.drawio.png)
 
 **RECOMENDACIÓN PARA LA REALIZACIÓN DEL PROGRAMA**:
 

@@ -114,7 +114,7 @@ MONTAJE DEL CIRCUITO
 A continuación podrá ver un diagrama pictográfico el cual es una aproximación
 de como se ven las cosas realmente.
 
-![Mi primer circuito](./desing/t1-primer-circuito/montaje-led-1_bb.png)
+![Mi primer circuito](./design/t1-primer-circuito/montaje-led-1_bb.png)
 
 Una manera abstracta de entender como está interconectado un circuito es a través
 de un esquemático, este diagrama muestra los componentes representados por símbolos
@@ -124,7 +124,7 @@ con sus nodos de conexión y además etiquetados como sigue:
 > DC Power 1: Fuente de energía DC
 > LED1: Diodo emisor de Luz
 
-![Esquemático primer circuito](./desing/t1-primer-circuito/montaje-led-1_schem.png)
+![Esquemático primer circuito](./design/t1-primer-circuito/montaje-led-1_schem.png)
 
 3. ENERGIZAR CIRCUITO
 
@@ -156,12 +156,12 @@ de conexión indicados como **COM** (cable negro) y **V**. Las puntas del multí
 ser conectadas sobre cada componente en cada uno de sus nodos de conexión, en la imagen siguiente
 se observa como se realiza la medición de la tensión (voltaje) en el *LED1*.
 
-![Diagrama pictográfico de medición de tensión en el LED](./desing/t1-primer-circuito/voltaje-led/montaje-led-2_bb.png)
+![Diagrama pictográfico de medición de tensión en el LED](./design/t1-primer-circuito/voltaje-led/montaje-led-2_bb.png)
 
 Observar el diagrama esquemático siguiente, en él se puede observar como se realiza la medición
 de la tensión.
 
-![Esquemático sobre medición de tensión en el LED](./desing/t1-primer-circuito/voltaje-led/montaje-led-2_schem.png)
+![Esquemático sobre medición de tensión en el LED](./design/t1-primer-circuito/voltaje-led/montaje-led-2_schem.png)
 
 Comprendiendo como se realiza las mediciones de tensión en cada uno de los tres componentes,
 registra los valores obtenidos en una tabla, como en el siguiente ejemplo:
@@ -204,7 +204,7 @@ deberá hacer parte de ese circuito cerrado, por tanto, deberá abrir un nodo en
 y poner en serie el multimetro con los demás componentes; para mayor claridad observe la
 siguiente imagen:
 
-![Multímetro como amperímetro](./desing/t1-primer-circuito/corriente-circuito/montaje-led-medir-corriente_bb.png)
+![Multímetro como amperímetro](./design/t1-primer-circuito/corriente-circuito/montaje-led-medir-corriente_bb.png)
 
 Además de observar los cables cómo están interconectados, tenga presente que la
 perilla o selector del multímetro esté puesto en la función de medición
@@ -215,7 +215,7 @@ discontinua.
 También puede ver la abstracción de este diagrama pictográfico, donde preste atención a los nodos de conexión,
 verá que solo hay un camino cerrado en el circuito.
 
-![Diagrama esquemático circuito con amperímetro](./desing/t1-primer-circuito/corriente-circuito/montaje-led-medir-corriente_schem.png)
+![Diagrama esquemático circuito con amperímetro](./design/t1-primer-circuito/corriente-circuito/montaje-led-medir-corriente_schem.png)
 
 Determine el **error porcentual** del valor de la corriente medido versus el esperado.
 
@@ -225,9 +225,9 @@ Determine el **error porcentual** del valor de la corriente medido versus el esp
 SIMULACIÓN DE CIRCUITOS
 =======================
 
-![Simulación de mi primer circuito](./desing/t1-primer-circuito/simulacion-circuitjs/simulacion-mi-primer-circuito.jpg){width=9cm}
+![Simulación de mi primer circuito](./design/t1-primer-circuito/simulacion-circuitjs/simulacion-mi-primer-circuito.jpg){width=9cm}
 
-![Simulación de circuitos](./desing/t1-primer-circuito/simulacion-circuitjs/simulacion-mi-primer-circuito.png){width=9cm}
+![Simulación de circuitos](./design/t1-primer-circuito/simulacion-circuitjs/simulacion-mi-primer-circuito.png){width=9cm}
 
 La simulación es una herramienta que permite comparar los resultados de los cálculos de los diseños eléctricos, antes de
 realizar una implementación física del mismo, en las simulaciones se pueden observar comportamientos de diferentes variables,
@@ -243,7 +243,7 @@ su intensidad).
 EL siguiente archivo el cual es un texto plano (.txt) es la representación en [spice](https://es.wikipedia.org/wiki/SPICE), la cual indica por números de nodos
 cómo está interconectado un circuito y qué modelo corresponde, se invita a descargar el archivo y leer su contenido para comprender cómo está codificado.
 
-[Archivos en formato .txt de mi primer circuito en CircuitJS](./desing/t1-primer-circuito/simulacion-circuitjs/simulacion-mi-primer-circuito-circuitjs.txt)
+[Archivos en formato .txt de mi primer circuito en CircuitJS](./design/t1-primer-circuito/simulacion-circuitjs/simulacion-mi-primer-circuito-circuitjs.txt)
 
 Desde luego hay diferentes tipos de simuladores, están aquellos como éste ([circuitjs](https://www.falstad.com/circuit/circuitjs.html)) que es a nivel pedagógico una herramienta poderosa para visualizar el comportamiento,
 pero también hay otros simuladores con características profesionales que pueden ser opensource, gratis o privativos, a continuación se señalan dos de ellos que pueden ser útiles en su carrera de ingeniería.
@@ -258,5 +258,5 @@ RETO DE DISEÑO
 
 En vista de lo aprendido en el taller "Mi primer circuito" deberá desarrollar el siguiente reto que verá en la siguiente imagen.
 
-![Reto de calculo de resistencias](./desing/t1-primer-circuito/reto/reto-mi-primer-circuito.png)
+![Reto de calculo de resistencias](./design/t1-primer-circuito/reto/reto-mi-primer-circuito.png)
 

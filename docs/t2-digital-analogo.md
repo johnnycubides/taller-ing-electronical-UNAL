@@ -77,9 +77,9 @@ si el motor en cambio no enciende al variar el valor del potenciometro, incremen
 la fuente de 6 a 7 voltios (así sucesivamente). La idea principal es que pueda encender
 y apagar el motor a través del potenciometro.
 
-![Control analógico del motor, diagrama pictográfico](./desing/t2-digital-analogo/analogico/motorDC-driver_bb.png)
+![Control analógico del motor, diagrama pictográfico](./design/t2-digital-analogo/analogico/motorDC-driver_bb.png)
 
-![Control analógico del motor, diagrama esquemático](./desing/t2-digital-analogo/analogico/motorDC-driver_schem.png)
+![Control analógico del motor, diagrama esquemático](./design/t2-digital-analogo/analogico/motorDC-driver_schem.png)
 
 Conecte los multimetros para medir la corriente IB e IC y calcule el Beta del
 transitor justo en el lugar donde el motor puede romper la inercia.
@@ -97,9 +97,9 @@ Control de velocidad con microcontrolador
 
 Agregar una tarjeta de desarrollo para programar el PWM.
 
-![Control de motor por PWM](./desing/t2-digital-analogo/digital/motorDC-driver-micro_bb.png)
+![Control de motor por PWM](./design/t2-digital-analogo/digital/motorDC-driver-micro_bb.png)
 
-![Control de motor por PWM](./desing/t2-digital-analogo/digital/motorDC-driver-micro_schem.png)
+![Control de motor por PWM](./design/t2-digital-analogo/digital/motorDC-driver-micro_schem.png)
 
 Referencias
 ===========

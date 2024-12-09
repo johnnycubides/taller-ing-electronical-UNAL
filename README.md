@@ -140,7 +140,7 @@ Ejemplo de identificación:
 
 ## Proceso de diseño
 
-![Proceso de diseño de proyecto](././desing/desing-process/flujo-de-diseno-general.drawio.png)
+![Proceso de diseño de proyecto](././design/design-process/flujo-de-diseno-general.drawio.png)
 
 ### Ideación
 
@@ -179,7 +179,7 @@ Estos diagramas los puede realizar a mano, como a través de software que conten
 
 ### Diagrama de Cajas Negras
 
-![diagrama-caja-negra](././desing/diagrama-caja-negra-general.drawio.png)
+![diagrama-caja-negra](././design/diagrama-caja-negra-general.drawio.png)
 
 <div>
 
@@ -461,7 +461,7 @@ MONTAJE DEL CIRCUITO
 A continuación podrá ver un diagrama pictográfico el cual es una aproximación
 de como se ven las cosas realmente.
 
-![Mi primer circuito](./desing/t1-primer-circuito/montaje-led-1_bb.png)
+![Mi primer circuito](./design/t1-primer-circuito/montaje-led-1_bb.png)
 
 Una manera abstracta de entender como está interconectado un circuito es a través
 de un esquemático, este diagrama muestra los componentes representados por símbolos
@@ -471,7 +471,7 @@ con sus nodos de conexión y además etiquetados como sigue:
 > DC Power 1: Fuente de energía DC
 > LED1: Diodo emisor de Luz
 
-![Esquemático primer circuito](./desing/t1-primer-circuito/montaje-led-1_schem.png)
+![Esquemático primer circuito](./design/t1-primer-circuito/montaje-led-1_schem.png)
 
 3. ENERGIZAR CIRCUITO
 
@@ -503,12 +503,12 @@ de conexión indicados como **COM** (cable negro) y **V**. Las puntas del multí
 ser conectadas sobre cada componente en cada uno de sus nodos de conexión, en la imagen siguiente
 se observa como se realiza la medición de la tensión (voltaje) en el *LED1*.
 
-![Diagrama pictográfico de medición de tensión en el LED](./desing/t1-primer-circuito/voltaje-led/montaje-led-2_bb.png)
+![Diagrama pictográfico de medición de tensión en el LED](./design/t1-primer-circuito/voltaje-led/montaje-led-2_bb.png)
 
 Observar el diagrama esquemático siguiente, en él se puede observar como se realiza la medición
 de la tensión.
 
-![Esquemático sobre medición de tensión en el LED](./desing/t1-primer-circuito/voltaje-led/montaje-led-2_schem.png)
+![Esquemático sobre medición de tensión en el LED](./design/t1-primer-circuito/voltaje-led/montaje-led-2_schem.png)
 
 Comprendiendo como se realiza las mediciones de tensión en cada uno de los tres componentes,
 registra los valores obtenidos en una tabla, como en el siguiente ejemplo:
@@ -551,7 +551,7 @@ deberá hacer parte de ese circuito cerrado, por tanto, deberá abrir un nodo en
 y poner en serie el multimetro con los demás componentes; para mayor claridad observe la
 siguiente imagen:
 
-![Multímetro como amperímetro](./desing/t1-primer-circuito/corriente-circuito/montaje-led-medir-corriente_bb.png)
+![Multímetro como amperímetro](./design/t1-primer-circuito/corriente-circuito/montaje-led-medir-corriente_bb.png)
 
 Además de observar los cables cómo están interconectados, tenga presente que la
 perilla o selector del multímetro esté puesto en la función de medición
@@ -562,7 +562,7 @@ discontinua.
 También puede ver la abstracción de este diagrama pictográfico, donde preste atención a los nodos de conexión,
 verá que solo hay un camino cerrado en el circuito.
 
-![Diagrama esquemático circuito con amperímetro](./desing/t1-primer-circuito/corriente-circuito/montaje-led-medir-corriente_schem.png)
+![Diagrama esquemático circuito con amperímetro](./design/t1-primer-circuito/corriente-circuito/montaje-led-medir-corriente_schem.png)
 
 Determine el **error porcentual** del valor de la corriente medido versus el esperado.
 
@@ -572,9 +572,9 @@ Determine el **error porcentual** del valor de la corriente medido versus el esp
 SIMULACIÓN DE CIRCUITOS
 =======================
 
-![Simulación de mi primer circuito](./desing/t1-primer-circuito/simulacion-circuitjs/simulacion-mi-primer-circuito.jpg){width=9cm}
+![Simulación de mi primer circuito](./design/t1-primer-circuito/simulacion-circuitjs/simulacion-mi-primer-circuito.jpg){width=9cm}
 
-![Simulación de circuitos](./desing/t1-primer-circuito/simulacion-circuitjs/simulacion-mi-primer-circuito.png){width=9cm}
+![Simulación de circuitos](./design/t1-primer-circuito/simulacion-circuitjs/simulacion-mi-primer-circuito.png){width=9cm}
 
 La simulación es una herramienta que permite comparar los resultados de los cálculos de los diseños eléctricos, antes de
 realizar una implementación física del mismo, en las simulaciones se pueden observar comportamientos de diferentes variables,
@@ -590,7 +590,7 @@ su intensidad).
 EL siguiente archivo el cual es un texto plano (.txt) es la representación en [spice](https://es.wikipedia.org/wiki/SPICE), la cual indica por números de nodos
 cómo está interconectado un circuito y qué modelo corresponde, se invita a descargar el archivo y leer su contenido para comprender cómo está codificado.
 
-[Archivos en formato .txt de mi primer circuito en CircuitJS](./desing/t1-primer-circuito/simulacion-circuitjs/simulacion-mi-primer-circuito-circuitjs.txt)
+[Archivos en formato .txt de mi primer circuito en CircuitJS](./design/t1-primer-circuito/simulacion-circuitjs/simulacion-mi-primer-circuito-circuitjs.txt)
 
 Desde luego hay diferentes tipos de simuladores, están aquellos como éste ([circuitjs](https://www.falstad.com/circuit/circuitjs.html)) que es a nivel pedagógico una herramienta poderosa para visualizar el comportamiento,
 pero también hay otros simuladores con características profesionales que pueden ser opensource, gratis o privativos, a continuación se señalan dos de ellos que pueden ser útiles en su carrera de ingeniería.
@@ -605,7 +605,7 @@ RETO DE DISEÑO
 
 En vista de lo aprendido en el taller "Mi primer circuito" deberá desarrollar el siguiente reto que verá en la siguiente imagen.
 
-![Reto de calculo de resistencias](./desing/t1-primer-circuito/reto/reto-mi-primer-circuito.png)
+![Reto de calculo de resistencias](./design/t1-primer-circuito/reto/reto-mi-primer-circuito.png)
 
 
 ### Quemando resistencias
@@ -620,19 +620,19 @@ title: Corrientes de nodo y estresando resistencias
 Resistencia equivalente
 =======================
 
-![Calculando resistencia equivalente](./desing/t-quemando-resistencias/resistencia-equivalente.png) 
+![Calculando resistencia equivalente](./design/t-quemando-resistencias/resistencia-equivalente.png) 
 
-![Calculando resistencia equivalente](./desing/t-quemando-resistencias/resistencia-equivalente-1.png) 
+![Calculando resistencia equivalente](./design/t-quemando-resistencias/resistencia-equivalente-1.png) 
 
 Quemando resistencias
 =====================
 
-![Quemando resistencias](./desing/t-quemando-resistencias/quemando-resistencias.png)
+![Quemando resistencias](./design/t-quemando-resistencias/quemando-resistencias.png)
 
 Corrientes de nodo
 ==================
 
-![corrientes de nodo](./desing/t-quemando-resistencias/corriente-de-nodo.png) 
+![corrientes de nodo](./design/t-quemando-resistencias/corriente-de-nodo.png) 
 
 ### Simulaciones con Qucs
 
@@ -749,9 +749,9 @@ si el motor en cambio no enciende al variar el valor del potenciometro, incremen
 la fuente de 6 a 7 voltios (así sucesivamente). La idea principal es que pueda encender
 y apagar el motor a través del potenciometro.
 
-![Control analógico del motor, diagrama pictográfico](./desing/t2-digital-analogo/analogico/motorDC-driver_bb.png)
+![Control analógico del motor, diagrama pictográfico](./design/t2-digital-analogo/analogico/motorDC-driver_bb.png)
 
-![Control analógico del motor, diagrama esquemático](./desing/t2-digital-analogo/analogico/motorDC-driver_schem.png)
+![Control analógico del motor, diagrama esquemático](./design/t2-digital-analogo/analogico/motorDC-driver_schem.png)
 
 Conecte los multimetros para medir la corriente IB e IC y calcule el Beta del
 transitor justo en el lugar donde el motor puede romper la inercia.
@@ -769,9 +769,9 @@ Control de velocidad con microcontrolador
 
 Agregar una tarjeta de desarrollo para programar el PWM.
 
-![Control de motor por PWM](./desing/t2-digital-analogo/digital/motorDC-driver-micro_bb.png)
+![Control de motor por PWM](./design/t2-digital-analogo/digital/motorDC-driver-micro_bb.png)
 
-![Control de motor por PWM](./desing/t2-digital-analogo/digital/motorDC-driver-micro_schem.png)
+![Control de motor por PWM](./design/t2-digital-analogo/digital/motorDC-driver-micro_schem.png)
 
 Referencias
 ===========
@@ -783,18 +783,18 @@ Referencias
 Realizaremos el siguiente circuito el cual corresponde a un driver *Puente H* con tecnología de transistores
 npn discretos (2n2222a)
 
-![Esquemático del puente H](././desing/t3-bridge-h/motorDC-driver-micro-bridge-h_schem.png)
+![Esquemático del puente H](././design/t3-bridge-h/motorDC-driver-micro-bridge-h_schem.png)
 
 Para reconocer el funcionamiento podrá ir al siguiente enlace y conocer las configuraciones posibles:
 
 -   [Simulación en circuitjs del puente H](https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWcMBMcUHYMGZIA4UA2ATmIxAUgoqoQFMBaMMAKDDwgRTxGzQuIpe-Ku2KQchKdAAsYTDIQyeMJEhgyoslgBcQMviBQyqMwpuNVRIBtliLsB4lxni8yldEJ4MYDIT4wCQRxf2QqABM6ADMAQwBXABsdXX1DE1NzfTgocBsUaCIMGQwyS0IEfwtobEJi0owUbGdIBEJMRmJwkCi4pJS9OqFLEHMqEesGBGhSWdnsPGI8bDBsGxgJA1KzWoMF-DWgyJiE5NSh7Koxy9yIGEIwB+U2wQ5FRa0SVu5IZsgiLiNbq9U4pADu+iyfFo3GEVhYELMFjakM00KgCNRvHcWPRkEx1wWmkJIkxISE6JJ8Ih1xQKKpGMRWTkhCxympoxM+kenNMeA5SKMxix8hUBK5ot5Qs0+LQ5EFktcrMVIAAbgBjdUsOVSyUXFUarUAczZ-LZxFZ8JN13ZUqVuXxACduayMrxvDdRPAWM6WUYubUeBNwk7Rngg1zJP6rCGfWGeG6o26vXBMX6RgZhlz8YieW7M56CUC3d4Ezkc6MgSNS9GMaqQK9eLUG7DuCpclzLQ7oAgWCbG9guC2eIGHZiB82B0PZRJh0YURbxijNIbx62F63wxidYOs1R0RmQAAjVg7odu9H54-YbWzjDnnIYHFXo8yW-ke97kBPixczRHlAWAAD30Yp-VZShWWMLpfxAABFVgQJCZEIHaKClH0f14MAkCzDLchKFMIJMOFOCbyQ0hsi6AIIDkIRYLgt8IV3WtRwmTEWIvD1k0xJNHwfDkoxGT9a3xAAlb8BMk+ishjAMagdLRewkliRhY3AZQ7fcFJjVQWBUqTONkrTFKsHt9Ok2sRI0xTs1M8ygA)
 
--   [Archivo en txt de la simulación del puente H en circuitjs](./desing/t3-bridge-h/circuit-20231004-0511.circuitjs.txt)
+-   [Archivo en txt de la simulación del puente H en circuitjs](./design/t3-bridge-h/circuit-20231004-0511.circuitjs.txt)
 
 > **Programa a realizar**: Realice el programa que está planteado en el siguiente diagrama de flujo; haga uso del esp32 o rp2040
 > y Micropython.
 
-![diagrama de flujo](././desing/t3-bridge-h/programa-a-realizar.drawio.png)
+![diagrama de flujo](././design/t3-bridge-h/programa-a-realizar.drawio.png)
 
 > **Reto**: Realice un programa con funciones de python las cuales puedan ser llamadas desde el prompt de micropython
 > para iniciar o detener el motor.
@@ -844,7 +844,7 @@ el pin de 3.3v (3v3 o 3V) de la tarjeta de desarrollo, para crear los demás
 elementos del circuito deberá remitirse a los conocimientos previos de los anteriores
 talleres.
 
-![Esquema circuital](././desing/t4-adc/adc-esquema.drawio.png)
+![Esquema circuital](././design/t4-adc/adc-esquema.drawio.png)
 
 **PROGRAMA A REALIZAR**:
 
@@ -852,7 +852,7 @@ Traduzca este algoritmo a una tecnología/lenguaje, en este caso a micropython,
 si tiene dificultades para crear las diferentes instrucciones, remítase a algún
 tutorial del lenguaje python3.
 
-![Diagrama de flujo](././desing/t4-adc/adc-algoritmo.drawio.png)
+![Diagrama de flujo](././design/t4-adc/adc-algoritmo.drawio.png)
 
 **RECOMENDACIÓN PARA LA REALIZACIÓN DEL PROGRAMA**:
 
@@ -948,12 +948,12 @@ de datos aleatorios, por tanto, se invita a los estudiantes que después de comp
 el funcionamiento de este ejemplo modifiquen el ejercicio agregando sensores y actuadores
 que han manejado en el transcurso del curso.
 
-![Envio de datos desde microcontrolador con micropython a navegador en red local](./desing/t5-node-red/node-red-micropython-usb-node-red-usb.drawio.png)
+![Envio de datos desde microcontrolador con micropython a navegador en red local](./design/t5-node-red/node-red-micropython-usb-node-red-usb.drawio.png)
 
-![Dispositivos conectados a una red local](./desing/t5-node-red/node-red-micropython-usb-red-local.drawio.png)
-![Dispositivos conectados a una red local a través del hostpot del celular](./desing/t5-node-red/node-red-micropython-usb-hostpot.drawio.png)
-![Microcontrolador conectado por USB a node-red](./desing/t5-node-red/node-red-micropython-usb-usb-connect.drawio.png)
-![Envío y control desde el microcontrolador hasta el monitor del usuario](./desing/t5-node-red/node-red-micropython-usb-node-red-usb.drawio.png)
+![Dispositivos conectados a una red local](./design/t5-node-red/node-red-micropython-usb-red-local.drawio.png)
+![Dispositivos conectados a una red local a través del hostpot del celular](./design/t5-node-red/node-red-micropython-usb-hostpot.drawio.png)
+![Microcontrolador conectado por USB a node-red](./design/t5-node-red/node-red-micropython-usb-usb-connect.drawio.png)
+![Envío y control desde el microcontrolador hasta el monitor del usuario](./design/t5-node-red/node-red-micropython-usb-node-red-usb.drawio.png)
 
 Configuración de Node-red
 =========================
@@ -1016,12 +1016,12 @@ Flujo de Node-red
 A continuación se comparte el flujo diseñado en node-red que podrá descargar e importar en node-red
 y desplegar:
 
-* [node-red-flow.json](./desing/t5-node-red/node-red-flow.json)
+* [node-red-flow.json](./design/t5-node-red/node-red-flow.json)
 
 El flujo importado y desplegado en node red permite la comunicación bidireccional con el microcontrolador
 a través del puerto serial.
 
-![Flujo en node-red](./desing/t5-node-red/flujo-node-red.png)
+![Flujo en node-red](./design/t5-node-red/flujo-node-red.png)
 
 En la anterior imagen se puede observar los siguientes nodos:
 
@@ -1035,11 +1035,11 @@ datos, Volt1 y Volt2 como salida de información visual).
 La lógica de los nodos desplegados está escrita en javascript, para conocer cómo funciona puede dar clip en el nodos
 y se mostrará una ventana con un menú e información de ello, ejemplo:
 
-![Lógica de un nodo en node-red](./desing/t5-node-red/codigo-de-un-nodo.png)
+![Lógica de un nodo en node-red](./design/t5-node-red/codigo-de-un-nodo.png)
 
 Para obtener la URL del dashboard desplegado puede dar clic en el ícono que encuentra en el menú del dashboard, ejemplo:
 
-![Obtener la url del dashboard desplegado](./desing/t5-node-red/get-url-dashboard-deployed.png)
+![Obtener la url del dashboard desplegado](./design/t5-node-red/get-url-dashboard-deployed.png)
 
 La anterior URL la puede compartir a otros dispositivos que estén en la misma red cambiando la ip de la URL por la IP
 del equipo donde está el servicio de *Node-red* que en este caso es el computador, ejemplo:
@@ -1067,10 +1067,10 @@ también observe que en este programa se hace uso de `threads` los cuales permit
 de tareas en loops distintos de manera "simultanea".
 
 ```py
-!include ./desing/t5-node-red/main.py
+!include ./design/t5-node-red/main.py
 ```
 
-Para el ejemplo, descargue el programa [main.py](./desing/t5-node-red/main.py) y guárdelo con ese nombre
+Para el ejemplo, descargue el programa [main.py](./design/t5-node-red/main.py) y guárdelo con ese nombre
 en el microcontrolador que tiene micropython, libere el puerto de comunicación serial, en el caso de *Thonny*
 cambie de interprete o cierre la aplicación, si es necesario desconecte y conecte el microcontrolador del
 puerto USB.
@@ -1078,9 +1078,9 @@ puerto USB.
 Finalmente en Node-red reinicie los flujos y observe en el dashboard si se reciben datos desde el microcontrolador,
 interactúe con los botones de encendido y de apagado del LED.
 
-![Dasboard de node-red visualizadores](./desing/t5-node-red/dashboard1.png)
+![Dasboard de node-red visualizadores](./design/t5-node-red/dashboard1.png)
 
-![Dasboard de node-red botones](./desing/t5-node-red/dashboard2.png)
+![Dasboard de node-red botones](./design/t5-node-red/dashboard2.png)
 
 Si por alguna razón no se puede visualizar los datos, es recomendable reiniciar *Node-red* y refrescar las ventanas del
 navegador.
