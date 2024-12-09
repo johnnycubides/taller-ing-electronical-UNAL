@@ -86,12 +86,13 @@ Los documentos anteriormente señalados son accesibles desde la URL:
 !include`raw="markdown", format="markdown-pipe_tables-all_symbols_escapable"` ./t-corrientes-quemando-resistencias.md
 
 
-
 ### Simulaciones con Qucs
 
 !include`raw="markdown", format="markdown-pipe_tables-all_symbols_escapable"` ./lab6-qucs.md
 
-!include`incrementSection=2, format="markdown-pipe_tables-all_symbols_escapable"` ./t2-digital-analogo.md
+### Diferencia entre lo analógico y lo digital
+
+!include`raw="markdown", format="markdown-pipe_tables-all_symbols_escapable"` ./t2-digital-analogo.md
 
 !include`incrementSection=2, format="markdown-pipe_tables-all_symbols_escapable"` ./t3-bridge-h.md
 
