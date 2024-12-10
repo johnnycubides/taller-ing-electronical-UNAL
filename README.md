@@ -646,12 +646,15 @@ title: Simulaciones con Qucs
 Simulaciones con Qucs
 =====================
 
+Este taller es para realizarlo de manera individual y trabajo en casa, se
+comparte un archivo pdf de los resultados.
+
 Este taller está diseñado para que el estudiante analice circuitos en DC como es el caso
-de el divisor de tensión, resistencias en seria y paralelo, divisor de corriente y finalmente
+del divisor de tensión, resistencias en seria y paralelo, divisor de corriente y finalmente
 un circuito de un rectificador que hace uso de un diodo.
 
 El estudiante deberá descargar el [taller de qucs en pdf](./desing/t6-qucs/qucs-taller.pdf), realizar
-los cuatro ejercicios propuestos (cálculos, simulación, analisis de resultados y conclusiones) y reportar
+los cuatro ejercicios propuestos (cálculos, simulación, análisis de resultados y conclusiones) y reportar
 los resultados en un informe de formato libre.
 
 Las simulaciones las deberá realizar con *Qucs* y cuenta con información de uso e instalación en los
@@ -679,12 +682,20 @@ title: Diferencia entre lo analógico y digital
 Materiales a usar
 =================
 
+Materiales a solicitar en el almacén:
+
 * Dos multímetros.
 * Dos sondas.
 * Dos pares banana-caimán.
 * Un par caimán-caimán.
+
+Materiales para realizar el montaje de los circuitos:
+
 * Potenciometro de 100K.
 * Resistencia de 1K a 1/4 de vatio.
+
+Materiales del vanco de trabajo:
+
 * Fuente dual.
 * Generador de señales.
 * Osciloscopio.
@@ -757,21 +768,86 @@ Conecte los multimetros para medir la corriente IB e IC y calcule el Beta del
 transitor justo en el lugar donde el motor puede romper la inercia.
 Compare los resultados obtenidos, del beta y el medido anteriormente y proponga conclusiones.
 
-Control de velocidad analógico
-------------------------------
+Control de velocidad digital
+----------------------------
 
-Escoja un lugar del potenciometro donde el motor tenga una velocidad máxima y
-cambie la fuente DC por un generador de señales cuadrada equivalente y
-controlar el PWM
+![generador y osciloscopio en control de velocidad](./design/t2-digital-analogo/digital/generador-control-de-velocidad.png) 
 
-Control de velocidad con microcontrolador
------------------------------------------
+Cambie la fuente DC por un generador de señales que genere pulsos como se
+observa en la imagen de arriba. Configure el generador con una amplitud de
+3.3V, agregue un osciloscopio y realice las siguientes operaciones:
 
-Agregar una tarjeta de desarrollo para programar el PWM.
+1. Seleccione un duty cycle (ciclo útil) de 50 % y realice variaciones de frecuencia entre 0 a 20 KHz, conteste: ¿En qué lugares de la frecuencia opera el motor? ¿Escuche atentamente el motor, indique si puede escuchar un tono (sonido) en el motor? ¿A qué frecuencia es audible? ¿Qué lugar de la frecuencia usted escogería para operar el motor y por qué?.
+2. Ahora fijando la frecuencia que usted ha seleccionado, realice modificaciones del ciclo útil desde el menor al mayor porcentaje posible, observe el motor y concluya la relación existente entre el duty y el funcionamiento del motor.
 
-![Control de motor por PWM](./design/t2-digital-analogo/digital/motorDC-driver-micro_bb.png)
+Control de velocidad digital con microcontrolador
+-------------------------------------------------
 
-![Control de motor por PWM](./design/t2-digital-analogo/digital/motorDC-driver-micro_schem.png)
+En este punto se realizará la programación de una tarjeta de desarrollo para
+lanzar pulsos digitales que activarán el motor.
+
+Para aprender sobre cómo realizar la programación, en primer lugar se invita a
+usar el simulador de circuitos Wokwi. Por ejemplo, observe cómo se puede programar
+un led para que parpadee en el tiempo cada segundo.
+
+[Ejemplo Wokwi, blink en esp32 con micropython](https://wokwi.com/projects/416889102093546497)
+
+Código del ejemplo:
+
+```py
+from machine import Pin
+from time import sleep
+
+# Seleccionar el pin 23 de la tarjeta de desarrollo como
+# salida para el LED rojo
+led = Pin(23, Pin.OUT)
+
+# Mensaje en consola antes de iniciar el programa
+print("Inicio de programa")
+# Se inicia un buclé por siempre
+while True:
+    # Se enciende el led con un 1 lógico
+    led.on()
+    # Se espera 1 segundo
+    sleep(1)
+    # Se apaga el led con un 0 lógico
+    led.off()
+    # Se espera un segundo
+    sleep(1)
+    # Se repite el ciclo
+```
+
+Ahora, con las indicaciones del software para programar la tarjeta físicamente,
+guarde en la tarjeta de desarrollo el siguiente script y ejecútelo:
+
+```py
+# Importar la librería para el manejo de pines
+from machine import Pin
+#librería para control por ancho de pulso
+from machine import PWM
+
+# Se configura el pin D22 como un PWM
+motor = PWM(Pin(19), freq=100, duty=0)
+
+
+# Si desea cambiar frecuencia
+motor.freq(5)
+
+
+# Si desea cambiar el ancho del pulso
+# 0 para 0% y 1023 para 100%, 50% es 512
+motor.duty(512)
+
+
+# Para detener
+# motor.deinit()
+# Para reiniciar
+# motor.init()
+```
+
+![Control de motor por PWM, diagrama pictográfico](./design/t2-digital-analogo/digital/motorDC-driver_bb.png)
+
+![Control de motor por PWM, esquemático](./design/t2-digital-analogo/digital/motorDC-driver_schem.png)
 
 Referencias
 ===========

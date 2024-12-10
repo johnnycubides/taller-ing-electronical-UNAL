@@ -8,12 +8,15 @@ title: Simulaciones con Qucs
 Simulaciones con Qucs
 =====================
 
+Este taller es para realizarlo de manera individual y trabajo en casa, se
+comparte un archivo pdf de los resultados.
+
 Este taller está diseñado para que el estudiante analice circuitos en DC como es el caso
-de el divisor de tensión, resistencias en seria y paralelo, divisor de corriente y finalmente
+del divisor de tensión, resistencias en seria y paralelo, divisor de corriente y finalmente
 un circuito de un rectificador que hace uso de un diodo.
 
 El estudiante deberá descargar el [taller de qucs en pdf](./desing/t6-qucs/qucs-taller.pdf), realizar
-los cuatro ejercicios propuestos (cálculos, simulación, analisis de resultados y conclusiones) y reportar
+los cuatro ejercicios propuestos (cálculos, simulación, análisis de resultados y conclusiones) y reportar
 los resultados en un informe de formato libre.
 
 Las simulaciones las deberá realizar con *Qucs* y cuenta con información de uso e instalación en los
