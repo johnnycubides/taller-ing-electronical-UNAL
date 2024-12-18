@@ -49,7 +49,7 @@ Procedimiento
 Obtener el beta del transistor
 ------------------------------
 
-Realice el montaje de la siguiente figura y tome diferentes valores de IB vs IE
+Realice el montaje de la siguiente figura y tome diferentes valores de IB vs IC
 moviendo el potenciometro desde un valor alto hasta llegar a su mínimo. Realice
 una tabla con los valores medidos, calcule para cada uno de ellos el Beta del
 transistor e infiera una conclusión según lo observado. 
