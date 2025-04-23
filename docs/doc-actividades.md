@@ -43,11 +43,11 @@ Temas:
 
 Subtemas:
 
-* Educación y participación ciudadana
-* Legislación y políticas públicas
-* Tecnología e innovación
-* Economía y desarrollo
-* Ambiental y salud pública
+1. Educación y participación ciudadana
+2. Legislación y políticas públicas
+3. Tecnología e innovación
+4. Economía y desarrollo
+5. Ambiental y salud pública
 
 **Referencias**
 
