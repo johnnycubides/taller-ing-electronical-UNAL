@@ -28,6 +28,7 @@ Ejemplo de problemáticas sociales:
 
 Temas:
 
+* Escasez de agua en Bogotá
 * Vendedores ambulantes
 * Los interminables trancones de Bogotá
 * Obras que nunca terminan
