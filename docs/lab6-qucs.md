@@ -15,7 +15,7 @@ Este taller está diseñado para que el estudiante analice circuitos en DC como 
 del divisor de tensión, resistencias en seria y paralelo, divisor de corriente y finalmente
 un circuito de un rectificador que hace uso de un diodo.
 
-El estudiante deberá descargar el [taller de qucs en pdf](./desing/t6-qucs/qucs-taller.pdf), realizar
+El estudiante deberá descargar el [taller de qucs en pdf](./design/t6-qucs/qucs-taller.pdf), realizar
 los cuatro ejercicios propuestos (cálculos, simulación, análisis de resultados y conclusiones) y reportar
 los resultados en un informe de formato libre.
 
