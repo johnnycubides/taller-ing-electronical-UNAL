@@ -653,7 +653,7 @@ Este taller está diseñado para que el estudiante analice circuitos en DC como 
 del divisor de tensión, resistencias en seria y paralelo, divisor de corriente y finalmente
 un circuito de un rectificador que hace uso de un diodo.
 
-El estudiante deberá descargar el [taller de qucs en pdf](./desing/t6-qucs/qucs-taller.pdf), realizar
+El estudiante deberá descargar el [taller de qucs en pdf](./design/t6-qucs/qucs-taller.pdf), realizar
 los cuatro ejercicios propuestos (cálculos, simulación, análisis de resultados y conclusiones) y reportar
 los resultados en un informe de formato libre.
 
@@ -953,7 +953,7 @@ Para que pueda resolver este problema podrá seguir estas recomendaciones:
 6.  Al tener los dos casos extremos que puede llamar $P_1$ y $P_2$ donde cualquier punto es una coordenada
     de la forma $P(unidades\_adc, porcentaje\_luz)$ y que en un plano cartesiano $P(x, y)$, $x=unidades\_adc$
     y $y=porcentaje\_luz$ trace una recta que una a esos dos puntos y construya una ecuación de la recta.
-    Recuerde que la ecuación de la recta es de la forma $y(x) = mx + b$, la pendiente $m = {{y_2 - y_1} \over {x_2-x_1}}$ y
+    Recuerde que la ecuación de la recta es de la forma $y(x) =  mx + b$, la pendiente $m = {{y_2 - y_1} \over {x_2-x_1}}$ y
     que el punto de corte $b = y_1 -mx_1 = y_2 - mx_2$
 7.  Con la información obtenida en el paso 6 construya una función en python que haga esa transformación, pruebe su funcionamiento
     estimulando el sensor como fue planteado en el paso 2 y si es coherente el resultado,
@@ -1425,6 +1425,7 @@ Ejemplo de problemáticas sociales:
 
 Temas:
 
+-   Escasez de agua en Bogotá
 -   Vendedores ambulantes
 -   Los interminables trancones de Bogotá
 -   Obras que nunca terminan
@@ -1439,11 +1440,11 @@ Temas:
 
 Subtemas:
 
--   Educación y participación ciudadana
--   Legislación y políticas públicas
--   Tecnología e innovación
--   Economía y desarrollo
--   Ambiental y salud pública
+1.  Educación y participación ciudadana
+2.  Legislación y políticas públicas
+3.  Tecnología e innovación
+4.  Economía y desarrollo
+5.  Ambiental y salud pública
 
 **Referencias**
 
