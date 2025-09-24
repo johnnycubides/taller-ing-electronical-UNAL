@@ -1,6 +1,6 @@
-<Qucs Schematic 24.4.0>
+<Qucs Schematic 25.2.0>
 <Properties>
-  <View=0,0,1571,1017,1,0,0>
+  <View=14,110,1956,1485,1.20835,4,0>
   <Grid=10,10,1>
   <DataSet=resistencia-equivalente-1.dat>
   <DataDisplay=resistencia-equivalente-1.dpl>
@@ -14,8 +14,8 @@
   <FrameText3=Revision:>
 </Properties>
 <Symbol>
-  <.PortSym 40 20 2 0 P1>
-  <.PortSym 40 60 1 0 P2>
+  <.PortSym 40 20 2 0 P3>
+  <.PortSym 40 60 1 0 P4>
 </Symbol>
 <Components>
   <R R1 1 460 210 -26 -37 1 0 "1 kOhm" 0 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "US" 0>
@@ -34,8 +34,8 @@
   <R R14 1 320 510 -26 -37 0 2 "1 kOhm" 0 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "US" 0>
   <R R15 1 320 360 -26 -37 0 2 "1 kOhm" 0 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "US" 0>
   <R R16 1 360 260 -26 15 0 0 "1 kOhm" 0 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "US" 0>
-  <Port P2 1 720 210 4 -34 0 2 "1" 0 "analog" 0 "v" 0 "" 0>
-  <Port P1 1 720 590 4 -34 0 2 "2" 0 "analog" 0 "v" 0 "" 0>
+  <Port P4 1 720 210 4 -34 0 2 "1" 0 "analog" 0>
+  <Port P3 1 720 590 4 -34 0 2 "2" 0 "analog" 0>
 </Components>
 <Wires>
   <490 210 510 210 "" 0 0 0 "">
@@ -100,5 +100,5 @@
 </Diagrams>
 <Paintings>
   <Rectangle 240 170 460 440 #000000 1 2 #c0c0c0 1 0>
-  <Text 240 650 12 #000000 0 "1. Observe que siendo el mismo circuito se ha cambiando los puertos.\n2. Calcule de nuevo la resistencia equivalente.\n3. Mida la resistencia equivalente.\n4. Obtenga el % de error de la resistencia equivalente, el cual no\ndebe superar el 5 %.\n5. Teniendo presente que lo que ha cambiado son los puertos de\nmedición y no el circuito, exprese tres conclusiones al respecto.">
+  <Text 240 650 12 #000000 0 "1. Observe que siendo el mismo circuito se ha cambiando los puertos\na P3 y P4.\n2. Calcule de nuevo la resistencia equivalente con respecto a P3 y P4.\n3. Mida la resistencia equivalente.\n4. Obtenga el % de error de la resistencia equivalente, el cual no\ndebe superar el 5 %.\n5. Teniendo presente que lo que ha cambiado son los puertos de\nmedición y no el circuito, exprese tres conclusiones al respecto.">
 </Paintings>
