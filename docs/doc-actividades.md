@@ -53,3 +53,13 @@ Subtemas:
 
 * [Elevator pitch](https://youtu.be/2b3xG_YjgvI?si=f7CfzbHGSqVA15rc)
 * [JigSaw metodología](https://youtu.be/euhtXUgBEts?si=2qUqdgGsaFha7MWt)
+
+# CTS discusión dialógica
+
+Lea el documento como es indicado por el profesor
+[Apropiación Social de la Ciencia, Tecnología e Innovación para el Desarrollo Humano](./pdf/Franco_Avellaneda_y_Arboleda_2014.pdf)
+
+* Seleccione varios parrafos de interés
+
+En clase se desarrollará una discusión dialógica donde,cada estudiante leerá
+un párrafo, compartirá su perspectiva

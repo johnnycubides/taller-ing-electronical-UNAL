@@ -1,6 +1,6 @@
-<Qucs Schematic 24.4.0>
+<Qucs Schematic 25.2.0>
 <Properties>
-  <View=278,251,1158,905,0.70948,0,0>
+  <View=285,213,2229,1248,1.5815,155,101>
   <Grid=10,10,1>
   <DataSet=quemando-resistencia.dat>
   <DataDisplay=quemando-resistencia.dpl>
@@ -39,5 +39,5 @@
 <Diagrams>
 </Diagrams>
 <Paintings>
-  <Text 460 490 12 #000000 0 "0. Limite la fuente de corriente por debajo del límite de medición\nde la corriente del fusible (en miliamperios) del multímetro,\npresente los cálculos en su cuaderno.\n1. Seleccione una resistencia que no supere los 100 Ω a una\npotencia no mayor de 1/4 W para montar el circuito de la imagen.\n2. Calcule la corriente y voltaje máximo nominal en función de la\npotencia de la resistencia.\n3. Con el multímetro mida la resistencia.\n4. Configure la fuente de voltaje a la tensión calculada y mida la\ncorriente, calcule la potencia, calcule el % de error y realice\nconclusiones sobre lo observado vs lo medido.\n6. Estrese el sistema aumentando la tensión de la fuente observando\nsimultaneamente los valores de corriente y voltaje hasta que la\nresistencia se queme, calcule el valor de potencia con el cual se\nha quemado, haga una relación de la potencia nominal vs la\npotencia máxima (con la que se ha quemado).\n7. Realice las conclusiones.">
+  <Text 460 490 12 #000000 0 "1. Realice todos los calculos en su cuaderno.\n2. Limite la fuente de corriente por debajo del límite de medición\nde la corriente del fusible (en miliamperios) del multímetro,\npresente los cálculos en su cuaderno.\n3. Seleccione una resistencia que no supere los 100 Ω a una\npotencia no mayor de 1/4 W para montar el circuito de la imagen.\n4. Calcule la corriente y voltaje máximo nominal en función de la\npotencia de la resistencia.\n5. Con el multímetro mida la resistencia.\n6. Configure la fuente de voltaje a la tensión calculada y mida la\ncorriente, calcule la potencia, calcule el % de error y realice\nconclusiones sobre lo observado vs lo esperado.\n7. Estrese el sistema aumentando la tensión de la fuente observando\nsimultaneamente los valores de corriente y voltaje hasta que la\nresistencia se queme, calcule el valor de potencia con el cual se\nha quemado, haga una relación de la potencia nominal vs la\npotencia máxima (con la que se ha quemado).\n8. Realice las conclusiones.">
 </Paintings>
