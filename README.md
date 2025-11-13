@@ -986,7 +986,7 @@ from machine import Pin
 from machine import ADC
 
 pin = Pin(pin_number, Pin.IN)
-adc = ADC(pin, attent=ADC.ATTN_11DB)        # create an ADC object acting on a pin
+adc = ADC(pin, atten=ADC.ATTN_11DB)        # create an ADC object acting on a pin
 val = adc.read_u16()  # read a raw analog value in the range 0-65535
 ```
 
